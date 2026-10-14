@@ -49,6 +49,7 @@ h3 { font-size: clamp(24px, 2.4vw, 32px); line-height: 1.12; font-weight: 700; l
 .eyebrow.green { color: var(--green); }
 .eyebrow.blue { color: var(--blue); }
 .eyebrow.purple { color: var(--purple); }
+.eyebrow.amber { color: var(--amber); }
 /* bright accents fall below 4.5:1 on the light paper background */
 .light .eyebrow { color: var(--orange-ink); }
 .light .eyebrow.blue { color: var(--blue-ink); }
@@ -163,6 +164,17 @@ h3 { font-size: clamp(24px, 2.4vw, 32px); line-height: 1.12; font-weight: 700; l
 .phone-row { display: flex; justify-content: center; gap: clamp(20px, 4vw, 56px); margin-top: clamp(56px, 8vh, 96px); padding: 0 22px; }
 .phone-row figure { margin: 0; width: min(var(--phone), 21vw); text-align: center; }
 figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-top: 20px; }
+.cues { list-style: none; max-width: 1024px; margin: clamp(56px, 8vh, 88px) auto 0; padding: 32px 22px 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; border-top: 1px solid var(--line-dark); }
+.cues li { color: var(--ink-soft); font-size: 17px; font-weight: 500; }
+.cues strong { display: block; color: var(--ink); font-family: var(--display); font-size: 21px; letter-spacing: -.02em; margin-bottom: 6px; }
+
+/* race pilot */
+.race { padding: clamp(88px, 14vh, 160px) 22px; background: radial-gradient(900px 600px at 80% 60%, rgba(255,179,64,.16), transparent 70%), var(--black); }
+.race-grid { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(32px, 6vw, 80px); align-items: center; }
+.race-copy h2 { font-size: clamp(36px, 4.6vw, 60px); }
+.race .facts li { border-color: rgba(255,179,64,.4); }
+.race-phones { display: flex; justify-content: center; gap: clamp(16px, 2.4vw, 32px); }
+.race-phones img { width: min(calc(var(--phone) * .82), 22vw); }
 
 /* maps */
 .maps { padding: clamp(88px, 14vh, 160px) 22px; }
@@ -243,6 +255,9 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
 .tile-ico.game { background: linear-gradient(135deg, var(--amber), var(--orange)); }
 .tile-ico.imp { background: var(--green); }
 .tile-ico.lang { background: var(--purple); }
+.tile-ico.body { background: var(--red); }
+.tile-ico.home { background: #1c1c1e; }
+.tile-ico.activity { background: linear-gradient(135deg, #3a3a3c, #000); }
 .t-pred .big { background: linear-gradient(95deg, var(--orange), var(--amber)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .t-dec .big { color: #248a3d; }
 .t-strain .big { color: #e3204a; }
@@ -305,7 +320,9 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
   .ins-list li { display: none; border: 0; padding: 0; }
   .ins-list li.on { display: block; }
   .ins-phone { height: 100%; max-height: 560px; min-height: 0; }
-  .maps-grid, .coach-card { grid-template-columns: 1fr; }
+  .maps-grid, .coach-card, .race-grid { grid-template-columns: 1fr; }
+  .cues { grid-template-columns: 1fr; gap: 20px; }
+  .race-phones img { width: 42vw; }
   .coach-card { text-align: left; }
   .bento { grid-template-columns: 1fr; }
   .nots { grid-template-columns: 1fr 1fr; row-gap: 32px; }
