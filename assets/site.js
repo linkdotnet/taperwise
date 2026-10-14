@@ -1,5 +1,32 @@
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const supported = ['en', 'de', 'fr', 'it', 'es', 'pt-BR', 'nl', 'ja'];
+const pathFor = code => code === 'en' ? '/' : `/${code.toLowerCase()}/`;
+
+function savedLang() {
+  try {
+    const saved = localStorage.getItem('lang');
+    return supported.includes(saved) ? saved : null;
+  } catch {
+    return null;
+  }
+}
+
+function preferredLang() {
+  for (const tag of navigator.languages) {
+    const exact = supported.find(s => s.toLowerCase() === tag.toLowerCase());
+    if (exact) return exact;
+    const base = supported.find(s => s.split('-')[0] === tag.split('-')[0].toLowerCase());
+    if (base) return base;
+  }
+  return 'en';
+}
+
+if (!savedLang() && document.documentElement.lang === 'en') {
+  const preferred = preferredLang();
+  if (preferred !== 'en') location.replace(pathFor(preferred));
+}
+
 const revealer = new IntersectionObserver(entries => {
   for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); revealer.unobserve(e.target); }
 }, { rootMargin: '0px 0px -12% 0px' });
@@ -55,7 +82,7 @@ function drawReplay() {
   hud.ele.textContent = Math.round(lerp(5));
 }
 
-fetch('assets/lake-run.json')
+fetch('/assets/lake-run.json')
   .then(r => r.json())
   .then(data => {
     points = data.points;
@@ -98,3 +125,12 @@ addEventListener('scroll', () => {
   });
 }, { passive: true });
 dispatchEvent(new Event('scroll'));
+
+const langBox = document.querySelector('.footer-lang');
+const picker = langBox.querySelector('select');
+langBox.hidden = false;
+picker.value = document.documentElement.lang;
+picker.addEventListener('change', () => {
+  try { localStorage.setItem('lang', picker.value); } catch {}
+  location.assign(pathFor(picker.value));
+});

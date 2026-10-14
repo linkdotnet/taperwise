@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-i18n="meta.title">Taperwise · マラソン 練習メニュー・ハーフマラソン</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="5K・10K・ハーフ・マラソンの練習メニューを、心拍・HRV・睡眠に合わせて調整。ランニングアプリ Apple Watch対応、オフライン地図、端末内コーチング。アカウント不要。">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Taperwise">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://taperwise.run/ja/">
+<meta name="twitter:card" content="summary">
+<meta property="og:description" data-i18n-attr="content:og.description" content="iPhoneとApple Watchのためのレース練習。オフライン地図、端末内コーチング、クラウドなし。">
+<meta property="og:image" content="https://taperwise.run/assets/img/icon.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Taperwise", "operatingSystem": "iOS, watchOS", "applicationCategory": "HealthApplication", "applicationSubCategory": "Running", "description": "Training plans for 5K, 10K, half marathon and marathon that adapt to your heart rate, HRV and sleep. Live coaching on iPhone and Apple Watch, offline running maps, on-device Apple Intelligence. No account, no cloud.", "url": "https://taperwise.run/", "image": "https://taperwise.run/assets/img/icon.png", "inLanguage": ["en", "de", "fr", "it", "es", "pt-BR", "nl", "ja"], "publisher": {"@type": "Organization", "name": "BitSpire GmbH", "email": "apps@bitspire.ch"}}</script>
+<link rel="canonical" href="https://taperwise.run/ja/">
+<link rel="alternate" hreflang="en" href="https://taperwise.run/">
+<link rel="alternate" hreflang="de" href="https://taperwise.run/de/">
+<link rel="alternate" hreflang="fr" href="https://taperwise.run/fr/">
+<link rel="alternate" hreflang="it" href="https://taperwise.run/it/">
+<link rel="alternate" hreflang="es" href="https://taperwise.run/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://taperwise.run/pt-br/">
+<link rel="alternate" hreflang="nl" href="https://taperwise.run/nl/">
+<link rel="alternate" hreflang="ja" href="https://taperwise.run/ja/">
+<link rel="alternate" hreflang="x-default" href="https://taperwise.run/">
+<link rel="icon" href="../assets/img/icon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="26" height="26">Taperwise</a>
+  <div class="nav-links">
+    <a data-i18n="nav.plan" href="#plan">プラン</a>
+    <a data-i18n="nav.run" href="#run">ラン</a>
+    <a data-i18n="nav.race" href="#race">レース</a>
+    <a data-i18n="nav.maps" href="#maps">マップ</a>
+    <a data-i18n="nav.watch" href="#watch">Apple Watch</a>
+    <a data-i18n="nav.insights" href="#insights">インサイト</a>
+    <a data-i18n="nav.coach" href="#coach">コーチ</a>
+    <a data-i18n="nav.privacy" href="../privacy/">プライバシー</a>
+  </div>
+  <span data-i18n="nav.soon" class="nav-cta">近日公開</span>
+</nav>
+
+<header class="hero dark" id="top">
+  <div class="hero-copy">
+    <p data-i18n="hero.eyebrow" class="eyebrow reveal">iPhone・Apple Watch用のTaperwise</p>
+    <h1 data-i18n="hero.title" class="reveal">レースを走ろう。<br><span class="grad">データはあなたのもの。</span></h1>
+    <p data-i18n="hero.lead" class="lead reveal">5K、10K、ハーフ、マラソンのトレーニングプラン。どのランにも寄り添うコーチ。電波がなくても使えるマップ。アカウント不要、クラウドなし。</p>
+    <div class="cta reveal">
+      <span data-i18n="hero.store" class="store">App Storeで近日公開</span>
+      <a data-i18n="hero.more" class="more" href="#plan">使い方を見る</a>
+    </div>
+  </div>
+  <div class="hero-devices fade">
+    <video class="dev-phone" src="../assets/video/run.mp4" poster="../assets/video/run-poster.webp" autoplay muted loop playsinline width="720" height="1472" data-i18n-attr="aria-label:hero.video" aria-label="iPhoneで走るTaperwiseのライブラン：マップ上のルートと、目標範囲内のペース4:11/km"></video>
+    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Apple Watch Ultraで動くTaperwise：ペース4:10/km（目標どおり）、心拍数162">
+  </div>
+</header>
+
+<section class="dark statement">
+  <p data-i18n="statement.text" class="words" data-words>ラン、心拍、プランは、iPhoneとApple Watchの中にあります。サーバーにもクラウドにも置きません。</p>
+  <dl class="stats">
+    <div class="reveal"><dd>0</dd><dt data-i18n="stats.servers">サーバー</dt></div>
+    <div class="reveal"><dd>100%</dd><dt data-i18n="stats.ondevice">端末内</dt></div>
+    <div class="reveal"><dd>12–30</dd><dt data-i18n="stats.plans">週間プラン</dt></div>
+    <div class="reveal"><dd>8</dd><dt data-i18n="stats.languages">言語</dt></div>
+  </dl>
+</section>
+
+<section class="light story-wrap" id="plan">
+  <div class="section-head reveal">
+    <p data-i18n="plan.eyebrow" class="eyebrow">プラン</p>
+    <h2 data-i18n="plan.title">あなた専用に設計。<br><span class="soft">毎朝、調整します。</span></h2>
+  </div>
+  <div class="story">
+    <div class="story-text">
+      <article class="step" data-shot="0">
+        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwiseのプラン：マラソンまで76日、目標タイム、レース当日の予測3:24〜3:40、203 kmのうち200.9 kmで順調" loading="lazy">
+        <h3 data-i18n="plan.adapt.title">今いる場所から始まるプラン。</h3>
+        <p data-i18n="plan.adapt.text">Taperwiseはヘルスケアからランの履歴を読み取り、GPX、TCX、FIT、Stravaのエクスポートも取り込めます。そのうえで、5K、10K、ハーフマラソン、マラソン向けに12〜30週間のプランを作成します。土台、ビルド、ピーク、テーパリングの4段階です。目標、今の体力、現実的なレース当日の予測範囲を並べて確認できます。</p>
+        <ul class="ticks">
+          <li data-i18n="plan.adapt.tick1">週間ボリュームの増加は、週におよそ10%まで</li>
+          <li data-i18n="plan.adapt.tick2">4週間に1回はリカバリー週</li>
+          <li data-i18n="plan.adapt.tick3">長いランの増加は10%まで。上限は35 kmまたは3.5時間</li>
+        </ul>
+      </article>
+      <article class="step" data-shot="1">
+        <img class="step-phone" src="../assets/img/phone-plan-calendar.webp" width="720" height="1472" data-i18n-attr="alt:plan.calendar.alt" alt="10月のプランカレンダー。完了したランと予定のトレーニングを表示" loading="lazy">
+        <h3 data-i18n="plan.calendar.title">すべてのトレーニングを、カレンダーで。</h3>
+        <p data-i18n="plan.calendar.text">プランを週単位でも月単位でも確認できます。塗りつぶされた日は完了したラン、色のついた点は次に控えているものです。トレーニングをタップすると、ステップ、目標ペース、心拍ゾーン、長いランではドリンクとジェルの計画が表示されます。</p>
+      </article>
+      <article class="step" data-shot="2">
+        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise「今日」：楽なラン、10.9 km、無理せず、今日のボリュームを30〜50%減らす、コーチのメモ" loading="lazy">
+        <h3 data-i18n="plan.today.title">体の声を聴きます。</h3>
+        <p data-i18n="plan.today.text">心拍変動、安静時心拍数、睡眠、トレーニング負荷から、今日が緑・黄・赤のどれかを判断します。黄色の朝はトレーニングを短縮し、赤が3日続くとデロードを行います。取りこぼしたランは後から埋め合わせません。脚が張っている、風邪気味。Taperwiseに伝えればプランは一時停止し、そのあと無理なく戻していきます。</p>
+      </article>
+      <article class="step" data-shot="3">
+        <img class="step-phone" src="../assets/img/phone-strength.webp" width="720" height="1472" data-i18n-attr="alt:plan.strength.alt" alt="筋力トレーニング：スプリットスクワット、カーフレイズ、片脚ルーマニアンデッドリフト、ステップアップ。約27分" loading="lazy">
+        <h3 data-i18n="plan.strength.title">ランを支える筋力。</h3>
+        <p data-i18n="plan.strength.text">スプリットスクワット、カーフレイズ、ステップアップを週2回の短いセッションで。ランニング障害の減少と関連する動きです。ガイド付きサーキットがiPhoneやApple Watchでセットと休憩を数え、ヘルスケアに保存します。</p>
+      </article>
+    </div>
+    <div class="story-device">
+      <img class="on" src="../assets/img/phone-plan.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-plan-calendar.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-today.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-strength.webp" width="720" height="1472" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="dark replay" id="run" data-replay>
+  <div class="replay-sticky">
+    <div class="replay-head">
+      <p data-i18n="run.eyebrow" class="eyebrow">ラン</p>
+      <h2 data-i18n="run.title">チューリッヒ湖沿いの9 km。<br><span class="soft">スクロールして走ろう。</span></h2>
+    </div>
+    <div class="replay-stage">
+      <div class="replay-map">
+        <img src="../assets/img/lake-map.jpg" alt="" width="900" height="1320">
+        <svg viewBox="0 0 900 1320" aria-hidden="true">
+          <path class="trail-ghost"></path>
+          <path class="trail"></path>
+          <circle class="runner-halo" r="24"></circle>
+          <circle class="runner" r="10"></circle>
+        </svg>
+        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap contributors</span>
+      </div>
+      <dl class="hud">
+        <div><dt data-i18n="hud.time">時間</dt><dd data-hud="time">0:00</dd></div>
+        <div><dt data-i18n="hud.distance">距離</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
+        <div><dt data-i18n="hud.pace">ペース</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
+        <div class="hr"><dt data-i18n="hud.heartrate">心拍</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
+        <div><dt data-i18n="hud.elevation">標高</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
+      </dl>
+    </div>
+    <p data-i18n="run.note" class="replay-note">湖畔の遊歩道でのデモ用テンポラン：ビュルクリプラッツ、アルボレトゥム、ミュテンクアイ、ヴォリショーフェン。往復。</p>
+  </div>
+</section>
+
+<section class="dark live">
+  <div class="section-head reveal">
+    <p data-i18n="live.eyebrow" class="eyebrow green">iPhoneでライブ表示</p>
+    <h2 data-i18n="live.title">大きな数字。<br><span class="soft">明確な目標。</span></h2>
+    <p data-i18n="live.lead" class="lead">時計がなくても、iPhoneが単独でランを記録します。ペースは地図の上に大きく白く表示され、目標を示すゲージも付きます。インターバルの各ステップはカウントダウンし、音声キューで、攻めるときとジョグのときを知らせます。一時停止、終了、とにかく帰るは親指の届く範囲に。</p>
+  </div>
+  <div class="phone-row fade">
+    <figure><img src="../assets/img/phone-run-metrics.webp" width="720" height="1472" data-i18n-attr="alt:live.pace.alt" alt="ライブラン：ペース4:10/kmで目標範囲内、平均5:11" loading="lazy"><figcaption data-i18n="live.pace.cap">目標に対するペース</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-interval.webp" width="720" height="1472" data-i18n-attr="alt:live.interval.alt" alt="インターバル画面：ワーク2／5、残り859 m" loading="lazy"><figcaption data-i18n="live.interval.cap">ステップごとの目標</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-zones.webp" width="720" height="1472" data-i18n-attr="alt:live.zones.alt" alt="心拍数162、ゾーン4、ゾーン別の時間表示" loading="lazy"><figcaption data-i18n="live.zones.cap">心拍ゾーン</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-chart.webp" width="720" height="1472" data-i18n-attr="alt:live.chart.alt" alt="ラン全体のペースと心拍のグラフ" loading="lazy"><figcaption data-i18n="live.chart.cap">走りながらのペースと心拍</figcaption></figure>
+  </div>
+  <ul class="cues reveal">
+    <li data-i18n="live.cue1"><strong>ドリフトのキュー。</strong> 同じ努力で心拍が上がっていませんか？ 水分をとる、ジェルを食べる、ペースを落としましょう。</li>
+    <li data-i18n="live.cue2"><strong>水分量の推定。</strong> 発汗量をもとに算出し、体重の2%を失う前にお知らせします。</li>
+    <li data-i18n="live.cue3"><strong>長いランのガード。</strong> 今日のランが過去30日間の最長距離を10%超えると通知します。</li>
+  </ul>
+</section>
+
+<section class="dark race" id="race">
+  <div class="race-grid">
+    <div class="race-copy reveal">
+      <p data-i18n="race.eyebrow" class="eyebrow amber">Race Pilot</p>
+      <h2 data-i18n="race.title">レース当日、<br><span class="soft">秒単位で計画。</span></h2>
+      <p data-i18n="race.lead" class="lead">目標タイムを設定するか、トレーニングに予測させると、Taperwiseが5 kmごとのペースの帯を作ります。コースのGPXを読み込めば、坂道に合わせて1 kmごとに調整されます。</p>
+      <ul class="facts">
+        <li data-i18n="race.fact1"><strong>カーボローディングとレース当日の朝。</strong> 前の2日間に1日何グラム摂るか、スタート前に何を食べるか。</li>
+        <li data-i18n="race.fact2"><strong>キロごとのジェル。</strong> レース全体に配分し、手首でリマインドします。</li>
+        <li data-i18n="race.fact3"><strong>進みすぎ・遅れ。</strong> 計画と比べてリアルタイムに表示。最初の1 kmはゆっくり保てます。</li>
+      </ul>
+    </div>
+    <div class="race-phones fade">
+      <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" data-i18n-attr="alt:race.pilot.alt" alt="レースプラン：マラソン、目標3:30:00、5 kmごとのスプリット付きペースの帯4:59〜5:05/km" loading="lazy">
+      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="レースプランの続き：3:30:00フィニッシュまでのスプリット、1時間あたり60 gの炭水化物、キロごとのジェル、レースウィークのチェックリスト" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="light maps" id="maps">
+  <div class="maps-grid">
+    <div class="maps-copy reveal">
+      <p data-i18n="maps.eyebrow" class="eyebrow blue">マップ</p>
+      <h2 data-i18n="maps.title">水。トイレ。<br><span class="soft">帰りの電車も、一目で。</span></h2>
+      <p data-i18n="maps.lead" class="lead">飲水スポット、トイレ、待合所、公共交通機関の停留所が、ランのマップ上にそのまま表示されます。iPhoneでもApple Watchでも。表示する項目は選べます。</p>
+      <ul class="poi">
+        <li><span class="poi-ico water"><svg viewBox="0 0 24 24"><path d="M12 2.5S5.5 9.6 5.5 14.2a6.5 6.5 0 0 0 13 0C18.5 9.6 12 2.5 12 2.5Z"/></svg></span><span data-i18n="maps.poi.water">飲料水</span></li>
+        <li><span class="poi-ico toilet"><svg viewBox="0 0 24 24"><path d="M5 3h6v8H5zM4 12h16a8 8 0 0 1-6 7.7V22H9v-2.3A8 8 0 0 1 4 12Z"/></svg></span><span data-i18n="maps.poi.toilets">トイレ</span></li>
+        <li><span class="poi-ico shelter"><svg viewBox="0 0 24 24"><path d="M12 3 2 10.5h3V20h14v-9.5h3L12 3Zm-3 15v-5h6v5H9Z"/></svg></span><span data-i18n="maps.poi.shelters">待合所</span></li>
+        <li><span class="poi-ico transit"><svg viewBox="0 0 24 24"><path d="M6 3h12a2 2 0 0 1 2 2v11a2 2 0 0 1-1 1.7V20a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H8v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-2.3A2 2 0 0 1 4 16V5a2 2 0 0 1 2-2Zm0 3v5h12V6H6Zm1.5 7.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg></span><span data-i18n="maps.poi.transit">公共交通機関</span></li>
+      </ul>
+      <div class="offline">
+        <h3 data-i18n="maps.offline.title">電波がなくても使えます。</h3>
+        <p data-i18n="maps.offline.text">ランで使うエリアを、全体図から道路の詳細まで事前にダウンロードできます。Wi-Fi接続時には、よく走る場所をTaperwiseが自動でオフライン保存します。一度見た地図は200 MBのキャッシュに残ります。詳細なエリアを時計に送れば、スマホは家に置いていけます。</p>
+      </div>
+    </div>
+    <img class="maps-phone fade" src="../assets/img/phone-run-map.webp" width="720" height="1472" data-i18n-attr="alt:maps.phone.alt" alt="ランタブ：飲料水・トイレ・バス停を表示した地図、GPS準備完了、今日の楽なラン10.9 km、スタートボタン" loading="lazy">
+  </div>
+</section>
+
+<section class="dark watch-sec" id="watch">
+  <div class="section-head reveal">
+    <p data-i18n="watch.eyebrow" class="eyebrow">Apple Watch</p>
+    <h2 data-i18n="watch.title">スマホは家に置いて。</h2>
+    <p data-i18n="watch.lead" class="lead">時計はスマホも通信も使わず、ワークアウトを単独で記録します。ワークアウトアプリに似た画面構成：指標、インターバル、ゾーン、グラフ、標高、補給、再生中の曲。アクションボタンで一時停止し、筋トレサーキットも手首の上で行えます。</p>
+  </div>
+  <div class="watch-row fade">
+    <figure><img src="../assets/img/watch-start.webp" width="440" height="704" data-i18n-attr="alt:watch.start.alt" alt="スタート画面：今日は8 kmのインターバル、無理せず、スタートボタン" loading="lazy"><figcaption data-i18n="watch.start.cap">今日のトレーニング</figcaption></figure>
+    <figure><img src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:watch.metrics.alt" alt="ペース4:10/km（目標どおり）、時間、距離、心拍数" loading="lazy"><figcaption data-i18n="watch.metrics.cap">指標</figcaption></figure>
+    <figure><img src="../assets/img/watch-interval.webp" width="440" height="704" data-i18n-attr="alt:watch.interval.alt" alt="ワークインターバル：目標ペース、残り859 m、心拍数の範囲" loading="lazy"><figcaption data-i18n="watch.interval.cap">インターバル</figcaption></figure>
+    <figure><img src="../assets/img/watch-zones.webp" width="440" height="704" data-i18n-attr="alt:watch.zones.alt" alt="心拍数162、ゾーン4" loading="lazy"><figcaption data-i18n="watch.zones.cap">ゾーン</figcaption></figure>
+    <figure><img src="../assets/img/watch-chart.webp" width="440" height="704" data-i18n-attr="alt:watch.chart.alt" alt="ラン全体のペースと心拍" loading="lazy"><figcaption data-i18n="watch.chart.cap">グラフ</figcaption></figure>
+    <figure><img src="../assets/img/watch-fuel.webp" width="440" height="704" data-i18n-attr="alt:watch.fuel.alt" alt="補給画面：水分量の推定と「飲んだ」「ジェル」ボタン" loading="lazy"><figcaption data-i18n="watch.fuel.cap">補給</figcaption></figure>
+  </div>
+</section>
+
+<section class="light after" id="history">
+  <div class="section-head reveal">
+    <p data-i18n="after.eyebrow" class="eyebrow">ラン後</p>
+    <h2 data-i18n="after.title">すべてのランを、わかりやすく。</h2>
+    <p data-i18n="after.lead" class="lead">ランごとに、心臓への負担、ケイデンス、推定VO₂max、勾配補正ペース、デカップリングを表示。ペース、心拍、標高をなぞると、地図上の該当箇所が光ります。</p>
+  </div>
+  <div class="phone-row fade">
+    <figure><img src="../assets/img/phone-detail.webp" width="720" height="1472" data-i18n-attr="alt:after.detail.alt" alt="ランの詳細：7.75 kmと地図、心臓への負担7.9、ケイデンス170 spm、勾配補正ペース5:35、デカップリング3.2%" loading="lazy"><figcaption data-i18n="after.detail.cap">重要な数字</figcaption></figure>
+    <figure><img src="../assets/img/phone-breakdown.webp" width="720" height="1472" data-i18n-attr="alt:after.breakdown.alt" alt="ランニングフォームと、18分地点までの内訳（ペースと心拍）" loading="lazy"><figcaption data-i18n="after.breakdown.cap">ランニングフォームと内訳</figcaption></figure>
+    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="チューリッヒ湖周辺のすべてのランの地図" loading="lazy"><figcaption data-i18n="after.heatmap.cap">走ったすべての場所</figcaption></figure>
+  </div>
+</section>
+
+<section class="dark ins" id="insights" data-ins>
+  <div class="ins-sticky">
+    <div class="ins-copy">
+      <p data-i18n="insights.eyebrow" class="eyebrow purple">インサイト</p>
+      <h2 data-i18n="insights.title">体力の伸びを見守る。</h2>
+      <ol class="ins-list">
+        <li data-at="295" class="on"><h3 data-i18n="insights.fitness.title">体力の推移</h3><p data-i18n="insights.fitness.text">26週間のVDOT推移。10K、ハーフ、マラソンの推定と、レース当日の予測範囲を表示。</p></li>
+        <li data-at="851"><h3 data-i18n="insights.recovery.title">回復</h3><p data-i18n="insights.recovery.text">HRV、安静時心拍数、睡眠を自分の基準値と比べ、理由もあわせて表示。</p></li>
+        <li data-at="1771"><h3 data-i18n="insights.load.title">トレーニング負荷</h3><p data-i18n="insights.load.text">体力、疲労、調子、そして急性と慢性の負荷比。</p></li>
+        <li data-at="2268"><h3 data-i18n="insights.volume.title">週間ボリューム</h3><p data-i18n="insights.volume.text">26週間の走行距離。長いランと、その週のほかのランを表示。</p></li>
+        <li data-at="2734"><h3 data-i18n="insights.easy.title">楽 対 きつい</h3><p data-i18n="insights.easy.text">80%を楽なランに保てているかどうか。</p></li>
+        <li data-at="2965"><h3 data-i18n="insights.form.title">ランニングフォーム</h3><p data-i18n="insights.form.text">ケイデンス、接地時間、ストライド、垂直振動、パワーを週ごとに。</p></li>
+        <li data-at="3474"><h3 data-i18n="insights.aerobic.title">有酸素効率</h3><p data-i18n="insights.aerobic.text">同じ心拍数でのペースを数か月単位で追い、エンジンの成長を実感。</p></li>
+        <li data-at="4022"><h3 data-i18n="insights.consistency.title">継続性</h3><p data-i18n="insights.consistency.text">過去26週間の毎日を、ひとつのグリッドで。</p></li>
+        <li data-at="4413"><h3 data-i18n="insights.monotony.title">単調さと負荷</h3><p data-i18n="insights.monotony.text">毎日同じ負荷は、リスクを高めます。ハードな日と楽な日を組み合わせましょう。</p></li>
+      </ol>
+    </div>
+    <div class="ins-phone">
+      <div class="ins-screen">
+        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4988" data-i18n-attr="alt:insights.long.alt" alt="Taperwiseのインサイト：体力の推移、回復、トレーニング負荷、週間ボリューム、楽 対 きつい、ランニングフォーム、有酸素効率、継続性、単調さと負荷" loading="lazy">
+        <img class="ins-status" src="../assets/img/insights-status.webp" width="640" height="80" alt="">
+      </div>
+      <img class="ins-bezel" src="../assets/img/bezel-iphone.webp" width="720" height="1472" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="dark coach" id="coach">
+  <div class="coach-card">
+    <div class="coach-copy reveal">
+      <p data-i18n="coach.eyebrow" class="eyebrow ai">Apple Intelligence</p>
+      <h2 data-i18n="coach.title">iPhoneの外には出ないコーチ。</h2>
+      <p data-i18n="coach.lead" class="lead">Apple Intelligenceをオンにすると、Taperwiseが今日のトレーニング、その週、そしてすべてのランについて短いメモを書きます。目標を一文で書けば、プランを埋めてくれるので、確認するだけでOKです。</p>
+      <ul class="facts">
+        <li data-i18n="coach.fact1"><strong>端末内のみ。</strong> メモはAppleの端末内モデルから生成されます。サーバーもクラウドモデルもなく、データは送信されません。</li>
+        <li data-i18n="coach.fact2"><strong>オプトインのみ。</strong> Apple Intelligenceがオフの場合、または設定でメモをオフにしている場合、この機能は非表示のままです。</li>
+        <li data-i18n="coach.fact3"><strong>ルールが判断し、AIが説明。</strong> トレーニングのルールがすべての判断を行います。メモがプランを変えることはありません。</li>
+      </ul>
+    </div>
+    <img class="coach-phone fade" src="../assets/img/phone-plan-form.webp" width="720" height="1472" data-i18n-attr="alt:coach.alt" alt="プランを編集：目標を入力すると、Apple Intelligenceがフォームを埋めます" loading="lazy">
+  </div>
+</section>
+
+<section class="light extras">
+  <div class="section-head reveal">
+    <p data-i18n="extras.eyebrow" class="eyebrow">その他</p>
+    <h2 data-i18n="extras.title">レースに必要なものは、すべて。</h2>
+  </div>
+  <div class="bento">
+    <article class="tile reveal t-pred">
+      <h3 data-i18n="tile.pred.title">誠実なレース予測</h3>
+      <p class="big">~3:34</p>
+      <p data-i18n="tile.pred.text">マラソンの予測は、レースに向けた体力と実際に積んだトレーニングを組み合わせます。「順調」「野心的」「非現実的」の判定とともに、レース当日の予測範囲で示します。</p>
+    </article>
+    <article class="tile reveal t-dec">
+      <h3 data-i18n="tile.dec.title">有酸素デカップリング</h3>
+      <p class="big">3.2%</p>
+      <p data-i18n="tile.dec.text">一定ペースのランの後半の心拍ドリフト。3回連続で5%未満になると、次の長いランのステップが解放されます。</p>
+    </article>
+    <article class="tile reveal t-hist">
+      <h3 data-i18n="tile.hist.title">履歴をひとつに</h3>
+      <p data-i18n="tile.hist.text">ヘルスケアとインポートしたランを、月別、カレンダー、または一つのマップで表示。スプリット、ゾーン、ベストも確認できます。</p>
+      <img src="../assets/img/phone-history.webp" width="720" height="1472" data-i18n-attr="alt:tile.hist.alt" alt="履歴：64回のラン、691 km、月別の距離" loading="lazy">
+    </article>
+    <article class="tile reveal t-strain">
+      <h3 data-i18n="tile.strain.title">心臓への負担</h3>
+      <p class="big">7.9</p>
+      <p data-i18n="tile.strain.text">すべてのランがどれだけ体に負担をかけたかを0〜21で表示：軽い、中程度、高い、全力。</p>
+    </article>
+    <article class="tile reveal t-fuel">
+      <span class="tile-ico fuel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5S5.5 9.6 5.5 14.2a6.5 6.5 0 0 0 13 0C18.5 9.6 12 2.5 12 2.5Z"/></svg></span>
+      <h3 data-i18n="tile.fuel.title">水分と補給</h3>
+      <p data-i18n="tile.fuel.text">走る前後に体重を測り、発汗量を把握。長いランとレース当日のドリンクとジェルのプラン、ラン中の水分量の推定も。</p>
+    </article>
+    <article class="tile reveal t-screen">
+      <h3 data-i18n="tile.screen.title">ランの画面</h3>
+      <p data-i18n="tile.screen.text">項目を選び、ページの順序を決め、iPhoneとApple Watchでライブプレビューを確認。</p>
+      <img src="../assets/img/phone-run-screen.webp" width="720" height="1472" data-i18n-attr="alt:tile.screen.alt" alt="iPhoneのライブプレビュー付きのラン画面設定" loading="lazy">
+    </article>
+    <article class="tile reveal t-game">
+      <span class="tile-ico game"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.9 6.2 6.8.7-5.1 4.6 1.5 6.7L12 16.8l-6.1 3.4 1.5-6.7L2.3 8.9l6.8-.7Z"/></svg></span>
+      <h3 data-i18n="tile.game.title">継続へのご褒美</h3>
+      <p data-i18n="tile.game.text">プランの連続記録、トレーニングポイント、長いランのはしご、最初の30 kmや完全なテーパリングのバッジ。余分な距離はポイントになりません。競うのは過去の自分だけです。</p>
+    </article>
+    <article class="tile reveal t-imp">
+      <span class="tile-ico imp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0-4.5-4.5M12 14l4.5-4.5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <h3 data-i18n="tile.imp.title">履歴を持ち込む</h3>
+      <p data-i18n="tile.imp.text">ヘルスケア、GPX、TCX、FIT、Stravaの全エクスポートに対応。重複は自動で検出されます。</p>
+    </article>
+    <article class="tile reveal t-body">
+      <span class="tile-ico body"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.6 4.5c2.2 0 3.6 1.2 5.4 3.2 1.8-2 3.2-3.2 5.4-3.2 3.6 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21Z"/></svg></span>
+      <h3 data-i18n="tile.body.title">体のチェック</h3>
+      <p data-i18n="tile.body.text">各ランを1〜10で評価し、努力度としてヘルスケアに保存。2日続けて痛みがある場合、プランは休止を提案し、60%から再開させます。</p>
+    </article>
+    <article class="tile reveal t-home">
+      <span class="tile-ico home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2.5 11h2.8v9h5.2v-5.5h3V20h5.2v-9h2.8L12 3Z"/></svg></span>
+      <h3 data-i18n="tile.home.title">とにかく帰る</h3>
+      <p data-i18n="tile.home.text">ワンタップで、スタート地点までの矢印と距離を表示。iPhoneとApple Watchで、オフラインでも使えます。</p>
+    </article>
+    <article class="tile reveal t-activity">
+      <span class="tile-ico activity"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2h8a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Zm1.5 2.2a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2h-5ZM8 13v5h8v-5H8Z"/></svg></span>
+      <h3 data-i18n="tile.activity.title">ライブアクティビティ</h3>
+      <p data-i18n="tile.activity.text">ペース、距離、心拍数、残りの距離を、ロック画面とダイナミックアイランドに表示。</p>
+    </article>
+    <article class="tile reveal t-lang">
+      <span class="tile-ico lang"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6A15.7 15.7 0 0 0 8.1 8ZM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.2 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg></span>
+      <h3 data-i18n="tile.lang.title">あなたの言語で話す</h3>
+      <p class="langs"><span>English</span><span>Deutsch</span><span>Français</span><span>Italiano</span><span>Español</span><span>Português</span><span>Nederlands</span><span>日本語</span></p>
+    </article>
+  </div>
+</section>
+
+<section class="dark privacy-block" id="private">
+  <div class="reveal">
+    <div class="lock" aria-hidden="true"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 1 1 6 0v3H9Z"/></svg></div>
+    <h2 data-i18n="privacy.title">あなたと、あなたのランだけ。</h2>
+    <p data-i18n="privacy.lead" class="lead">フィードもフォロワーもランキングもありません。Taperwiseはあえてサーバーなしで作られました。ヘルスデータはヘルスケアに、プランはiPhoneに残り、コーチングは端末内で動きます。アプリがダウンロードするのは地図のタイルだけです。</p>
+  </div>
+  <ul class="nots">
+    <li data-i18n="privacy.not1" class="reveal"><strong>アカウント不要。</strong> アプリを開いてすぐ始められます。サインアップもパスワードもメールも不要。</li>
+    <li data-i18n="privacy.not2" class="reveal"><strong>サーバーなし。</strong> 同期するものも、漏えいするものも、停止するものもありません。</li>
+    <li data-i18n="privacy.not3" class="reveal"><strong>コミュニティなし。</strong> 追いかけるフィードも、集めるいいねもありません。競う相手は先月の自分だけ。</li>
+    <li data-i18n="privacy.not4" class="reveal"><strong>トラッキングなし。</strong> 分析も広告もサードパーティのSDKもありません。</li>
+  </ul>
+  <a data-i18n="privacy.more" class="more reveal" href="../privacy/">プライバシーポリシーを読む</a>
+</section>
+
+<footer class="footer" id="support">
+  <div class="footer-top">
+    <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="22" height="22">Taperwise</a>
+    <div class="footer-links">
+      <a data-i18n="footer.privacy" href="../privacy/">プライバシーポリシー</a>
+      <a data-i18n="footer.legal" href="../legal/">法的通知</a>
+      <a data-i18n="footer.support" href="mailto:apps@bitspire.ch">サポート：apps@bitspire.ch</a>
+    </div>
+  </div>
+  <p data-i18n="footer.fine" class="fine">コンディション、予測、カロリーの値は推定であり、医療アドバイスではありません。地図データ © OpenStreetMap contributors。Apple、Appleのロゴ、iPhone、Apple Watch、ヘルスケア、Apple Intelligenceは、米国およびその他の国で登録されたApple Inc.の商標です。© 2026 BitSpire GmbH.</p>
+  <div class="footer-lang" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.8 5.9 3.8 9.5s-1.2 6.9-3.8 9.5c-2.6-2.6-3.8-5.9-3.8-9.5s1.2-6.9 3.8-9.5Z"/></svg>
+    <select aria-label="言語" data-i18n-attr="aria-label:footer.language">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+      <option value="fr">Français</option>
+      <option value="it">Italiano</option>
+      <option value="es">Español</option>
+      <option value="pt-BR">Português (Brasil)</option>
+      <option value="nl">Nederlands</option>
+      <option value="ja">日本語</option>
+    </select>
+  </div>
+</footer>
+
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

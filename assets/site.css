@@ -25,6 +25,10 @@
   --phone: clamp(220px, 26vw, 330px);
   color-scheme: dark;
 }
+:root:lang(ja) {
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Hiragino Sans", system-ui, "Segoe UI", Roboto, sans-serif;
+  --display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Hiragino Sans", system-ui, "Segoe UI", Roboto, sans-serif;
+}
 
 * { box-sizing: border-box; }
 html { overflow-x: clip; scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -40,6 +44,7 @@ h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; }
 h1 { font-size: clamp(52px, 9.4vw, 132px); line-height: .98; font-weight: 700; letter-spacing: -.045em; }
 h2 { font-size: clamp(40px, 6.2vw, 84px); line-height: 1.02; font-weight: 700; letter-spacing: -.04em; }
 h3 { font-size: clamp(24px, 2.4vw, 32px); line-height: 1.12; font-weight: 700; letter-spacing: -.025em; }
+:root:lang(ja) :is(h1, h2, h3) { letter-spacing: 0; line-break: strict; }
 
 .dark { background: var(--black); color: var(--ink); }
 .light { background: var(--paper); color: var(--paper-ink); color-scheme: light; }
@@ -287,6 +292,12 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
 .footer-links a { text-decoration: none; color: var(--paper-ink); }
 .footer-links a:hover { text-decoration: underline; }
 .fine { margin-top: 16px; line-height: 1.6; }
+.footer-lang { display: flex; justify-content: flex-end; align-items: center; gap: 6px; margin-top: 16px; font-size: 13px; color: var(--paper-ink); }
+.footer-lang[hidden] { display: none; }
+.footer-lang svg { width: 14px; height: 14px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; }
+.footer-lang select { appearance: none; -webkit-appearance: none; background: none; border: 0; border-radius: 4px; margin: 0; padding: 6px 0; font: inherit; color: inherit; cursor: pointer; }
+.footer-lang select:focus-visible { outline: 2px solid var(--blue-ink); outline-offset: 4px; }
+.footer-lang::after { content: ""; width: 5px; height: 5px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-2px) rotate(45deg); pointer-events: none; }
 
 /* responsive */
 @media (max-width: 860px) {

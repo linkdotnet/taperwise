@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-i18n="meta.title">Taperwise: tabella allenamento maratona e mezza maratona</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="Tabelle per 5K, 10K, mezza maratona e maratona che si adattano a frequenza cardiaca, HRV e sonno. App corsa Apple Watch con mappe offline. Senza cloud.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Taperwise">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://taperwise.run/it/">
+<meta name="twitter:card" content="summary">
+<meta property="og:description" data-i18n-attr="content:og.description" content="Allenamento per gare su iPhone e Apple Watch. Mappe offline, coaching sul dispositivo, nessun cloud.">
+<meta property="og:image" content="https://taperwise.run/assets/img/icon.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Taperwise", "operatingSystem": "iOS, watchOS", "applicationCategory": "HealthApplication", "applicationSubCategory": "Running", "description": "Training plans for 5K, 10K, half marathon and marathon that adapt to your heart rate, HRV and sleep. Live coaching on iPhone and Apple Watch, offline running maps, on-device Apple Intelligence. No account, no cloud.", "url": "https://taperwise.run/", "image": "https://taperwise.run/assets/img/icon.png", "inLanguage": ["en", "de", "fr", "it", "es", "pt-BR", "nl", "ja"], "publisher": {"@type": "Organization", "name": "BitSpire GmbH", "email": "apps@bitspire.ch"}}</script>
+<link rel="canonical" href="https://taperwise.run/it/">
+<link rel="alternate" hreflang="en" href="https://taperwise.run/">
+<link rel="alternate" hreflang="de" href="https://taperwise.run/de/">
+<link rel="alternate" hreflang="fr" href="https://taperwise.run/fr/">
+<link rel="alternate" hreflang="it" href="https://taperwise.run/it/">
+<link rel="alternate" hreflang="es" href="https://taperwise.run/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://taperwise.run/pt-br/">
+<link rel="alternate" hreflang="nl" href="https://taperwise.run/nl/">
+<link rel="alternate" hreflang="ja" href="https://taperwise.run/ja/">
+<link rel="alternate" hreflang="x-default" href="https://taperwise.run/">
+<link rel="icon" href="../assets/img/icon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="26" height="26">Taperwise</a>
+  <div class="nav-links">
+    <a data-i18n="nav.plan" href="#plan">Piano</a>
+    <a data-i18n="nav.run" href="#run">Corsa</a>
+    <a data-i18n="nav.race" href="#race">Gara</a>
+    <a data-i18n="nav.maps" href="#maps">Mappe</a>
+    <a data-i18n="nav.watch" href="#watch">Watch</a>
+    <a data-i18n="nav.insights" href="#insights">Analisi</a>
+    <a data-i18n="nav.coach" href="#coach">Coach</a>
+    <a data-i18n="nav.privacy" href="../privacy/">Privacy</a>
+  </div>
+  <span data-i18n="nav.soon" class="nav-cta">Prossimamente</span>
+</nav>
+
+<header class="hero dark" id="top">
+  <div class="hero-copy">
+    <p data-i18n="hero.eyebrow" class="eyebrow reveal">Taperwise per iPhone e Apple Watch</p>
+    <h1 data-i18n="hero.title" class="reveal">Corri la tua gara.<br><span class="grad">Tieni i tuoi dati.</span></h1>
+    <p data-i18n="hero.lead" class="lead reveal">Un piano di allenamento per 5K, 10K, mezza o maratona, un coach per ogni corsa e mappe che funzionano senza segnale. Nessun account. Nessun cloud.</p>
+    <div class="cta reveal">
+      <span data-i18n="hero.store" class="store">Prossimamente sull'App Store</span>
+      <a data-i18n="hero.more" class="more" href="#plan">Scopri come funziona</a>
+    </div>
+  </div>
+  <div class="hero-devices fade">
+    <video class="dev-phone" src="../assets/video/run.mp4" poster="../assets/video/run-poster.webp" autoplay muted loop playsinline width="720" height="1472" data-i18n-attr="aria-label:hero.video" aria-label="Corsa Taperwise dal vivo su iPhone: il percorso sulla mappa e un passo di 4:11 al km nella fascia obiettivo"></video>
+    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise su Apple Watch Ultra: passo 4:10 al km in linea con l'obiettivo, frequenza cardiaca 162">
+  </div>
+</header>
+
+<section class="dark statement">
+  <p data-i18n="statement.text" class="words" data-words>Le tue corse, la tua frequenza cardiaca e il tuo piano restano sul tuo iPhone e sul tuo Apple Watch. Non su un server. Non in un cloud. Da nessun'altra parte.</p>
+  <dl class="stats">
+    <div class="reveal"><dd>0</dd><dt data-i18n="stats.servers">server</dt></div>
+    <div class="reveal"><dd>100%</dd><dt data-i18n="stats.ondevice">sul dispositivo</dt></div>
+    <div class="reveal"><dd>12–30</dd><dt data-i18n="stats.plans">piani settimanali</dt></div>
+    <div class="reveal"><dd>8</dd><dt data-i18n="stats.languages">lingue</dt></div>
+  </dl>
+</section>
+
+<section class="light story-wrap" id="plan">
+  <div class="section-head reveal">
+    <p data-i18n="plan.eyebrow" class="eyebrow">Piano</p>
+    <h2 data-i18n="plan.title">Costruito su di te.<br><span class="soft">Adattato ogni mattina.</span></h2>
+  </div>
+  <div class="story">
+    <div class="story-text">
+      <article class="step" data-shot="0">
+        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Piano Taperwise: maratona tra 76 giorni, obiettivo di arrivo, stima per il giorno gara da 3:24 a 3:40, in linea con 200,9 di 203 km" loading="lazy">
+        <h3 data-i18n="plan.adapt.title">Un piano che parte da dove sei.</h3>
+        <p data-i18n="plan.adapt.text">Taperwise legge la tua storia di corsa da Apple Salute, oppure importa esportazioni GPX, TCX, FIT e Strava. Poi costruisce un piano di 12-30 settimane per 5K, 10K, mezza maratona o maratona: Base, Costruzione, Picco e Tapering. Il tuo obiettivo, la forma di oggi e un intervallo realistico per il giorno gara stanno fianco a fianco.</p>
+        <ul class="ticks">
+          <li data-i18n="plan.adapt.tick1">Il volume cresce al massimo di circa il 10% a settimana</li>
+          <li data-i18n="plan.adapt.tick2">Ogni quarta settimana è di recupero</li>
+          <li data-i18n="plan.adapt.tick3">Le uscite lunghe crescono al massimo del 10%, con un limite di 35 km o 3,5 ore</li>
+        </ul>
+      </article>
+      <article class="step" data-shot="1">
+        <img class="step-phone" src="../assets/img/phone-plan-calendar.webp" width="720" height="1472" data-i18n-attr="alt:plan.calendar.alt" alt="Calendario del piano per ottobre con corse completate e sessioni previste" loading="lazy">
+        <h3 data-i18n="plan.calendar.title">Ogni sessione, in un calendario.</h3>
+        <p data-i18n="plan.calendar.text">Guarda il piano settimana per settimana o mese per mese. I giorni pieni sono le corse che hai fatto, i puntini colorati sono quello che viene dopo. Tocca una sessione per i passaggi, i passi obiettivo, la zona di frequenza cardiaca e, sulle uscite lunghe, un piano di bevande e gel.</p>
+      </article>
+      <article class="step" data-shot="2">
+        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Oggi: corsa facile, 10,9 km, vai piano, riduci il volume di oggi del 30-50% e una nota del coach" loading="lazy">
+        <h3 data-i18n="plan.today.title">Ascolta il tuo corpo.</h3>
+        <p data-i18n="plan.today.text">HRV, frequenza cardiaca a riposo, sonno e carico di allenamento decidono se oggi è verde, giallo o rosso. Una mattina gialla accorcia la sessione, tre giorni rossi portano uno scarico, e le corse saltate non si recuperano mai. Gambe doloranti o raffreddore? Dillo a Taperwise: il piano si ferma e poi ti riporta piano piano.</p>
+      </article>
+      <article class="step" data-shot="3">
+        <img class="step-phone" src="../assets/img/phone-strength.webp" width="720" height="1472" data-i18n-attr="alt:plan.strength.alt" alt="Forza: affondi, sollevamenti sui polpacci, stacco rumeno su una gamba e step-up, circa 27 minuti" loading="lazy">
+        <h3 data-i18n="plan.strength.title">Forza che ti mantiene a correre.</h3>
+        <p data-i18n="plan.strength.text">Due sessioni brevi a settimana di affondi, sollevamenti sui polpacci e step-up, esercizi collegati a meno infortuni da corsa. Un circuito guidato conta serie e recuperi su iPhone o Apple Watch e salva su Apple Salute.</p>
+      </article>
+    </div>
+    <div class="story-device">
+      <img class="on" src="../assets/img/phone-plan.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-plan-calendar.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-today.webp" width="720" height="1472" alt="">
+      <img src="../assets/img/phone-strength.webp" width="720" height="1472" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="dark replay" id="run" data-replay>
+  <div class="replay-sticky">
+    <div class="replay-head">
+      <p data-i18n="run.eyebrow" class="eyebrow">Corsa</p>
+      <h2 data-i18n="run.title">9 km lungo il Lago di Zurigo.<br><span class="soft">Scorri per correrli.</span></h2>
+    </div>
+    <div class="replay-stage">
+      <div class="replay-map">
+        <img src="../assets/img/lake-map.jpg" alt="" width="900" height="1320">
+        <svg viewBox="0 0 900 1320" aria-hidden="true">
+          <path class="trail-ghost"></path>
+          <path class="trail"></path>
+          <circle class="runner-halo" r="24"></circle>
+          <circle class="runner" r="10"></circle>
+        </svg>
+        <span data-i18n="map.attribution" class="attribution">© collaboratori di OpenStreetMap</span>
+      </div>
+      <dl class="hud">
+        <div><dt data-i18n="hud.time">Tempo</dt><dd data-hud="time">0:00</dd></div>
+        <div><dt data-i18n="hud.distance">Distanza</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
+        <div><dt data-i18n="hud.pace">Passo</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
+        <div class="hr"><dt data-i18n="hud.heartrate">Freq. cardiaca</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
+        <div><dt data-i18n="hud.elevation">Dislivello</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
+      </dl>
+    </div>
+    <p data-i18n="run.note" class="replay-note">Corsa tempo dimostrativa sul sentiero del lago: Bürkliplatz, Arboretum, Mythenquai e Wollishofen, andata e ritorno.</p>
+  </div>
+</section>
+
+<section class="dark live">
+  <div class="section-head reveal">
+    <p data-i18n="live.eyebrow" class="eyebrow green">Dal vivo su iPhone</p>
+    <h2 data-i18n="live.title">Numeri grandi.<br><span class="soft">Obiettivi chiari.</span></h2>
+    <p data-i18n="live.lead" class="lead">Il tuo iPhone registra la corsa da solo, senza orologio. Il passo appare grande e bianco sulla mappa, con un indicatore dell'obiettivo. I passaggi degli intervalli fanno il conto alla rovescia, e i suggerimenti vocali ti dicono quando spingere e quando andare piano. Pausa, Termina e Torna a casa restano a portata di pollice.</p>
+  </div>
+  <div class="phone-row fade">
+    <figure><img src="../assets/img/phone-run-metrics.webp" width="720" height="1472" data-i18n-attr="alt:live.pace.alt" alt="Corsa dal vivo: passo 4:10 al km nella fascia obiettivo, media 5:11" loading="lazy"><figcaption data-i18n="live.pace.cap">Passo rispetto al tuo obiettivo</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-interval.webp" width="720" height="1472" data-i18n-attr="alt:live.interval.alt" alt="Pagina intervalli: lavoro 2 di 5, 859 m rimanenti" loading="lazy"><figcaption data-i18n="live.interval.cap">Un obiettivo per ogni passaggio</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-zones.webp" width="720" height="1472" data-i18n-attr="alt:live.zones.alt" alt="Frequenza cardiaca 162 in zona 4 con tempo nelle zone" loading="lazy"><figcaption data-i18n="live.zones.cap">Zone di frequenza cardiaca</figcaption></figure>
+    <figure><img src="../assets/img/phone-run-chart.webp" width="720" height="1472" data-i18n-attr="alt:live.chart.alt" alt="Grafico di passo e frequenza cardiaca dell'intera corsa" loading="lazy"><figcaption data-i18n="live.chart.cap">Passo e frequenza cardiaca mentre corri</figcaption></figure>
+  </div>
+  <ul class="cues reveal">
+    <li data-i18n="live.cue1"><strong>Avviso di deriva.</strong> La frequenza sale con lo stesso sforzo? Bevi, prendi un gel o rallenta.</li>
+    <li data-i18n="live.cue2"><strong>Stima dei liquidi.</strong> Dalla tua velocità di sudorazione, con un avviso prima di perdere il 2% della massa corporea.</li>
+    <li data-i18n="live.cue3"><strong>Protezione uscita lunga.</strong> Un avviso quando la corsa di oggi supera del 10% la tua più lunga degli ultimi 30 giorni.</li>
+  </ul>
+</section>
+
+<section class="dark race" id="race">
+  <div class="race-grid">
+    <div class="race-copy reveal">
+      <p data-i18n="race.eyebrow" class="eyebrow amber">Race Pilot</p>
+      <h2 data-i18n="race.title">Giorno di gara,<br><span class="soft">pianificato al secondo.</span></h2>
+      <p data-i18n="race.lead" class="lead">Imposta un tempo obiettivo, o lascia che il tuo allenamento ne preveda uno. Taperwise lo trasforma in una fascia di passo per ogni 5 km. Importa il GPX del percorso e ogni chilometro si adatta alle salite.</p>
+      <ul class="facts">
+        <li data-i18n="race.fact1"><strong>Carico di carboidrati e mattina di gara.</strong> Quanti grammi al giorno nei due giorni prima e cosa mangiare prima della partenza.</li>
+        <li data-i18n="race.fact2"><strong>Gel per chilometro.</strong> Distribuiti lungo la gara, con un promemoria al polso.</li>
+        <li data-i18n="race.fact3"><strong>Avanti o indietro.</strong> In tempo reale rispetto al piano, così il primo chilometro resta lento.</li>
+      </ul>
+    </div>
+    <div class="race-phones fade">
+      <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" data-i18n-attr="alt:race.pilot.alt" alt="Piano gara: maratona, obiettivo 3:30:00, fascia di passo 4:59-5:05 al km con split ogni 5 km" loading="lazy">
+      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Piano gara, continua: split fino all'arrivo in 3:30:00, 60 g di carboidrati all'ora, gel per chilometro e la checklist della settimana gara" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="light maps" id="maps">
+  <div class="maps-grid">
+    <div class="maps-copy reveal">
+      <p data-i18n="maps.eyebrow" class="eyebrow blue">Mappe</p>
+      <h2 data-i18n="maps.title">Acqua. Bagni.<br><span class="soft">Il prossimo tram per casa.</span></h2>
+      <p data-i18n="maps.lead" class="lead">Fontanelle, bagni, ripari e fermate del trasporto pubblico sono sulla mappa della tua corsa, su iPhone e su Apple Watch. Scegli quali vuoi vedere.</p>
+      <ul class="poi">
+        <li><span class="poi-ico water"><svg viewBox="0 0 24 24"><path d="M12 2.5S5.5 9.6 5.5 14.2a6.5 6.5 0 0 0 13 0C18.5 9.6 12 2.5 12 2.5Z"/></svg></span><span data-i18n="maps.poi.water">Acqua potabile</span></li>
+        <li><span class="poi-ico toilet"><svg viewBox="0 0 24 24"><path d="M5 3h6v8H5zM4 12h16a8 8 0 0 1-6 7.7V22H9v-2.3A8 8 0 0 1 4 12Z"/></svg></span><span data-i18n="maps.poi.toilets">Bagni</span></li>
+        <li><span class="poi-ico shelter"><svg viewBox="0 0 24 24"><path d="M12 3 2 10.5h3V20h14v-9.5h3L12 3Zm-3 15v-5h6v5H9Z"/></svg></span><span data-i18n="maps.poi.shelters">Ripari</span></li>
+        <li><span class="poi-ico transit"><svg viewBox="0 0 24 24"><path d="M6 3h12a2 2 0 0 1 2 2v11a2 2 0 0 1-1 1.7V20a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H8v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-2.3A2 2 0 0 1 4 16V5a2 2 0 0 1 2-2Zm0 3v5h12V6H6Zm1.5 7.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"/></svg></span><span data-i18n="maps.poi.transit">Trasporto pubblico</span></li>
+      </ul>
+      <div class="offline">
+        <h3 data-i18n="maps.offline.title">Funziona senza segnale.</h3>
+        <p data-i18n="maps.offline.text">Scarica le zone in cui corri, dalla panoramica al dettaglio delle strade. Col Wi-Fi, Taperwise tiene automaticamente disponibili offline i luoghi in cui corri, e le mappe che hai guardato restano in una cache di 200 MB. Manda un'area dettagliata al tuo orologio e lascia a casa il telefono.</p>
+      </div>
+    </div>
+    <img class="maps-phone fade" src="../assets/img/phone-run-map.webp" width="720" height="1472" data-i18n-attr="alt:maps.phone.alt" alt="Scheda Corsa: mappa con acqua potabile, bagni e fermate dell'autobus, GPS pronto, corsa facile di oggi da 10,9 km e pulsante Avvia" loading="lazy">
+  </div>
+</section>
+
+<section class="dark watch-sec" id="watch">
+  <div class="section-head reveal">
+    <p data-i18n="watch.eyebrow" class="eyebrow">Apple Watch</p>
+    <h2 data-i18n="watch.title">Lascia il telefono a casa.</h2>
+    <p data-i18n="watch.lead" class="lead">L'orologio esegue l'allenamento da solo, senza telefono e senza rete. Pagine impostate come l'app Allenamento: metriche, intervalli, zone, grafico, dislivello, alimentazione e In riproduzione. Metti in pausa col tasto Azione e fai il tuo circuito di forza direttamente al polso.</p>
+  </div>
+  <div class="watch-row fade">
+    <figure><img src="../assets/img/watch-start.webp" width="440" height="704" data-i18n-attr="alt:watch.start.alt" alt="Schermata iniziale: intervalli di oggi da 8 km, vai piano, e Avvia" loading="lazy"><figcaption data-i18n="watch.start.cap">La sessione di oggi</figcaption></figure>
+    <figure><img src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:watch.metrics.alt" alt="Passo 4:10 al km in linea con l'obiettivo, tempo, distanza e frequenza cardiaca" loading="lazy"><figcaption data-i18n="watch.metrics.cap">Metriche</figcaption></figure>
+    <figure><img src="../assets/img/watch-interval.webp" width="440" height="704" data-i18n-attr="alt:watch.interval.alt" alt="Intervallo di lavoro con passo obiettivo, 859 m rimanenti e fascia di frequenza cardiaca" loading="lazy"><figcaption data-i18n="watch.interval.cap">Intervalli</figcaption></figure>
+    <figure><img src="../assets/img/watch-zones.webp" width="440" height="704" data-i18n-attr="alt:watch.zones.alt" alt="Frequenza cardiaca 162 in zona 4" loading="lazy"><figcaption data-i18n="watch.zones.cap">Zone</figcaption></figure>
+    <figure><img src="../assets/img/watch-chart.webp" width="440" height="704" data-i18n-attr="alt:watch.chart.alt" alt="Passo e frequenza cardiaca per tutta la corsa" loading="lazy"><figcaption data-i18n="watch.chart.cap">Grafico</figcaption></figure>
+    <figure><img src="../assets/img/watch-fuel.webp" width="440" height="704" data-i18n-attr="alt:watch.fuel.alt" alt="Pagina alimentazione: stima dei liquidi con i pulsanti Ho bevuto e Gel" loading="lazy"><figcaption data-i18n="watch.fuel.cap">Alimentazione</figcaption></figure>
+  </div>
+</section>
+
+<section class="light after" id="history">
+  <div class="section-head reveal">
+    <p data-i18n="after.eyebrow" class="eyebrow">Dopo la corsa</p>
+    <h2 data-i18n="after.title">Ogni corsa, spiegata.</h2>
+    <p data-i18n="after.lead" class="lead">Sforzo cardiaco, cadenza, VO₂max stimato, passo corretto per la pendenza e disaccoppiamento per ogni corsa. Scorri tra passo, frequenza cardiaca e dislivello e guarda il punto illuminarsi sulla mappa.</p>
+  </div>
+  <div class="phone-row fade">
+    <figure><img src="../assets/img/phone-detail.webp" width="720" height="1472" data-i18n-attr="alt:after.detail.alt" alt="Dettaglio corsa: 7,75 km con mappa, sforzo cardiaco 7,9, cadenza 170 passi/min, passo corretto per la pendenza 5:35 e disaccoppiamento 3,2%" loading="lazy"><figcaption data-i18n="after.detail.cap">Le statistiche che contano</figcaption></figure>
+    <figure><img src="../assets/img/phone-breakdown.webp" width="720" height="1472" data-i18n-attr="alt:after.breakdown.alt" alt="Tecnica di corsa e dettaglio a 18 minuti con passo e frequenza cardiaca" loading="lazy"><figcaption data-i18n="after.breakdown.cap">Tecnica di corsa e dettaglio</figcaption></figure>
+    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Mappa di tutte le corse intorno al Lago di Zurigo" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Ovunque tu abbia corso</figcaption></figure>
+  </div>
+</section>
+
+<section class="dark ins" id="insights" data-ins>
+  <div class="ins-sticky">
+    <div class="ins-copy">
+      <p data-i18n="insights.eyebrow" class="eyebrow purple">Analisi</p>
+      <h2 data-i18n="insights.title">Guarda crescere la tua forma.</h2>
+      <ol class="ins-list">
+        <li data-at="295" class="on"><h3 data-i18n="insights.fitness.title">Andamento della forma</h3><p data-i18n="insights.fitness.text">Il tuo VDOT su 26 settimane, con stime per 10K, mezza e maratona e un intervallo per il giorno gara.</p></li>
+        <li data-at="851"><h3 data-i18n="insights.recovery.title">Recupero</h3><p data-i18n="insights.recovery.text">HRV, frequenza cardiaca a riposo e sonno rispetto alla tua base personale, con i motivi spiegati.</p></li>
+        <li data-at="1771"><h3 data-i18n="insights.load.title">Carico di allenamento</h3><p data-i18n="insights.load.text">Forma, affaticamento e freschezza, più il rapporto tra carico acuto e cronico.</p></li>
+        <li data-at="2268"><h3 data-i18n="insights.volume.title">Volume settimanale</h3><p data-i18n="insights.volume.text">26 settimane di chilometri, uscita lunga e il resto della settimana.</p></li>
+        <li data-at="2734"><h3 data-i18n="insights.easy.title">Facile vs. duro</h3><p data-i18n="insights.easy.text">Quanto resti vicino all'80% di corsa facile.</p></li>
+        <li data-at="2965"><h3 data-i18n="insights.form.title">Tecnica di corsa</h3><p data-i18n="insights.form.text">Cadenza, contatto con il suolo, lunghezza del passo, oscillazione verticale e potenza, settimana per settimana.</p></li>
+        <li data-at="3474"><h3 data-i18n="insights.aerobic.title">Efficienza aerobica</h3><p data-i18n="insights.aerobic.text">Passo alla stessa frequenza cardiaca nel corso dei mesi, così vedi crescere il motore.</p></li>
+        <li data-at="4022"><h3 data-i18n="insights.consistency.title">Costanza</h3><p data-i18n="insights.consistency.text">Ogni giorno delle ultime 26 settimane su un'unica griglia.</p></li>
+        <li data-at="4413"><h3 data-i18n="insights.monotony.title">Monotonia e stress</h3><p data-i18n="insights.monotony.text">Lo stesso carico ogni giorno aumenta il rischio. Alterna giorni duri e facili.</p></li>
+      </ol>
+    </div>
+    <div class="ins-phone">
+      <div class="ins-screen">
+        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4988" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Analisi: andamento della forma, recupero, carico di allenamento, volume settimanale, facile vs. duro, tecnica di corsa, efficienza aerobica, costanza, monotonia e stress" loading="lazy">
+        <img class="ins-status" src="../assets/img/insights-status.webp" width="640" height="80" alt="">
+      </div>
+      <img class="ins-bezel" src="../assets/img/bezel-iphone.webp" width="720" height="1472" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="dark coach" id="coach">
+  <div class="coach-card">
+    <div class="coach-copy reveal">
+      <p data-i18n="coach.eyebrow" class="eyebrow ai">Apple Intelligence</p>
+      <h2 data-i18n="coach.title">Un coach che non lascia mai il tuo iPhone.</h2>
+      <p data-i18n="coach.lead" class="lead">Con Apple Intelligence attivo, Taperwise scrive brevi note sulla sessione di oggi, sulla tua settimana e su ogni corsa. Descrivi il tuo obiettivo in una frase e riempie il piano perché tu lo controlli.</p>
+      <ul class="facts">
+        <li data-i18n="coach.fact1"><strong>Solo sul dispositivo.</strong> Le note arrivano dal modello di Apple sul dispositivo. Nessun server, nessun modello nel cloud, nessun dato inviato.</li>
+        <li data-i18n="coach.fact2"><strong>Solo se scegli di attivarlo.</strong> Se Apple Intelligence è spento, o disattivi le note nelle Impostazioni, la funzione resta nascosta.</li>
+        <li data-i18n="coach.fact3"><strong>Decidono le regole, l'IA spiega.</strong> Le regole di allenamento prendono ogni decisione. Le note non cambiano mai il tuo piano.</li>
+      </ul>
+    </div>
+    <img class="coach-phone fade" src="../assets/img/phone-plan-form.webp" width="720" height="1472" data-i18n-attr="alt:coach.alt" alt="Modifica piano: descrivi il tuo obiettivo e Apple Intelligence compila il modulo" loading="lazy">
+  </div>
+</section>
+
+<section class="light extras">
+  <div class="section-head reveal">
+    <p data-i18n="extras.eyebrow" class="eyebrow">E altro</p>
+    <h2 data-i18n="extras.title">Tutto ciò che serve per preparare una gara.</h2>
+  </div>
+  <div class="bento">
+    <article class="tile reveal t-pred">
+      <h3 data-i18n="tile.pred.title">Previsione di gara onesta</h3>
+      <p class="big">~3:34</p>
+      <p data-i18n="tile.pred.text">La tua stima per la maratona unisce la forma da gara all'allenamento che hai davvero fatto. Viene mostrata come intervallo per il giorno gara, con un verdetto onesto: «in linea», «ambizioso» o «irrealistico».</p>
+    </article>
+    <article class="tile reveal t-dec">
+      <h3 data-i18n="tile.dec.title">Disaccoppiamento aerobico</h3>
+      <p class="big">3.2%</p>
+      <p data-i18n="tile.dec.text">Deriva della frequenza cardiaca nella seconda metà delle corse costanti. Sotto il 5% per tre volte di fila sblocca il passo successivo delle uscite lunghe.</p>
+    </article>
+    <article class="tile reveal t-hist">
+      <h3 data-i18n="tile.hist.title">La tua storia, in un posto</h3>
+      <p data-i18n="tile.hist.text">Corse da Apple Salute e dalle tue importazioni, per mese, su un calendario o su una mappa, con split, zone e migliori prestazioni.</p>
+      <img src="../assets/img/phone-history.webp" width="720" height="1472" data-i18n-attr="alt:tile.hist.alt" alt="Storico: 64 corse, 691 km, distanza mensile" loading="lazy">
+    </article>
+    <article class="tile reveal t-strain">
+      <h3 data-i18n="tile.strain.title">Sforzo cardiaco</h3>
+      <p class="big">7.9</p>
+      <p data-i18n="tile.strain.text">Quanto ha pesato ogni corsa su una scala da 0 a 21: leggero, moderato, alto o al massimo.</p>
+    </article>
+    <article class="tile reveal t-fuel">
+      <span class="tile-ico fuel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5S5.5 9.6 5.5 14.2a6.5 6.5 0 0 0 13 0C18.5 9.6 12 2.5 12 2.5Z"/></svg></span>
+      <h3 data-i18n="tile.fuel.title">Idratazione e alimentazione</h3>
+      <p data-i18n="tile.fuel.text">Pesati prima e dopo per conoscere la tua velocità di sudorazione. Piani di bevande e gel per uscite lunghe e giorno gara, e una stima dei liquidi mentre corri.</p>
+    </article>
+    <article class="tile reveal t-screen">
+      <h3 data-i18n="tile.screen.title">La tua schermata di corsa</h3>
+      <p data-i18n="tile.screen.text">Scegli i campi, ordina le pagine e vedi un'anteprima dal vivo per iPhone e Apple Watch.</p>
+      <img src="../assets/img/phone-run-screen.webp" width="720" height="1472" data-i18n-attr="alt:tile.screen.alt" alt="Impostazioni della schermata di corsa con anteprima dal vivo su iPhone" loading="lazy">
+    </article>
+    <article class="tile reveal t-game">
+      <span class="tile-ico game"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.9 6.2 6.8.7-5.1 4.6 1.5 6.7L12 16.8l-6.1 3.4 1.5-6.7L2.3 8.9l6.8-.7Z"/></svg></span>
+      <h3 data-i18n="tile.game.title">Premi per la costanza</h3>
+      <p data-i18n="tile.game.text">Serie di piano, punti sessione, una scala di uscite lunghe e distintivi per i tuoi primi 30 km o un tapering completo. I chilometri extra non valgono nulla, e competi solo con il tuo io passato.</p>
+    </article>
+    <article class="tile reveal t-imp">
+      <span class="tile-ico imp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0-4.5-4.5M12 14l4.5-4.5M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <h3 data-i18n="tile.imp.title">Porta con te la tua storia</h3>
+      <p data-i18n="tile.imp.text">Apple Salute, GPX, TCX, FIT e interi export Strava, con rilevamento automatico dei duplicati.</p>
+    </article>
+    <article class="tile reveal t-body">
+      <span class="tile-ico body"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.6 4.5c2.2 0 3.6 1.2 5.4 3.2 1.8-2 3.2-3.2 5.4-3.2 3.6 0 5.7 3.9 4.2 7.3C19.5 16.4 12 21 12 21Z"/></svg></span>
+      <h3 data-i18n="tile.body.title">Controllo del corpo</h3>
+      <p data-i18n="tile.body.text">Valuta ogni corsa da 1 a 10, salvata su Apple Salute come sforzo. Dolore per due giorni di fila? Il piano propone una pausa e ti riporta al 60%.</p>
+    </article>
+    <article class="tile reveal t-home">
+      <span class="tile-ico home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2.5 11h2.8v9h5.2v-5.5h3V20h5.2v-9h2.8L12 3Z"/></svg></span>
+      <h3 data-i18n="tile.home.title">Torna a casa</h3>
+      <p data-i18n="tile.home.text">Un tocco mostra una freccia e la distanza dal punto di partenza, su iPhone e Apple Watch, anche offline.</p>
+    </article>
+    <article class="tile reveal t-activity">
+      <span class="tile-ico activity"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 2h8a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H8a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Zm1.5 2.2a1 1 0 0 0 0 2h5a1 1 0 0 0 0-2h-5ZM8 13v5h8v-5H8Z"/></svg></span>
+      <h3 data-i18n="tile.activity.title">Attività dal vivo</h3>
+      <p data-i18n="tile.activity.text">Passo, distanza, frequenza cardiaca e ciò che resta, sulla schermata di blocco e nella Dynamic Island.</p>
+    </article>
+    <article class="tile reveal t-lang">
+      <span class="tile-ico lang"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.9 6h-3a15.7 15.7 0 0 0-1.4-3.6A8 8 0 0 1 18.9 8ZM12 4c.8 1.2 1.5 2.5 1.9 4h-3.8c.4-1.5 1.1-2.8 1.9-4ZM4.3 14a8.2 8.2 0 0 1 0-4h3.4a16.5 16.5 0 0 0 0 4H4.3Zm.8 2h3a15.7 15.7 0 0 0 1.4 3.6A8 8 0 0 1 5.1 16Zm3-8h-3a8 8 0 0 1 4.4-3.6A15.7 15.7 0 0 0 8.1 8ZM12 20c-.8-1.2-1.5-2.5-1.9-4h3.8c-.4 1.5-1.1 2.8-1.9 4Zm2.3-6H9.7a14.7 14.7 0 0 1 0-4h4.6a14.7 14.7 0 0 1 0 4Zm.2 5.6c.6-1.1 1.1-2.3 1.4-3.6h3a8 8 0 0 1-4.4 3.6Zm1.8-5.6a16.5 16.5 0 0 0 0-4h3.4a8.2 8.2 0 0 1 0 4h-3.4Z"/></svg></span>
+      <h3 data-i18n="tile.lang.title">Parla la tua lingua</h3>
+      <p class="langs"><span>English</span><span>Deutsch</span><span>Français</span><span>Italiano</span><span>Español</span><span>Português</span><span>Nederlands</span><span>日本語</span></p>
+    </article>
+  </div>
+</section>
+
+<section class="dark privacy-block" id="private">
+  <div class="reveal">
+    <div class="lock" aria-hidden="true"><svg viewBox="0 0 24 24" width="36" height="36"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 1 1 6 0v3H9Z"/></svg></div>
+    <h2 data-i18n="privacy.title">Solo tu e la tua corsa.</h2>
+    <p data-i18n="privacy.lead" class="lead">Nessun feed, nessun follower, nessuna classifica. Taperwise è stato costruito senza server di proposito. I dati della salute restano in Apple Salute, il tuo piano resta sul tuo iPhone e il coaching gira sul dispositivo. L'unica cosa che l'app scarica sono i riquadri della mappa.</p>
+  </div>
+  <ul class="nots">
+    <li data-i18n="privacy.not1" class="reveal"><strong>Nessun account.</strong> Apri l'app e inizia. Niente registrazione, niente password, niente email.</li>
+    <li data-i18n="privacy.not2" class="reveal"><strong>Nessun server.</strong> Niente da sincronizzare, niente da violare, niente da spegnere.</li>
+    <li data-i18n="privacy.not3" class="reveal"><strong>Nessuna community.</strong> Nessun feed da seguire, nessun like da inseguire. L'unico corridore con cui gareggi è il te del mese scorso.</li>
+    <li data-i18n="privacy.not4" class="reveal"><strong>Nessun tracciamento.</strong> Niente analisi, niente pubblicità e nessun SDK di terze parti.</li>
+  </ul>
+  <a data-i18n="privacy.more" class="more reveal" href="../privacy/">Leggi l'informativa sulla privacy</a>
+</section>
+
+<footer class="footer" id="support">
+  <div class="footer-top">
+    <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="22" height="22">Taperwise</a>
+    <div class="footer-links">
+      <a data-i18n="footer.privacy" href="../privacy/">Informativa sulla privacy</a>
+      <a data-i18n="footer.legal" href="../legal/">Note legali</a>
+      <a data-i18n="footer.support" href="mailto:apps@bitspire.ch">Supporto: apps@bitspire.ch</a>
+    </div>
+  </div>
+  <p data-i18n="footer.fine" class="fine">Prontezza, previsioni e valori calorici sono stime, non consigli medici. Dati cartografici © collaboratori di OpenStreetMap. Apple, il logo Apple, iPhone, Apple Watch, Apple Salute e Apple Intelligence sono marchi di Apple Inc., registrati negli Stati Uniti e in altri paesi. © 2026 BitSpire GmbH.</p>
+  <div class="footer-lang" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.8 5.9 3.8 9.5s-1.2 6.9-3.8 9.5c-2.6-2.6-3.8-5.9-3.8-9.5s1.2-6.9 3.8-9.5Z"/></svg>
+    <select aria-label="Lingua" data-i18n-attr="aria-label:footer.language">
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+      <option value="fr">Français</option>
+      <option value="it">Italiano</option>
+      <option value="es">Español</option>
+      <option value="pt-BR">Português (Brasil)</option>
+      <option value="nl">Nederlands</option>
+      <option value="ja">日本語</option>
+    </select>
+  </div>
+</footer>
+
+<script src="../assets/site.js" defer></script>
+</body>
+</html>
