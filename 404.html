@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Off route · Taperwise</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="/assets/img/icon.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.lost { min-height: calc(100vh - 48px); padding-bottom: clamp(56px, 10vh, 110px); }
+.lost h1 { font-size: clamp(44px, 6.6vw, 92px); }
+.lost-card {
+  position: relative; max-width: 620px; aspect-ratio: 3 / 2; margin: clamp(48px, 8vh, 80px) auto 0;
+  border-radius: var(--radius); overflow: hidden; background: #0d1526; border: 1px solid var(--line-dark);
+}
+.lost-card img, .lost-card svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.lost-card img { filter: invert(1) hue-rotate(190deg) saturate(.7) brightness(.62) contrast(1.08); }
+.home-line { fill: none; stroke: var(--green); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 2 10; opacity: .9; }
+.start { fill: var(--green); stroke: #0d1526; stroke-width: 4; }
+.dead-end { stroke: #fff; stroke-width: 5; stroke-linecap: round; }
+.compass {
+  position: absolute; left: 16px; top: 16px; display: flex; align-items: center; gap: 12px; text-align: left;
+  padding: 10px 18px 10px 10px; border-radius: 99px; background: rgba(0,0,0,.72);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--line-dark);
+}
+.compass-ico { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--green); color: #000; }
+.compass-ico svg { position: static; width: 24px; height: 24px; transform: rotate(-121deg); }
+.compass small { display: block; color: var(--ink-soft); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
+.compass strong { font-family: var(--display); font-size: 30px; line-height: 1; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.home-btn { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.home-btn svg { width: 18px; height: 18px; fill: currentColor; }
+@media (prefers-reduced-motion: no-preference) {
+  .lost .trail { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.2s cubic-bezier(.4,0,.2,1) .3s forwards; }
+  .lost .runner, .lost .runner-halo, .dead-end { opacity: 0; animation: show .3s 2.4s forwards; }
+  .home-line { opacity: 0; animation: show .6s 2.7s forwards; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes show { to { opacity: .9; } }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="/"><img src="/assets/img/icon.png" alt="" width="26" height="26">Taperwise</a>
+  <div class="nav-links">
+    <a href="/#plan">Plan</a>
+    <a href="/#run">Run</a>
+    <a href="/#race">Race</a>
+    <a href="/#maps">Maps</a>
+    <a href="/#watch">Watch</a>
+    <a href="/#insights">Insights</a>
+    <a href="/#coach">Coach</a>
+    <a href="/privacy/">Privacy</a>
+  </div>
+  <span class="nav-cta" data-t="soon">Coming soon</span>
+</nav>
+
+<main class="hero dark lost">
+  <div class="hero-copy">
+    <p class="eyebrow" data-t="eyebrow">404 · Off route</p>
+    <h1 data-t="title">You ran off the map.<br><span class="grad">Let’s get you home.</span></h1>
+    <p class="lead" data-t="lead">This page isn’t on any route we know, online or offline. One tap and you’re back at the start.</p>
+    <div class="cta">
+      <a class="store home-btn" href="/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2.5 11h2.8v9h5.2v-5.5h3V20h5.2v-9h2.8L12 3Z"/></svg><span data-t="home">Get me home</span></a>
+      <a class="more" href="mailto:apps@bitspire.ch" data-t="support">Email support</a>
+    </div>
+  </div>
+
+  <div class="lost-card" aria-hidden="true">
+    <img src="/assets/img/lake-map.jpg" alt="" width="900" height="1320">
+    <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+      <path class="trail-ghost" d="M120 320 C200 345 300 350 380 320 S520 250 500 190 S400 150 330 205 S190 300 120 320"/>
+      <path class="home-line" d="M462 98 L120 320"/>
+      <path class="trail" pathLength="1" d="M120 320 C170 305 205 290 230 255 S290 225 320 228 S370 190 395 160 S440 120 462 98"/>
+      <path class="dead-end" d="M478 72 l22 22 m0 -22 l-22 22"/>
+      <circle class="start" cx="120" cy="320" r="11"/>
+      <circle class="runner-halo" cx="462" cy="98" r="24"/>
+      <circle class="runner" cx="462" cy="98" r="10"/>
+    </svg>
+    <div class="compass">
+      <span class="compass-ico"><svg viewBox="0 0 24 24"><path d="M12 2 4 20l8-4 8 4-8-18Z" fill="currentColor"/></svg></span>
+      <span><small data-t="tostart">To start</small><strong>404 m</strong></span>
+    </div>
+    <span class="attribution">© OpenStreetMap contributors</span>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-top">
+    <a class="brand" href="/"><img src="/assets/img/icon.png" alt="" width="24" height="24">Taperwise</a>
+    <div class="footer-links">
+      <a href="/privacy/" data-t="privacy">Privacy policy</a>
+      <a href="/legal/" data-t="legal">Legal notice</a>
+      <a href="mailto:apps@bitspire.ch" data-t="mail">Support: apps@bitspire.ch</a>
+    </div>
+  </div>
+  <p class="fine">Map data © OpenStreetMap contributors. Apple, the Apple logo, iPhone, Apple Watch, Apple Health and Apple Intelligence are trademarks of Apple Inc., registered in the U.S. and other countries. © 2026 BitSpire GmbH.</p>
+</footer>
+
+<script>
+// site.js is left out on purpose: its first-visit language redirect would navigate away from this page
+const t = {
+  de: { soon: 'Demnächst', eyebrow: '404 · Abseits der Strecke', title: 'Von der Karte gelaufen.<br><span class="grad">Wir bringen dich heim.</span>', lead: 'Diese Seite liegt auf keiner Strecke, die wir kennen, weder online noch offline. Ein Tipp, und du bist zurück am Start.', home: 'Heimweg', support: 'Support schreiben', tostart: 'Zum Start', privacy: 'Datenschutzerklärung', legal: 'Impressum' },
+  fr: { soon: 'Bientôt', eyebrow: '404 · Hors parcours', title: 'Tu es sorti de la carte.<br><span class="grad">On te ramène.</span>', lead: 'Cette page n’est sur aucun parcours connu, en ligne ou hors ligne. Un tap et tu es de retour au départ.', home: 'Retour', support: 'Écrire à l’assistance', tostart: 'Vers le départ', privacy: 'Politique de confidentialité', legal: 'Mentions légales', mail: 'Assistance : apps@bitspire.ch' },
+  it: { soon: 'In arrivo', eyebrow: '404 · Fuori percorso', title: 'Sei uscito dalla mappa.<br><span class="grad">Ti riportiamo a casa.</span>', lead: 'Questa pagina non è su nessun percorso che conosciamo, online o offline. Un tocco e sei di nuovo alla partenza.', home: 'Torna a casa', support: 'Scrivi al supporto', tostart: 'Alla partenza', privacy: 'Informativa sulla privacy', legal: 'Note legali', mail: 'Supporto: apps@bitspire.ch' },
+  es: { soon: 'Muy pronto', eyebrow: '404 · Fuera de ruta', title: 'Te saliste del mapa.<br><span class="grad">Te llevamos a casa.</span>', lead: 'Esta página no está en ninguna ruta que conozcamos, con o sin conexión. Un toque y vuelves al inicio.', home: 'Volver a casa', support: 'Escribir a soporte', tostart: 'Al inicio', privacy: 'Política de privacidad', legal: 'Aviso legal', mail: 'Soporte: apps@bitspire.ch' },
+  'pt-BR': { soon: 'Em breve', eyebrow: '404 · Fora da rota', title: 'Você saiu do mapa.<br><span class="grad">A gente te leva para casa.</span>', lead: 'Esta página não está em nenhuma rota que conhecemos, online ou offline. Um toque e você volta ao início.', home: 'Voltar para casa', support: 'Falar com o suporte', tostart: 'Até o início', privacy: 'Política de privacidade', legal: 'Aviso legal', mail: 'Suporte: apps@bitspire.ch' },
+  nl: { soon: 'Binnenkort', eyebrow: '404 · Van de route', title: 'Je bent van de kaart gelopen.<br><span class="grad">We brengen je thuis.</span>', lead: 'Deze pagina ligt op geen enkele route die we kennen, online of offline. Eén tik en je bent terug bij de start.', home: 'Naar huis', support: 'Mail support', tostart: 'Naar start', privacy: 'Privacybeleid', legal: 'Juridische kennisgeving' },
+  ja: { soon: '近日公開', eyebrow: '404 · ルート外', title: '地図の外に出てしまいました。<br><span class="grad">スタートへ戻りましょう。</span>', lead: 'このページは、オンラインでもオフラインでも、どのルートにもありません。ワンタップでスタート地点に戻れます。', home: 'とにかく帰る', support: 'サポートに連絡', tostart: 'スタートまで', privacy: 'プライバシーポリシー', legal: '法的通知', mail: 'サポート：apps@bitspire.ch' },
+};
+const supported = Object.keys(t);
+const fromPath = supported.find(c => location.pathname.toLowerCase().startsWith(`/${c.toLowerCase()}/`));
+let saved = null;
+try { saved = localStorage.getItem('lang'); } catch {}
+function preferred() {
+  for (const tag of navigator.languages) {
+    const base = tag.split('-')[0].toLowerCase();
+    if (base === 'en') return null;
+    const match = supported.find(c => c.toLowerCase() === tag.toLowerCase()) || supported.find(c => c.split('-')[0] === base);
+    if (match) return match;
+  }
+  return null;
+}
+const lang = fromPath || (saved === 'en' ? null : supported.includes(saved) ? saved : preferred());
+if (lang) {
+  document.documentElement.lang = lang;
+  for (const el of document.querySelectorAll('[data-t]')) {
+    const s = t[lang][el.dataset.t];
+    if (s) el.innerHTML = s;
+  }
+  for (const a of document.querySelectorAll('a[href="/"]')) a.href = `/${lang.toLowerCase()}/`;
+}
+</script>
+</body>
+</html>

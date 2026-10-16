@@ -103,8 +103,8 @@ h3 { font-size: clamp(24px, 2.4vw, 32px); line-height: 1.12; font-weight: 700; l
 .dev-watch { width: calc(var(--phone) * .604); }
 
 /* reveal: text slides, devices only fade (Apple bezels must not move or tilt) */
-.reveal { opacity: 0; transform: translateY(32px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
-.fade { opacity: 0; transition: opacity 1.2s ease; }
+.js .reveal { opacity: 0; transform: translateY(32px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
+.js .fade { opacity: 0; transition: opacity 1.2s ease; }
 .reveal.in, .fade.in { opacity: 1; transform: none; }
 
 /* statement */
@@ -342,7 +342,7 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .reveal, .fade { opacity: 1; transform: none; transition: none; }
+  .js .reveal, .js .fade { opacity: 1; transform: none; transition: none; }
   .runner-halo, .coach-card::before { animation: none; }
 }
 
