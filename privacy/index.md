@@ -6,7 +6,7 @@ Source: https://taperwise.run/privacy/
 
 ## Privacy Policy
 
-Effective 13 October 2026
+Effective 16 October 2026
 
 Taperwise has no account, no servers, no analytics and no advertising. Your health and training data stay on your iPhone and Apple Watch. We, the developer, never receive any of it.
 
@@ -24,8 +24,9 @@ If you choose to share diagnostics with app developers in your device settings, 
 
 | Data | Why | Where it stays |
 |---|---|---|
-| Apple Health: workouts and routes, heart rate, resting heart rate, HRV, VO₂max, distance, active energy, running speed, power and form metrics, steps, sleep | Build and adapt your plan, show history, readiness and insights | Apple Health on your devices. Taperwise reads it when you open the app and never copies raw samples elsewhere. |
-| Runs you record | Saved as workouts with route, distance, heart rate and energy | Apple Health |
+| Apple Health: workouts and routes, heart rate, beat-to-beat heart data recorded during sleep, resting heart rate, HRV, VO₂max, distance, active energy, running speed, power and form metrics, steps, sleep, workout effort and your heart rate zone settings | Build and adapt your plan, show history, readiness and insights | Apple Health on your devices. Taperwise reads it when you open the app and never copies raw samples elsewhere. |
+| Runs you record | Saved as workouts with route, distance, heart rate, energy and effort, and with your heart rate zones when you use Taperwise zones | Apple Health |
+| Barometer (Motion & Fitness) | Measure climbs and grade during a run | Used only while you run; the elevation becomes part of the workout |
 | Location | Record your route and show your position on the map during a run | In the workout route in Apple Health |
 | Plan, settings, derived metrics, imported files | Your training plan, profile, hydration profile and runs you import from GPX, TCX, FIT or Strava files | App storage on your iPhone and Apple Watch |
 | Music | Show and control what is playing during a run | Not stored |

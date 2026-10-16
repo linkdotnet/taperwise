@@ -24,6 +24,8 @@ Suas corridas, sua frequência cardíaca e seu plano ficam no seu iPhone e no Ap
 
 8 idiomas
 
+### Veja os destaques.
+
 Plano
 
 ### Feito para você. Ajustado toda manhã.
@@ -48,15 +50,7 @@ HRV, frequência cardíaca de repouso, sono e carga de treino decidem se hoje é
 
 #### Força que mantém você correndo.
 
-Duas sessões curtas por semana de agachamento búlgaro, elevação de panturrilha e step-up, os movimentos ligados a menos lesões na corrida. Um circuito guiado conta séries e descanso no iPhone ou no Apple Watch e salva no app Saúde.
-
-Corrida
-
-### 9 km pelo Lago de Zurique. Role para correr.
-
-© OpenStreetMap contributors
-
-Corrida de ritmo de demonstração pelo caminho do lago: Bürkliplatz, Arboretum, Mythenquai e Wollishofen, ida e volta.
+Duas sessões curtas por semana de agachamento búlgaro, elevação de panturrilha e step-up, os movimentos ligados a menos lesões na corrida. Um circuito guiado conta séries e descanso no iPhone ou no Apple Watch e salva no Apple Saúde.
 
 Ao vivo no iPhone
 
@@ -82,6 +76,14 @@ Defina um tempo-alvo, ou deixe seu treino prever um, e o Taperwise o transforma 
 
 - **Adiantado ou atrasado.** Ao vivo contra o seu plano, para que o primeiro quilômetro fique lento.
 
+Dia da prova
+
+### 42,195 km ao longo do Lago de Zurique. Role para correr.
+
+© OpenStreetMap contributors
+
+Trajeto traçado a partir da Zürich Marathon 2026: Quaibrücke, centro da cidade, a margem direita até a virada em Meilen e de volta à Sechseläutenplatz. Corrida de demonstração com meta de 3:30, ritmo do Race Pilot e um gel a cada 5 km.
+
 Mapas
 
 ### Água. Banheiros. O próximo ônibus para casa.
@@ -104,7 +106,7 @@ Apple Watch
 
 ### Deixe o celular em casa.
 
-O relógio faz o treino sozinho, sem celular e sem rede. Páginas organizadas como o app Treino: métricas, tiros, zonas, gráfico, elevação, nutrição e Tocando Agora. Pause com o botão de Ação e faça seu circuito de força direto no pulso.
+O relógio faz o treino sozinho, sem celular e sem rede. Páginas organizadas como o app Treino: métricas, tiros, zonas, gráfico, elevação, nutrição e Tocando Agora. Defina metas com o Digital Crown, inicie e pause com o botão de Ação no Apple Watch Ultra, e faça seu circuito de força direto no pulso.
 
 Depois da corrida
 
@@ -118,11 +120,11 @@ Insights
 
 #### Tendência de condicionamento
 
-Seu VDOT em 26 semanas, com estimativas para 10K, meia e maratona e uma faixa para o dia da prova.
+Seu VDOT semana a semana, com estimativas para 10K, meia e maratona e uma faixa para o dia da prova.
 
 #### Recuperação
 
-HRV, frequência cardíaca de repouso e sono em comparação com a sua própria base, com os motivos explicados.
+HRV noturno, frequência cardíaca em repouso e sono comparados com sua faixa habitual, com os motivos explicados.
 
 #### Carga de treino
 
@@ -130,7 +132,7 @@ Forma, fadiga e frescor, além da razão entre carga aguda e crônica.
 
 #### Volume semanal
 
-26 semanas de quilômetros, longão e o resto da semana.
+Quilômetros por semana, o longão, o resto da semana e com que frequência você corre.
 
 #### Leve vs. forte
 
@@ -152,6 +154,20 @@ Cada dia das últimas 26 semanas em uma única grade.
 
 A mesma carga todo dia aumenta o risco. Alterne dias fortes e leves.
 
+Apple Saúde
+
+### Construído sobre o Apple Saúde. Configure uma vez.
+
+O Taperwise lê e grava no Apple Saúde, então suas zonas, esforço e treinos batem com o que o Fitness e o app Treino mostram. Nada para configurar duas vezes, nada guardado em outro lugar.
+
+- **Suas zonas de frequência cardíaca.** No iOS 27, o Taperwise usa as zonas que você define no Apple Saúde ou as automáticas da Apple. Prefere as do Taperwise? Elas são gravadas em cada treino, então o Fitness mostra as mesmas.
+
+- **HRV noturno.** A prontidão usa o RMSSD das medições batimento a batimento do seu Apple Watch durante o sono, comparado com a sua faixa habitual.
+
+- **Altitude pelo barômetro.** iPhone e Apple Watch medem as subidas com o barômetro, ajustado uma vez pelo GPS, para um ritmo ajustado à inclinação mais estável.
+
+- **Compartilhou só dados recentes?** Recuperação e Carga de treino avisam e mostram quanto tempo leva para uma base completa.
+
 Apple Intelligence
 
 ### Um coach que nunca sai do seu iPhone.
@@ -170,7 +186,7 @@ E mais
 
 #### Previsão de prova honesta
 
-~3:34
+~3:35
 
 Sua estimativa de maratona combina sua forma de prova com o treino que você de fato fez, e aparece como uma faixa para o dia da prova com um veredito sincero: “no caminho”, “ambiciosa” ou “irreal”.
 
@@ -236,6 +252,26 @@ Sem feed, sem seguidores, sem rankings. O Taperwise foi feito sem servidor de pr
 
 [Leia a política de privacidade](https://taperwise.run/privacy/)
 
+### Compatibilidade
+
+iPhone iOS 26 ou posterior. Registra corridas sozinho, com ou sem Apple Watch. As zonas de frequência cardíaca do Apple Saúde precisam do iOS 27.
+
+Apple Watch watchOS 26 ou posterior, pareado com o seu iPhone. Inicie e pause com o botão de Ação no Apple Watch Ultra.
+
+Apple Intelligence As notas do coach precisam de um iPhone compatível com o Apple Intelligence, com ele ativado. Todo o resto funciona sem ele.
+
+Idiomas Inglês, alemão, francês, italiano, espanhol, português do Brasil, holandês e japonês.
+
 [Política de privacidade](https://taperwise.run/privacy/) [Aviso legal](https://taperwise.run/legal/) [Suporte: apps@bitspire.ch](mailto:apps@bitspire.ch)
+
+- Lauersen, Bertelsen e Andersen, “The effectiveness of exercise interventions to prevent sports injuries”, British Journal of Sports Medicine, 2014: o treino de força reduziu as lesões esportivas a menos de um terço.
+
+- As estimativas de prova usam o VDOT de Jack Daniels; a estimativa da maratona também considera seu volume e ritmo de treino, segundo Tanda (2011). Estimativas, não promessas.
+
+- O RMSSD vem dos dados cardíacos batimento a batimento do Apple Watch registrados durante o sono. Sem noites suficientes, o Taperwise usa o HRV que o Apple Saúde guarda (SDNN) e nunca mistura os dois.
+
+- As zonas de frequência cardíaca do Apple Saúde exigem iOS 27. No iOS 26, o Taperwise usa as próprias zonas, a partir da sua frequência cardíaca máxima e em repouso.
+
+- Trajeto traçado sobre as ruas do OpenStreetMap a partir de descrições públicas da Zürich Marathon 2026 e ajustado a 42,195 km; altitude do EU-DEM. Uma corrida de demonstração, não o arquivo oficial do percurso. O Taperwise não é afiliado à Zürich Marathon.
 
 Prontidão, previsões e valores calóricos são estimativas, não conselho médico. Dados do mapa © OpenStreetMap contributors. Apple, o logotipo da Apple, iPhone, Apple Watch, Saúde e Apple Intelligence são marcas da Apple Inc., registradas nos EUA e em outros países. © 2026 BitSpire GmbH.

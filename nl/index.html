@@ -39,10 +39,9 @@
     <a data-i18n="nav.plan" href="#plan">Plan</a>
     <a data-i18n="nav.run" href="#run">Run</a>
     <a data-i18n="nav.race" href="#race">Wedstrijd</a>
-    <a data-i18n="nav.maps" href="#maps">Kaarten</a>
     <a data-i18n="nav.watch" href="#watch">Watch</a>
     <a data-i18n="nav.insights" href="#insights">Inzichten</a>
-    <a data-i18n="nav.coach" href="#coach">Coach</a>
+    <a data-i18n="nav.health" href="#health">Gezondheid</a>
     <a data-i18n="nav.privacy" href="../privacy/">Privacy</a>
   </div>
   <span data-i18n="nav.soon" class="nav-cta">Binnenkort</span>
@@ -60,7 +59,7 @@
   </div>
   <div class="hero-devices fade">
     <video class="dev-phone" src="../assets/video/run.mp4" poster="../assets/video/run-poster.webp" autoplay muted loop playsinline width="720" height="1472" data-i18n-attr="aria-label:hero.video" aria-label="Taperwise live run op iPhone: de route op de kaart en een tempo van 4:11 per km binnen de doelband"></video>
-    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise op Apple Watch Ultra: tempo 4:10 per km op koers, hartslag 162">
+    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise op Apple Watch: tempo 4:10 per km op koers, hartslag 162">
   </div>
 </header>
 
@@ -74,6 +73,47 @@
   </dl>
 </section>
 
+<section class="dark highlights" aria-labelledby="hl-title">
+  <div class="hl-head reveal">
+    <h2 id="hl-title" data-i18n="hl.title">Bekijk de highlights.</h2>
+  </div>
+  <div class="hl-track" data-hl>
+    <a class="hl-card hl-plan" href="#plan">
+      <p data-i18n="hl.plan"><strong>Een plan dat meeluistert.</strong> Hartslagvariabiliteit, slaap en belasting bepalen de run van vandaag.</p>
+      <img src="../assets/img/phone-today.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-run" href="#run">
+      <p data-i18n="hl.run"><strong>Grote cijfers. Duidelijke doelen.</strong> Tempo, intervallen en zones in één oogopslag, zonder horloge.</p>
+      <img src="../assets/img/phone-run-metrics.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-race" href="#race">
+      <p data-i18n="hl.race"><strong>Race Pilot.</strong> Een tempoband per 5 km, gels per kilometer en live voor of achter.</p>
+      <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-watch" href="#watch">
+      <p data-i18n="hl.watch"><strong>Laat je telefoon thuis.</strong> De hele run op Apple Watch, met offline kaarten.</p>
+      <img class="hl-watch-img" src="../assets/img/watch-metrics.webp" width="440" height="704" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-insights" href="#insights">
+      <p data-i18n="hl.insights"><strong>Zie je conditie groeien.</strong> VDOT, nachtelijke HRV, trainingsbelasting en zeven andere inzichten.</p>
+      <img src="../assets/img/phone-recovery.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-health" href="#health">
+      <p data-i18n="hl.health"><strong>Je zones uit Gezondheid.</strong> Dezelfde hartslagzones als Fitness en de app Workout.</p>
+      <img src="../assets/img/phone-settings-zones.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-private" href="#private">
+      <p data-i18n="hl.private"><strong>Geen account. Geen servers.</strong> Je runs blijven op je iPhone, je Apple Watch en in Gezondheid.</p>
+      <span class="hl-lock" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 1 1 6 0v3H9Z"/></svg></span>
+    </a>
+  </div>
+  <div class="hl-nav">
+    <button class="hl-arrow" type="button" data-step="-1" data-i18n-attr="aria-label:hl.prev" aria-label="Vorige"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg></button>
+    <div class="hl-dots" role="tablist"></div>
+    <button class="hl-arrow" type="button" data-step="1" data-i18n-attr="aria-label:hl.next" aria-label="Volgende"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+
 <section class="light story-wrap" id="plan">
   <div class="section-head reveal">
     <p data-i18n="plan.eyebrow" class="eyebrow">Plan</p>
@@ -82,7 +122,7 @@
   <div class="story">
     <div class="story-text">
       <article class="step" data-shot="0">
-        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise-schema: marathon over 76 dagen, doeltijd, schatting wedstrijddag 3:24 tot 3:40, op koers met 200,9 van 203 km" loading="lazy">
+        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise-schema: marathon over 76 dagen, finishdoel, schatting wedstrijddag 3:22 tot 3:38, op koers met 209,9 van 229 km" loading="lazy">
         <h3 data-i18n="plan.adapt.title">Een schema dat start waar jij bent.</h3>
         <p data-i18n="plan.adapt.text">Taperwise leest je loophistorie uit Apple Health of importeert GPX-, TCX-, FIT- en Strava-exports. Daarna bouwt het een schema van 12 tot 30 weken voor 5K, 10K, halve marathon of marathon: Basis, Opbouw, Piek en Taper. Je doel, je huidige conditie en een eerlijke wedstrijdtijd staan naast elkaar.</p>
         <ul class="ticks">
@@ -97,14 +137,14 @@
         <p data-i18n="plan.calendar.text">Bekijk het schema per week of per maand. Gevulde dagen zijn runs die je hebt gedaan, gekleurde stipjes zijn wat er aankomt. Tik op een training voor de stappen, doeltempo's, hartslagzone en bij lange duurlopen een drink- en gelplan.</p>
       </article>
       <article class="step" data-shot="2">
-        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Vandaag: makkelijke run, 10,9 km, neem het rustig, verminder het volume van vandaag met 30 tot 50%, en een coachnotitie" loading="lazy">
+        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Vandaag: rustige run, 7,8 km op 5:41 tot 6:15 per km, neem het rustig, verlaag het volume van vandaag met 30 tot 50% en een coachnotitie" loading="lazy">
         <h3 data-i18n="plan.today.title">Luistert naar je lichaam.</h3>
         <p data-i18n="plan.today.text">Hartslagvariabiliteit, rusthartslag, slaap en trainingsbelasting bepalen of vandaag groen, geel of rood is. Een gele ochtend kort de training in, drie rode dagen brengen een deload, en gemiste runs worden nooit ingehaald. Benen die pijn doen of verkouden? Laat het Taperwise weten, dan pauzeert het schema en bouwt het je rustig weer op.</p>
       </article>
       <article class="step" data-shot="3">
         <img class="step-phone" src="../assets/img/phone-strength.webp" width="720" height="1472" data-i18n-attr="alt:plan.strength.alt" alt="Kracht: split squat, kuitheffen, eenbenige Romanian deadlift en step-up, ongeveer 27 minuten" loading="lazy">
         <h3 data-i18n="plan.strength.title">Kracht die je blijft laten lopen.</h3>
-        <p data-i18n="plan.strength.text">Twee korte sessies per week met split squats, kuitheffen en step-ups, de oefeningen die samenhangen met minder loopblessures. Een begeleid circuit telt sets en rust op iPhone of Apple Watch en slaat alles op in de app Gezondheid.</p>
+        <p data-i18n="plan.strength.text">Twee korte sessies per week met split squats, kuitheffen en step-ups, de oefeningen die samenhangen met minder loopblessures.<sup><a href="#fn1">1</a></sup> Een begeleid circuit telt sets en rust op iPhone of Apple Watch en slaat alles op in de app Gezondheid.</p>
       </article>
     </div>
     <div class="story-device">
@@ -116,36 +156,7 @@
   </div>
 </section>
 
-<section class="dark replay" id="run" data-replay>
-  <div class="replay-sticky">
-    <div class="replay-head">
-      <p data-i18n="run.eyebrow" class="eyebrow">Run</p>
-      <h2 data-i18n="run.title">9 km langs het Zürichmeer.<br><span class="soft">Scrol om te lopen.</span></h2>
-    </div>
-    <div class="replay-stage">
-      <div class="replay-map">
-        <img src="../assets/img/lake-map.jpg" alt="" width="900" height="1320" loading="lazy">
-        <svg viewBox="0 0 900 1320" aria-hidden="true">
-          <path class="trail-ghost"></path>
-          <path class="trail"></path>
-          <circle class="runner-halo" r="24"></circle>
-          <circle class="runner" r="10"></circle>
-        </svg>
-        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap contributors</span>
-      </div>
-      <dl class="hud">
-        <div><dt data-i18n="hud.time">Tijd</dt><dd data-hud="time">0:00</dd></div>
-        <div><dt data-i18n="hud.distance">Afstand</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
-        <div><dt data-i18n="hud.pace">Tempo</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
-        <div class="hr"><dt data-i18n="hud.heartrate">Hartslag</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
-        <div><dt data-i18n="hud.elevation">Hoogte</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
-      </dl>
-    </div>
-    <p data-i18n="run.note" class="replay-note">Demo-tempoloop langs het meer: Bürkliplatz, Arboretum, Mythenquai en Wollishofen, heen en terug.</p>
-  </div>
-</section>
-
-<section class="dark live">
+<section class="dark live" id="run">
   <div class="section-head reveal">
     <p data-i18n="live.eyebrow" class="eyebrow green">Live op iPhone</p>
     <h2 data-i18n="live.title">Grote cijfers.<br><span class="soft">Duidelijke doelen.</span></h2>
@@ -169,7 +180,7 @@
     <div class="race-copy reveal">
       <p data-i18n="race.eyebrow" class="eyebrow amber">Race Pilot</p>
       <h2 data-i18n="race.title">Wedstrijddag,<br><span class="soft">tot op de seconde gepland.</span></h2>
-      <p data-i18n="race.lead" class="lead">Stel een doeltijd in, of laat je training er een voorspellen, en Taperwise maakt er een tempoband van per 5 km. Importeer de GPX van de route en elke kilometer past zich aan de klimmetjes aan.</p>
+      <p data-i18n="race.lead" class="lead">Stel een doeltijd in, of laat je training er een voorspellen,<sup><a href="#fn2">2</a></sup> en Taperwise maakt er een tempoband van per 5 km. Importeer de GPX van de route en elke kilometer past zich aan de klimmetjes aan.</p>
       <ul class="facts">
         <li data-i18n="race.fact1"><strong>Koolhydraten laden en wedstrijdochtend.</strong> Hoeveel gram per dag in de twee dagen ervoor, en wat je eet voor de start.</li>
         <li data-i18n="race.fact2"><strong>Gels per kilometer.</strong> Verdeeld over de wedstrijd, met een herinnering aan je pols.</li>
@@ -178,8 +189,39 @@
     </div>
     <div class="race-phones fade">
       <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" data-i18n-attr="alt:race.pilot.alt" alt="Wedstrijdplan: marathon, doel 3:30:00, tempoband 4:59 tot 5:05 per km met splits per 5 km" loading="lazy">
-      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Wedstrijdplan vervolg: splits tot de finish op 3:30:00, 60 g koolhydraten per uur, gels per kilometer en de checklist voor de wedstrijdweek" loading="lazy">
+      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Racepleen vervolg: 60 g koolhydraten per uur, gels per kilometer, de checklist van de wedstrijdweek en GPX-import van de route" loading="lazy">
     </div>
+  </div>
+</section>
+
+<section class="dark replay" id="marathon" data-replay>
+  <div class="replay-sticky">
+    <div class="replay-head">
+      <p data-i18n="marathon.eyebrow" class="eyebrow amber">Wedstrijddag</p>
+      <h2 data-i18n="marathon.title">42,195 km langs het Zürichmeer.<br><span class="soft">Scroll om hem te lopen.</span></h2>
+    </div>
+    <div class="replay-stage">
+      <div class="replay-map">
+        <img src="../assets/img/zurich-marathon.jpg" alt="" width="1350" height="1980" loading="lazy">
+        <svg viewBox="0 0 1350 1980" aria-hidden="true">
+          <path class="trail-ghost"></path>
+          <g class="gels"></g>
+          <path class="trail"></path>
+          <circle class="runner-halo" r="34"></circle>
+          <circle class="runner" r="14"></circle>
+        </svg>
+        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap contributors</span>
+      </div>
+      <dl class="hud">
+        <div><dt data-i18n="hud.time">Tijd</dt><dd data-hud="time">0:00</dd></div>
+        <div><dt data-i18n="hud.distance">Afstand</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
+        <div><dt data-i18n="hud.pace">Tempo</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
+        <div class="hr"><dt data-i18n="hud.heartrate">Hartslag</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
+        <div class="pilot"><dt data-i18n="hud.pilot">Race Pilot</dt><dd><span data-hud="pilot">0:00</span><small data-hud="pilotWord" data-i18n-attr="data-ahead:hud.ahead;data-behind:hud.behind" data-ahead="voor" data-behind="achter">ahead</small></dd></div>
+        <div><dt data-i18n="hud.elevation">Hoogte</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
+      </dl>
+    </div>
+    <p data-i18n="marathon.note" class="replay-note">Route gevolgd van de Zürich Marathon 2026: Quaibrücke, het stadscentrum, de rechteroever tot het keerpunt in Meilen en terug naar Sechseläutenplatz. Demorace met een doel van 3:30, Race Pilot-tempo en een gel per 5 km.<sup><a href="#fn5">5</a></sup></p>
   </div>
 </section>
 
@@ -208,7 +250,7 @@
   <div class="section-head reveal">
     <p data-i18n="watch.eyebrow" class="eyebrow">Apple Watch</p>
     <h2 data-i18n="watch.title">Laat de telefoon thuis.</h2>
-    <p data-i18n="watch.lead" class="lead">Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Pauzeer met de actieknop en doe je krachtcircuit gewoon op je pols.</p>
+    <p data-i18n="watch.lead" class="lead">Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Stel doelen in met de Digital Crown, start en pauzeer met de actieknop op Apple Watch Ultra, en doe je krachtcircuit gewoon op je pols.</p>
   </div>
   <div class="watch-row fade">
     <figure><img src="../assets/img/watch-start.webp" width="440" height="704" data-i18n-attr="alt:watch.start.alt" alt="Startscherm: intervallen van vandaag van 8 km, neem het rustig, en Start" loading="lazy"><figcaption data-i18n="watch.start.cap">Training van vandaag</figcaption></figure>
@@ -217,6 +259,7 @@
     <figure><img src="../assets/img/watch-zones.webp" width="440" height="704" data-i18n-attr="alt:watch.zones.alt" alt="Hartslag 162 in zone 4" loading="lazy"><figcaption data-i18n="watch.zones.cap">Zones</figcaption></figure>
     <figure><img src="../assets/img/watch-chart.webp" width="440" height="704" data-i18n-attr="alt:watch.chart.alt" alt="Tempo en hartslag over de hele run" loading="lazy"><figcaption data-i18n="watch.chart.cap">Grafiek</figcaption></figure>
     <figure><img src="../assets/img/watch-fuel.webp" width="440" height="704" data-i18n-attr="alt:watch.fuel.alt" alt="Brandstofpagina: vochtschatting met de knoppen Ik dronk en Gel" loading="lazy"><figcaption data-i18n="watch.fuel.cap">Brandstof</figcaption></figure>
+    <figure><img src="../assets/img/watch-crown.webp" width="440" height="704" data-i18n-attr="alt:watch.crown.alt" alt="Maximale hartslag ingesteld op 165 bpm met de Digital Crown en de knoppen min en plus" loading="lazy"><figcaption data-i18n="watch.crown.cap">Doelen met de Digital Crown</figcaption></figure>
   </div>
 </section>
 
@@ -229,7 +272,7 @@
   <div class="phone-row fade">
     <figure><img src="../assets/img/phone-detail.webp" width="720" height="1472" data-i18n-attr="alt:after.detail.alt" alt="Rundetails: 7,75 km met kaart, hartbelasting 7,9, cadans 170 spm, tempo gecorrigeerd voor hoogte 5:35 en ontkoppeling 3,2%" loading="lazy"><figcaption data-i18n="after.detail.cap">De cijfers die tellen</figcaption></figure>
     <figure><img src="../assets/img/phone-breakdown.webp" width="720" height="1472" data-i18n-attr="alt:after.breakdown.alt" alt="Loopvorm en een overzicht, teruggeschoven naar 18 minuten met tempo en hartslag" loading="lazy"><figcaption data-i18n="after.breakdown.cap">Loopvorm en overzicht</figcaption></figure>
-    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Kaart van elke run rond het Zürichmeer" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Overal waar je hebt gelopen</figcaption></figure>
+    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Runkaart rond het Zürichmeer, straten van blauw tot rood gekleurd naar hoe vaak je ze liep" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Je meest gelopen straten, in kleur</figcaption></figure>
   </div>
 </section>
 
@@ -239,23 +282,43 @@
       <p data-i18n="insights.eyebrow" class="eyebrow purple">Inzichten</p>
       <h2 data-i18n="insights.title">Zie je conditie groeien.</h2>
       <ol class="ins-list">
-        <li data-at="295" class="on"><h3 data-i18n="insights.fitness.title">Conditietrend</h3><p data-i18n="insights.fitness.text">Je VDOT over 26 weken, met schattingen voor 10K, halve marathon en marathon en een wedstrijdtijdbereik.</p></li>
-        <li data-at="851"><h3 data-i18n="insights.recovery.title">Herstel</h3><p data-i18n="insights.recovery.text">HRV, rusthartslag en slaap naast je eigen basislijn, met de redenen erbij.</p></li>
-        <li data-at="1771"><h3 data-i18n="insights.load.title">Trainingsbelasting</h3><p data-i18n="insights.load.text">Conditie, vermoeidheid en vorm, plus de verhouding tussen acute en chronische belasting.</p></li>
-        <li data-at="2268"><h3 data-i18n="insights.volume.title">Wekelijks volume</h3><p data-i18n="insights.volume.text">26 weken aan kilometers, de lange duurloop en de rest van de week.</p></li>
-        <li data-at="2734"><h3 data-i18n="insights.easy.title">Makkelijk vs. zwaar</h3><p data-i18n="insights.easy.text">Hoe dicht je bij 80% makkelijk lopen blijft.</p></li>
-        <li data-at="2965"><h3 data-i18n="insights.form.title">Loopvorm</h3><p data-i18n="insights.form.text">Cadans, grondcontact, pashoogte, verticale oscillatie en vermogen, week voor week.</p></li>
-        <li data-at="3474"><h3 data-i18n="insights.aerobic.title">Aerobe efficiëntie</h3><p data-i18n="insights.aerobic.text">Tempo bij dezelfde hartslag over maanden, zodat je de motor ziet groeien.</p></li>
-        <li data-at="4022"><h3 data-i18n="insights.consistency.title">Consistentie</h3><p data-i18n="insights.consistency.text">Elke dag van de afgelopen 26 weken op één raster.</p></li>
-        <li data-at="4413"><h3 data-i18n="insights.monotony.title">Monotonie & belasting</h3><p data-i18n="insights.monotony.text">Dezelfde belasting elke dag verhoogt het risico. Wissel zware en makkelijke dagen af.</p></li>
+        <li data-at="293" class="on"><h3 data-i18n="insights.fitness.title">Conditietrend</h3><p data-i18n="insights.fitness.text">Je VDOT week na week, met schattingen voor 10K, halve marathon en marathon en een bandbreedte voor wedstrijddag.</p></li>
+        <li data-at="849"><h3 data-i18n="insights.recovery.title">Herstel</h3><p data-i18n="insights.recovery.text">Nachtelijke HRV, rusthartslag en slaap naast je gebruikelijke bereik, met de redenen erbij.</p></li>
+        <li data-at="1769"><h3 data-i18n="insights.load.title">Trainingsbelasting</h3><p data-i18n="insights.load.text">Conditie, vermoeidheid en vorm, plus de verhouding tussen acute en chronische belasting.</p></li>
+        <li data-at="2266"><h3 data-i18n="insights.volume.title">Wekelijks volume</h3><p data-i18n="insights.volume.text">Kilometers per week, de lange duurloop, de rest van de week en hoe vaak je loopt.</p></li>
+        <li data-at="2732"><h3 data-i18n="insights.easy.title">Makkelijk vs. zwaar</h3><p data-i18n="insights.easy.text">Hoe dicht je bij 80% makkelijk lopen blijft.</p></li>
+        <li data-at="2963"><h3 data-i18n="insights.form.title">Loopvorm</h3><p data-i18n="insights.form.text">Cadans, grondcontact, pashoogte, verticale oscillatie en vermogen, week voor week.</p></li>
+        <li data-at="3471"><h3 data-i18n="insights.aerobic.title">Aerobe efficiëntie</h3><p data-i18n="insights.aerobic.text">Tempo bij dezelfde hartslag over maanden, zodat je de motor ziet groeien.</p></li>
+        <li data-at="4021"><h3 data-i18n="insights.consistency.title">Consistentie</h3><p data-i18n="insights.consistency.text">Elke dag van de afgelopen 26 weken op één raster.</p></li>
+        <li data-at="4411"><h3 data-i18n="insights.monotony.title">Monotonie & belasting</h3><p data-i18n="insights.monotony.text">Dezelfde belasting elke dag verhoogt het risico. Wissel zware en makkelijke dagen af.</p></li>
       </ol>
     </div>
     <div class="ins-phone">
       <div class="ins-screen">
-        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4988" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Inzichten: conditietrend, herstel, trainingsbelasting, wekelijks volume, makkelijk vs. zwaar, loopvorm, aerobe efficiëntie, consistentie, monotonie en belasting" loading="lazy">
+        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4980" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Inzichten: conditietrend, herstel, trainingsbelasting, wekelijks volume, makkelijk vs. zwaar, loopvorm, aerobe efficiëntie, consistentie, monotonie en belasting" loading="lazy">
         <img class="ins-status" src="../assets/img/insights-status.webp" width="640" height="80" alt="" loading="lazy">
       </div>
       <img class="ins-bezel" src="../assets/img/bezel-iphone.webp" width="720" height="1472" alt="" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="light health" id="health">
+  <div class="health-grid">
+    <div class="health-copy reveal">
+      <p data-i18n="health.eyebrow" class="eyebrow pink">Gezondheid</p>
+      <h2 data-i18n="health.title">Gebouwd op Gezondheid.<br><span class="soft">Eén keer instellen.</span></h2>
+      <p data-i18n="health.lead" class="lead">Taperwise leest en schrijft naar Gezondheid, zodat je zones, inspanning en trainingen overeenkomen met wat Fitness en de app Workout tonen. Niets twee keer instellen, niets ergens anders opgeslagen.</p>
+      <ul class="facts">
+        <li data-i18n="health.fact1"><strong>Je hartslagzones.</strong> Op iOS 27 gebruikt Taperwise de zones die je in Gezondheid instelt, of de automatische zones van Apple.<sup><a href="#fn4">4</a></sup> Liever die van Taperwise? Die worden bij elke training opgeslagen, dus Fitness toont hetzelfde.</li>
+        <li data-i18n="health.fact2"><strong>Nachtelijke HRV.</strong> Paraatheid gebruikt de RMSSD uit de slag-tot-slag-metingen van je Apple Watch tijdens het slapen, vergeleken met je eigen gebruikelijke bereik.<sup><a href="#fn3">3</a></sup></li>
+        <li data-i18n="health.fact3"><strong>Hoogte via de barometer.</strong> iPhone en Apple Watch meten klimmetjes met de barometer, eenmaal gelijkgetrokken met GPS, voor een stabieler tempo dat is aangepast aan de helling.</li>
+        <li data-i18n="health.fact4"><strong>Alleen recente gegevens gedeeld?</strong> Herstel en Trainingsbelasting melden dat en vertellen hoe lang een volledige basislijn duurt.</li>
+      </ul>
+    </div>
+    <div class="health-phones fade">
+      <img src="../assets/img/phone-settings-zones.webp" width="720" height="1472" data-i18n-attr="alt:health.zones.alt" alt="Hartslagzones uit Gezondheid, met jouw instellingen: zone 1 onder 131 bpm tot zone 5 vanaf 173 bpm" loading="lazy">
+      <img src="../assets/img/phone-recovery.webp" width="720" height="1472" data-i18n-attr="alt:health.recovery.alt" alt="Herstel: HRV 44 ms tegenover gebruikelijk 45 tot 48, rusthartslag 55 bpm, 5 u 30 min slaap, de redenen en trends van 30 dagen" loading="lazy">
     </div>
   </div>
 </section>
@@ -284,7 +347,7 @@
   <div class="bento">
     <article class="tile reveal t-pred">
       <h3 data-i18n="tile.pred.title">Eerlijke wedstrijdvoorspelling</h3>
-      <p class="big">~3:34</p>
+      <p class="big">~3:35</p>
       <p data-i18n="tile.pred.text">Je schatting voor de marathon combineert wedstrijdconditie met de training die je echt hebt gedaan. Die staat als wedstrijdtijdbereik, met een eerlijk “op koers”, “ambitieus” of “onrealistisch”.</p>
     </article>
     <article class="tile reveal t-dec">
@@ -360,6 +423,18 @@
   <a data-i18n="privacy.more" class="more reveal" href="../privacy/">Lees het privacybeleid</a>
 </section>
 
+<section class="light compat" id="requirements">
+  <div class="compat-inner reveal">
+    <h2 data-i18n="compat.title">Compatibiliteit</h2>
+    <dl class="compat-list">
+      <div><dt data-i18n="compat.iphone.title">iPhone</dt><dd data-i18n="compat.iphone.text">iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27.</dd></div>
+      <div><dt data-i18n="compat.watch.title">Apple Watch</dt><dd data-i18n="compat.watch.text">watchOS 26 of nieuwer, gekoppeld aan je iPhone. Starten en pauzeren met de actieknop op Apple Watch Ultra.</dd></div>
+      <div><dt data-i18n="compat.ai.title">Apple Intelligence</dt><dd data-i18n="compat.ai.text">Coachnotities hebben een iPhone nodig die Apple Intelligence ondersteunt, met Apple Intelligence ingeschakeld. Al het andere werkt zonder.</dd></div>
+      <div><dt data-i18n="compat.lang.title">Talen</dt><dd data-i18n="compat.lang.text">Engels, Duits, Frans, Italiaans, Spaans, Braziliaans Portugees, Nederlands en Japans.</dd></div>
+    </dl>
+  </div>
+</section>
+
 <footer class="footer" id="support">
   <div class="footer-top">
     <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="22" height="22">Taperwise</a>
@@ -369,6 +444,13 @@
       <a data-i18n="footer.support" href="mailto:apps@bitspire.ch">Support: apps@bitspire.ch</a>
     </div>
   </div>
+  <ol class="footnotes">
+    <li id="fn1" data-i18n="fn.1">Lauersen, Bertelsen en Andersen, “The effectiveness of exercise interventions to prevent sports injuries”, British Journal of Sports Medicine, 2014: krachttraining verminderde sportblessures tot minder dan een derde.</li>
+    <li id="fn2" data-i18n="fn.2">Wedstrijdschattingen gebruiken VDOT van Jack Daniels; de marathonschatting weegt ook je trainingsvolume en tempo mee, naar Tanda (2011). Schattingen, geen beloftes.</li>
+    <li id="fn3" data-i18n="fn.3">RMSSD komt uit de slag-tot-slag-hartdata van de Apple Watch die tijdens het slapen wordt vastgelegd. Zonder genoeg nachten gebruikt Taperwise de HRV die Gezondheid opslaat (SDNN) en mengt de twee nooit.</li>
+    <li id="fn4" data-i18n="fn.4">Hartslagzones uit Gezondheid vereisen iOS 27. Op iOS 26 gebruikt Taperwise zijn eigen zones, op basis van je maximale en rusthartslag.</li>
+    <li id="fn5" data-i18n="fn.5">Route getekend op de straten van OpenStreetMap, op basis van gepubliceerde beschrijvingen van de Zürich Marathon 2026 en geschaald naar 42,195 km; hoogte uit EU-DEM. Een demorace, niet het officiële routebestand. Taperwise is niet verbonden aan de Zürich Marathon.</li>
+  </ol>
   <p data-i18n="footer.fine" class="fine">Paraatheid, voorspellingen en calorieën zijn schattingen, geen medisch advies. Kaartgegevens © OpenStreetMap contributors. Apple, het Apple-logo, iPhone, Apple Watch, Gezondheid en Apple Intelligence zijn handelsmerken van Apple Inc., gedeponeerd in de VS en andere landen. © 2026 BitSpire GmbH.</p>
   <div class="footer-lang" hidden>
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.8 5.9 3.8 9.5s-1.2 6.9-3.8 9.5c-2.6-2.6-3.8-5.9-3.8-9.5s1.2-6.9 3.8-9.5Z"/></svg>

@@ -24,6 +24,8 @@ Tes sorties, ta FC et ton plan restent sur ton iPhone et ton Apple Watch. Pas su
 
 8 langues
 
+### Les points forts.
+
 Plan
 
 ### Conçu pour toi. Ajusté chaque matin.
@@ -50,14 +52,6 @@ La VFC, la FC de repos, le sommeil et la charge d'entraînement déterminent si 
 
 Deux courtes séances par semaine de fentes, mollets et montées de marche, des mouvements liés à moins de blessures de course. Un circuit guidé compte les séries et les repos sur iPhone ou Apple Watch et enregistre dans Apple Santé.
 
-Course
-
-### 9 km le long du lac de Zurich. Fais défiler pour courir.
-
-© contributeurs OpenStreetMap
-
-Sortie tempo de démonstration sur le chemin au bord du lac : Bürkliplatz, Arboretum, Mythenquai et Wollishofen, aller-retour.
-
 En direct sur iPhone
 
 ### Gros chiffres. Objectifs clairs.
@@ -74,13 +68,21 @@ Race Pilot
 
 ### Jour de course, planifié à la seconde.
 
-Fixe un temps objectif, ou laisse ton entraînement en prédire un. Taperwise en fait une fourchette d'allure pour chaque 5 km. Importe le GPX du parcours et chaque kilomètre s'adapte aux côtes.
+Fixe un temps objectif, ou laisse ton entraînement en prédire un, et Taperwise en fait une fourchette d'allure pour chaque 5 km. Importe le GPX du parcours et chaque kilomètre s'adapte aux côtes.
 
 - **Charge en glucides et matin de course.** Combien de grammes par jour pendant les deux jours précédents, et quoi manger avant le départ.
 
 - **Gels par kilomètre.** Répartis sur la course, avec un rappel au poignet.
 
 - **En avance ou en retard.** En direct par rapport à ton plan, pour que le premier kilomètre reste lent.
+
+Jour de course
+
+### 42,195 km le long du lac de Zurich. Fais défiler pour la courir.
+
+© contributeurs OpenStreetMap
+
+Parcours tracé d'après le Zürich Marathon 2026 : Quaibrücke, centre-ville, la rive droite jusqu'au demi-tour à Meilen, puis retour à Sechseläutenplatz. Course de démonstration avec un objectif de 3:30, une allure guidée par Race Pilot et un gel toutes les 5 km.
 
 Cartes
 
@@ -104,7 +106,7 @@ Apple Watch
 
 ### Laisse ton téléphone à la maison.
 
-La montre gère l'entraînement elle-même, sans téléphone ni réseau. Pages construites comme l'app Entraînement : mesures, intervalles, zones, graphique, dénivelé, ravitaillement et En cours de lecture. Mets en pause avec le bouton Action, et fais ton circuit de renforcement directement au poignet.
+La montre gère l'entraînement elle-même, sans téléphone ni réseau. Pages construites comme l'app Exercice : mesures, intervalles, zones, graphique, dénivelé, ravitaillement et En cours de lecture. Règle les objectifs avec la Digital Crown, démarre et mets en pause avec le bouton Action sur Apple Watch Ultra, et fais ton circuit de renforcement directement au poignet.
 
 Après la course
 
@@ -118,11 +120,11 @@ Analyses
 
 #### Tendance de forme
 
-Ton VDOT sur 26 semaines, avec des estimations pour 10 km, semi et marathon et une fourchette pour le jour J.
+Ton VDOT semaine après semaine, avec des estimations pour 10 km, semi et marathon et une fourchette pour le jour J.
 
 #### Récupération
 
-VFC, FC de repos et sommeil par rapport à ta propre base, avec les raisons expliquées.
+VFC nocturne, FC de repos et sommeil par rapport à ta plage habituelle, avec les raisons détaillées.
 
 #### Charge d'entraînement
 
@@ -130,7 +132,7 @@ Forme, fatigue et fraîcheur, plus le ratio de charge aiguë sur chronique.
 
 #### Volume hebdomadaire
 
-26 semaines de kilomètres, sortie longue et le reste de la semaine.
+Kilomètres chaque semaine, la sortie longue et le reste de la semaine, et ta fréquence de course.
 
 #### Facile vs. dur
 
@@ -152,6 +154,20 @@ Chaque jour des 26 dernières semaines sur une seule grille.
 
 La même charge chaque jour augmente le risque. Alterne jours durs et jours faciles.
 
+Apple Santé
+
+### Construit sur Apple Santé. Un seul réglage.
+
+Taperwise lit et écrit dans Apple Santé : tes zones, ton effort et tes entraînements correspondent donc à ce qu'affichent Forme et l'app Exercice. Rien à configurer deux fois, rien stocké ailleurs.
+
+- **Tes zones de fréquence cardiaque.** Sous iOS 27, Taperwise utilise les zones que tu règles dans Apple Santé, ou celles automatiques d'Apple. Tu préfères celles de Taperwise ? Elles sont inscrites dans chaque entraînement, pour que Forme affiche la même chose.
+
+- **VFC nocturne.** La forme utilise la RMSSD issue des mesures battement par battement de ton Apple Watch pendant ton sommeil, par rapport à ta plage habituelle.
+
+- **Dénivelé grâce au baromètre.** L'iPhone et l'Apple Watch mesurent les montées avec le baromètre, recalé une fois sur le GPS, pour une allure ajustée à la pente plus stable.
+
+- **Seulement des données récentes partagées ?** Récupération et Charge d'entraînement le disent et t'indiquent combien de temps il faut pour une base complète.
+
 Apple Intelligence
 
 ### Un coach qui ne quitte jamais ton iPhone.
@@ -170,7 +186,7 @@ Et plus
 
 #### Prévision de course honnête
 
-~3:34
+~3:35
 
 Ton estimation marathon combine ta forme de course et l'entraînement réellement effectué. Elle s'affiche comme une fourchette pour le jour J, avec un verdict honnête : « dans les temps », « ambitieux » ou « irréaliste ».
 
@@ -236,6 +252,26 @@ Pas de fil d'actu, pas d'abonnés, pas de classements. Taperwise a été conçu 
 
 [Lire la politique de confidentialité](https://taperwise.run/privacy/)
 
+### Compatibilité
+
+iPhone iOS 26 ou version ultérieure. Enregistre les sorties seul, avec ou sans Apple Watch. Les zones de fréquence cardiaque d'Apple Santé nécessitent iOS 27.
+
+Apple Watch watchOS 26 ou version ultérieure, jumelée à ton iPhone. Démarrage et pause avec le bouton Action sur Apple Watch Ultra.
+
+Apple Intelligence Les notes du coach nécessitent un iPhone compatible avec Apple Intelligence, activée. Le reste fonctionne sans.
+
+Langues Anglais, allemand, français, italien, espagnol, portugais du Brésil, néerlandais et japonais.
+
 [Politique de confidentialité](https://taperwise.run/privacy/) [Mentions légales](https://taperwise.run/legal/) [Assistance : apps@bitspire.ch](mailto:apps@bitspire.ch)
+
+- Lauersen, Bertelsen et Andersen, « The effectiveness of exercise interventions to prevent sports injuries », British Journal of Sports Medicine, 2014 : le renforcement musculaire a réduit les blessures sportives à moins d'un tiers.
+
+- Les estimations de course utilisent le VDOT de Jack Daniels ; celle du marathon tient aussi compte de ton volume et de ton allure d'entraînement, d'après Tanda (2011). Estimations, pas promesses.
+
+- La RMSSD provient des données cardiaques battement par battement de l'Apple Watch enregistrées pendant le sommeil. Sans assez de nuits, Taperwise utilise la HRV stockée par Apple Santé (SDNN) et ne mélange jamais les deux.
+
+- Les zones de fréquence cardiaque d'Apple Santé nécessitent iOS 27. Sous iOS 26, Taperwise utilise ses propres zones, calculées à partir de ta fréquence cardiaque maximale et de repos.
+
+- Parcours tracé sur les rues d'OpenStreetMap d'après des descriptions publiées du Zürich Marathon 2026, mis à l'échelle de 42,195 km ; altitudes issues d'EU-DEM. Course de démonstration, pas le fichier officiel du parcours. Taperwise n'est pas affilié au Zürich Marathon.
 
 La forme, les prévisions et les estimations caloriques sont indicatives, pas un avis médical. Données cartographiques © contributeurs OpenStreetMap. Apple, le logo Apple, iPhone, Apple Watch, Apple Santé et Apple Intelligence sont des marques d'Apple Inc., déposées aux États-Unis et dans d'autres pays. © 2026 BitSpire GmbH.

@@ -39,10 +39,9 @@
     <a data-i18n="nav.plan" href="#plan">Plan</a>
     <a data-i18n="nav.run" href="#run">Lauf</a>
     <a data-i18n="nav.race" href="#race">Wettkampf</a>
-    <a data-i18n="nav.maps" href="#maps">Karten</a>
     <a data-i18n="nav.watch" href="#watch">Watch</a>
     <a data-i18n="nav.insights" href="#insights">Einblicke</a>
-    <a data-i18n="nav.coach" href="#coach">Coach</a>
+    <a data-i18n="nav.health" href="#health">Health</a>
     <a data-i18n="nav.privacy" href="../privacy/">Datenschutz</a>
   </div>
   <span data-i18n="nav.soon" class="nav-cta">Demnächst</span>
@@ -60,7 +59,7 @@
   </div>
   <div class="hero-devices fade">
     <video class="dev-phone" src="../assets/video/run.mp4" poster="../assets/video/run-poster.webp" autoplay muted loop playsinline width="720" height="1472" data-i18n-attr="aria-label:hero.video" aria-label="Taperwise-Lauf live auf dem iPhone: die Strecke auf der Karte und ein Tempo von 4:11 pro km im Zielbereich"></video>
-    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise auf Apple Watch Ultra: Tempo 4:10 pro km im Ziel, Puls 162">
+    <img class="dev-watch" src="../assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise auf der Apple Watch: Tempo 4:10 pro km im Ziel, Puls 162">
   </div>
 </header>
 
@@ -74,6 +73,47 @@
   </dl>
 </section>
 
+<section class="dark highlights" aria-labelledby="hl-title">
+  <div class="hl-head reveal">
+    <h2 id="hl-title" data-i18n="hl.title">Die Highlights.</h2>
+  </div>
+  <div class="hl-track" data-hl>
+    <a class="hl-card hl-plan" href="#plan">
+      <p data-i18n="hl.plan"><strong>Ein Plan, der zuhört.</strong> HRV, Schlaf und Belastung prägen den heutigen Lauf.</p>
+      <img src="../assets/img/phone-today.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-run" href="#run">
+      <p data-i18n="hl.run"><strong>Grosse Zahlen. Klare Ziele.</strong> Tempo, Intervalle und Zonen auf einen Blick, ganz ohne Uhr.</p>
+      <img src="../assets/img/phone-run-metrics.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-race" href="#race">
+      <p data-i18n="hl.race"><strong>Race Pilot.</strong> Ein Tempoband für jeden 5-km-Abschnitt, Gels pro Kilometer und live voraus oder hinterher.</p>
+      <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-watch" href="#watch">
+      <p data-i18n="hl.watch"><strong>Lass das Telefon zu Hause.</strong> Der ganze Lauf auf der Apple Watch, mit Offline-Karten.</p>
+      <img class="hl-watch-img" src="../assets/img/watch-metrics.webp" width="440" height="704" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-insights" href="#insights">
+      <p data-i18n="hl.insights"><strong>Sieh deine Fitness wachsen.</strong> VDOT, nächtliche HRV, Trainingslast und sieben weitere Einblicke.</p>
+      <img src="../assets/img/phone-recovery.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-health" href="#health">
+      <p data-i18n="hl.health"><strong>Deine Pulszonen aus Apple Health.</strong> Dieselben Zonen wie in Fitness und in der App Training.</p>
+      <img src="../assets/img/phone-settings-zones.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-private" href="#private">
+      <p data-i18n="hl.private"><strong>Kein Konto. Keine Server.</strong> Deine Läufe bleiben auf deinem iPhone, deiner Apple Watch und in Apple Health.</p>
+      <span class="hl-lock" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 1 1 6 0v3H9Z"/></svg></span>
+    </a>
+  </div>
+  <div class="hl-nav">
+    <button class="hl-arrow" type="button" data-step="-1" data-i18n-attr="aria-label:hl.prev" aria-label="Zurück"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg></button>
+    <div class="hl-dots" role="tablist"></div>
+    <button class="hl-arrow" type="button" data-step="1" data-i18n-attr="aria-label:hl.next" aria-label="Weiter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+
 <section class="light story-wrap" id="plan">
   <div class="section-head reveal">
     <p data-i18n="plan.eyebrow" class="eyebrow">Plan</p>
@@ -82,7 +122,7 @@
   <div class="story">
     <div class="story-text">
       <article class="step" data-shot="0">
-        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise-Plan: Marathon in 76 Tagen, Zielankunft, Schätzung für den Wettkampftag 3:24 bis 3:40, auf Kurs mit 200,9 von 203 km" loading="lazy">
+        <img class="step-phone" src="../assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise-Plan: Marathon in 76 Tagen, Zielzeit, Schätzung für den Wettkampftag 3:22 bis 3:38, auf Kurs mit 209,9 von 229 km" loading="lazy">
         <h3 data-i18n="plan.adapt.title">Ein Plan, der bei dir startet.</h3>
         <p data-i18n="plan.adapt.text">Taperwise liest deine Laufhistorie aus Apple Health oder importiert GPX-, TCX-, FIT- und Strava-Exporte. Dann baut es einen Plan über 12 bis 30 Wochen für 5 km, 10 km, Halbmarathon oder Marathon: Grundlage, Aufbau, Spitze und Tapering. Dein Ziel, deine heutige Form und eine ehrliche Zeitspanne für den Wettkampf stehen nebeneinander.</p>
         <ul class="ticks">
@@ -97,14 +137,14 @@
         <p data-i18n="plan.calendar.text">Sieh den Plan Woche für Woche oder Monat für Monat. Ausgefüllte Tage sind Läufe, die du gemacht hast, farbige Punkte zeigen, was als Nächstes kommt. Tippe auf eine Einheit für die Schritte, Zieltempi, Pulszone und bei langen Läufen einen Trink- und Gel-Plan.</p>
       </article>
       <article class="step" data-shot="2">
-        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Heute: lockerer Lauf, 10,9 km, ruhig angehen, Umfang heute um 30 bis 50 % senken, dazu eine Coach-Notiz" loading="lazy">
+        <img class="step-phone" src="../assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Heute: lockerer Lauf, 7,8 km mit 5:41 bis 6:15 pro km, ruhig angehen, Umfang heute um 30 bis 50 % senken, dazu eine Coach-Notiz" loading="lazy">
         <h3 data-i18n="plan.today.title">Hört auf deinen Körper.</h3>
         <p data-i18n="plan.today.text">HRV, Ruhepuls, Schlaf und Trainingsbelastung entscheiden, ob heute grün, gelb oder rot ist. Ein gelber Morgen kürzt die Einheit, drei rote Tage bringen eine Entlastungswoche, und verpasste Läufe werden nie nachgeholt. Müde Beine oder eine Erkältung? Sag es Taperwise, dann pausiert der Plan und bringt dich Schritt für Schritt zurück.</p>
       </article>
       <article class="step" data-shot="3">
         <img class="step-phone" src="../assets/img/phone-strength.webp" width="720" height="1472" data-i18n-attr="alt:plan.strength.alt" alt="Kraft: Split-Kniebeuge, Wadenheben, einbeiniges rumänisches Kreuzheben und Step-up, etwa 27 Minuten" loading="lazy">
         <h3 data-i18n="plan.strength.title">Kraft, die dich laufen lässt.</h3>
-        <p data-i18n="plan.strength.text">Zwei kurze Einheiten pro Woche mit Split-Kniebeugen, Wadenheben und Step-ups, Übungen, die mit weniger Laufverletzungen zusammenhängen. Ein geführter Zirkel zählt Sätze und Pausen auf iPhone oder Apple Watch und speichert in Apple Health.</p>
+        <p data-i18n="plan.strength.text">Zwei kurze Einheiten pro Woche mit Split-Kniebeugen, Wadenheben und Step-ups, Übungen, die mit weniger Laufverletzungen zusammenhängen.<sup><a href="#fn1">1</a></sup> Ein geführter Zirkel zählt Sätze und Pausen auf iPhone oder Apple Watch und speichert in Apple Health.</p>
       </article>
     </div>
     <div class="story-device">
@@ -116,36 +156,7 @@
   </div>
 </section>
 
-<section class="dark replay" id="run" data-replay>
-  <div class="replay-sticky">
-    <div class="replay-head">
-      <p data-i18n="run.eyebrow" class="eyebrow">Lauf</p>
-      <h2 data-i18n="run.title">9 km am Zürichsee entlang.<br><span class="soft">Scroll, um ihn zu laufen.</span></h2>
-    </div>
-    <div class="replay-stage">
-      <div class="replay-map">
-        <img src="../assets/img/lake-map.jpg" alt="" width="900" height="1320" loading="lazy">
-        <svg viewBox="0 0 900 1320" aria-hidden="true">
-          <path class="trail-ghost"></path>
-          <path class="trail"></path>
-          <circle class="runner-halo" r="24"></circle>
-          <circle class="runner" r="10"></circle>
-        </svg>
-        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap-Mitwirkende</span>
-      </div>
-      <dl class="hud">
-        <div><dt data-i18n="hud.time">Zeit</dt><dd data-hud="time">0:00</dd></div>
-        <div><dt data-i18n="hud.distance">Distanz</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
-        <div><dt data-i18n="hud.pace">Pace</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
-        <div class="hr"><dt data-i18n="hud.heartrate">Puls</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
-        <div><dt data-i18n="hud.elevation">Höhenprofil</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
-      </dl>
-    </div>
-    <p data-i18n="run.note" class="replay-note">Demo-Tempolauf auf dem Seeweg: Bürkliplatz, Arboretum, Mythenquai und Wollishofen, hin und zurück.</p>
-  </div>
-</section>
-
-<section class="dark live">
+<section class="dark live" id="run">
   <div class="section-head reveal">
     <p data-i18n="live.eyebrow" class="eyebrow green">Live auf dem iPhone</p>
     <h2 data-i18n="live.title">Grosse Zahlen.<br><span class="soft">Klare Ziele.</span></h2>
@@ -169,7 +180,7 @@
     <div class="race-copy reveal">
       <p data-i18n="race.eyebrow" class="eyebrow amber">Race Pilot</p>
       <h2 data-i18n="race.title">Wettkampftag,<br><span class="soft">auf die Sekunde geplant.</span></h2>
-      <p data-i18n="race.lead" class="lead">Setze eine Zielzeit, oder lass dein Training eine vorhersagen. Taperwise macht daraus ein Tempoband für jeden 5-km-Abschnitt. Importiere den GPX-Kurs, und jeder Kilometer passt sich den Anstiegen an.</p>
+      <p data-i18n="race.lead" class="lead">Setze eine Zielzeit, oder lass dein Training eine vorhersagen,<sup><a href="#fn2">2</a></sup> und Taperwise macht daraus ein Tempoband für jeden 5-km-Abschnitt. Importiere den GPX-Kurs, und jeder Kilometer passt sich den Anstiegen an.</p>
       <ul class="facts">
         <li data-i18n="race.fact1"><strong>Kohlenhydratladung und Wettkampfmorgen.</strong> Wie viele Gramm pro Tag an den zwei Tagen davor und was du vor dem Start essen solltest.</li>
         <li data-i18n="race.fact2"><strong>Gels pro Kilometer.</strong> Über das Rennen verteilt, mit einer Erinnerung am Handgelenk.</li>
@@ -178,8 +189,39 @@
     </div>
     <div class="race-phones fade">
       <img src="../assets/img/phone-race-pilot.webp" width="720" height="1472" data-i18n-attr="alt:race.pilot.alt" alt="Wettkampfplan: Marathon, Ziel 3:30:00, Tempoband 4:59 bis 5:05 pro km mit Splits alle 5 km" loading="lazy">
-      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Wettkampfplan Fortsetzung: Splits bis zum Ziel 3:30:00, 60 g Kohlenhydrate pro Stunde, Gels pro Kilometer und die Checkliste für die Wettkampfwoche" loading="lazy">
+      <img src="../assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Wettkampfplan, Fortsetzung: 60 g Kohlenhydrate pro Stunde, Gels pro Kilometer, die Checkliste für die Wettkampfwoche und der GPX-Import der Strecke" loading="lazy">
     </div>
+  </div>
+</section>
+
+<section class="dark replay" id="marathon" data-replay>
+  <div class="replay-sticky">
+    <div class="replay-head">
+      <p data-i18n="marathon.eyebrow" class="eyebrow amber">Wettkampftag</p>
+      <h2 data-i18n="marathon.title">42,195 km am Zürichsee entlang.<br><span class="soft">Scroll, um ihn zu laufen.</span></h2>
+    </div>
+    <div class="replay-stage">
+      <div class="replay-map">
+        <img src="../assets/img/zurich-marathon.jpg" alt="" width="1350" height="1980" loading="lazy">
+        <svg viewBox="0 0 1350 1980" aria-hidden="true">
+          <path class="trail-ghost"></path>
+          <g class="gels"></g>
+          <path class="trail"></path>
+          <circle class="runner-halo" r="34"></circle>
+          <circle class="runner" r="14"></circle>
+        </svg>
+        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap-Mitwirkende</span>
+      </div>
+      <dl class="hud">
+        <div><dt data-i18n="hud.time">Zeit</dt><dd data-hud="time">0:00</dd></div>
+        <div><dt data-i18n="hud.distance">Distanz</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
+        <div><dt data-i18n="hud.pace">Pace</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
+        <div class="hr"><dt data-i18n="hud.heartrate">Puls</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
+        <div class="pilot"><dt data-i18n="hud.pilot">Race Pilot</dt><dd><span data-hud="pilot">0:00</span><small data-hud="pilotWord" data-i18n-attr="data-ahead:hud.ahead;data-behind:hud.behind" data-ahead="voraus" data-behind="hinterher">ahead</small></dd></div>
+        <div><dt data-i18n="hud.elevation">Höhenprofil</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
+      </dl>
+    </div>
+    <p data-i18n="marathon.note" class="replay-note">Strecke nachgezeichnet nach dem Zürich Marathon 2026: Quaibrücke, Innenstadt, das rechte Ufer bis zur Wende in Meilen und zurück zum Sechseläutenplatz. Demo-Rennen mit Ziel 3:30, Tempo von Race Pilot und einem Gel alle 5 km.<sup><a href="#fn5">5</a></sup></p>
   </div>
 </section>
 
@@ -208,7 +250,7 @@
   <div class="section-head reveal">
     <p data-i18n="watch.eyebrow" class="eyebrow">Apple Watch</p>
     <h2 data-i18n="watch.title">Lass das Telefon zu Hause.</h2>
-    <p data-i18n="watch.lead" class="lead">Die Uhr absolviert das Training selbst, ohne Telefon und ohne Netz. Seiten im Stil der App Training: Werte, Intervalle, Zonen, Diagramm, Höhenprofil, Verpflegung und Jetzt läuft. Pausiere mit der Aktionstaste und absolviere deinen Kraftzirkel direkt am Handgelenk.</p>
+    <p data-i18n="watch.lead" class="lead">Die Uhr absolviert das Training selbst, ohne Telefon und ohne Netz. Seiten im Stil der App Training: Werte, Intervalle, Zonen, Diagramm, Höhenprofil, Verpflegung und Jetzt läuft. Stelle Ziele mit der Digital Crown ein, starte und pausiere mit der Aktionstaste auf der Apple Watch Ultra und absolviere deinen Kraftzirkel direkt am Handgelenk.</p>
   </div>
   <div class="watch-row fade">
     <figure><img src="../assets/img/watch-start.webp" width="440" height="704" data-i18n-attr="alt:watch.start.alt" alt="Startbildschirm: heutige Intervalle von 8 km, ruhig angehen, und Start" loading="lazy"><figcaption data-i18n="watch.start.cap">Die heutige Einheit</figcaption></figure>
@@ -217,6 +259,7 @@
     <figure><img src="../assets/img/watch-zones.webp" width="440" height="704" data-i18n-attr="alt:watch.zones.alt" alt="Puls 162 in Zone 4" loading="lazy"><figcaption data-i18n="watch.zones.cap">Zonen</figcaption></figure>
     <figure><img src="../assets/img/watch-chart.webp" width="440" height="704" data-i18n-attr="alt:watch.chart.alt" alt="Tempo und Puls über den ganzen Lauf" loading="lazy"><figcaption data-i18n="watch.chart.cap">Diagramm</figcaption></figure>
     <figure><img src="../assets/img/watch-fuel.webp" width="440" height="704" data-i18n-attr="alt:watch.fuel.alt" alt="Verpflegungsseite: Flüssigkeitsschätzung mit den Tasten Getrunken und Gel" loading="lazy"><figcaption data-i18n="watch.fuel.cap">Verpflegung</figcaption></figure>
+    <figure><img src="../assets/img/watch-crown.webp" width="440" height="704" data-i18n-attr="alt:watch.crown.alt" alt="Maximaler Puls auf 165 bpm eingestellt mit der Digital Crown und den Tasten Minus und Plus" loading="lazy"><figcaption data-i18n="watch.crown.cap">Ziele mit der Digital Crown</figcaption></figure>
   </div>
 </section>
 
@@ -229,7 +272,7 @@
   <div class="phone-row fade">
     <figure><img src="../assets/img/phone-detail.webp" width="720" height="1472" data-i18n-attr="alt:after.detail.alt" alt="Lauf-Details: 7,75 km mit Karte, Herzbelastung 7,9, Kadenz 170 spm, steigungsbereinigtes Tempo 5:35 und Entkopplung 3,2 %" loading="lazy"><figcaption data-i18n="after.detail.cap">Werte, die zählen</figcaption></figure>
     <figure><img src="../assets/img/phone-breakdown.webp" width="720" height="1472" data-i18n-attr="alt:after.breakdown.alt" alt="Lauftechnik und Aufschlüsselung bei 18 Minuten mit Tempo und Puls" loading="lazy"><figcaption data-i18n="after.breakdown.cap">Lauftechnik und Aufschlüsselung</figcaption></figure>
-    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Karte aller Läufe rund um den Zürichsee" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Überall, wo du gelaufen bist</figcaption></figure>
+    <figure><img src="../assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Karte der Läufe rund um den Zürichsee, Strassen von Blau bis Rot eingefärbt nach Häufigkeit" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Deine meistgelaufenen Strassen, in Farbe</figcaption></figure>
   </div>
 </section>
 
@@ -239,23 +282,43 @@
       <p data-i18n="insights.eyebrow" class="eyebrow purple">Einblicke</p>
       <h2 data-i18n="insights.title">Sieh deine Form wachsen.</h2>
       <ol class="ins-list">
-        <li data-at="295" class="on"><h3 data-i18n="insights.fitness.title">Fitness-Verlauf</h3><p data-i18n="insights.fitness.text">Dein VDOT über 26 Wochen, mit Schätzungen für 10 km, Halbmarathon und Marathon und einer Zeitspanne für den Wettkampf.</p></li>
-        <li data-at="851"><h3 data-i18n="insights.recovery.title">Erholung</h3><p data-i18n="insights.recovery.text">HRV, Ruhepuls und Schlaf im Vergleich zu deiner eigenen Basis, mit den Gründen ausgeschrieben.</p></li>
-        <li data-at="1771"><h3 data-i18n="insights.load.title">Trainingslast</h3><p data-i18n="insights.load.text">Fitness, Ermüdung und Form, dazu das Verhältnis von akuter zu chronischer Last.</p></li>
-        <li data-at="2268"><h3 data-i18n="insights.volume.title">Wochenumfang</h3><p data-i18n="insights.volume.text">26 Wochen Kilometer, langer Lauf und der Rest der Woche.</p></li>
-        <li data-at="2734"><h3 data-i18n="insights.easy.title">Locker vs. hart</h3><p data-i18n="insights.easy.text">Wie nah du an 80 % lockerem Laufen bleibst.</p></li>
-        <li data-at="2965"><h3 data-i18n="insights.form.title">Lauftechnik</h3><p data-i18n="insights.form.text">Kadenz, Bodenkontakt, Schrittlänge, vertikale Schwingung und Leistung, Woche für Woche.</p></li>
-        <li data-at="3474"><h3 data-i18n="insights.aerobic.title">Aerobe Effizienz</h3><p data-i18n="insights.aerobic.text">Tempo bei gleichem Puls über Monate, damit du siehst, wie der Motor wächst.</p></li>
-        <li data-at="4022"><h3 data-i18n="insights.consistency.title">Regelmässigkeit</h3><p data-i18n="insights.consistency.text">Jeder Tag der letzten 26 Wochen in einem Raster.</p></li>
-        <li data-at="4413"><h3 data-i18n="insights.monotony.title">Monotonie & Belastung</h3><p data-i18n="insights.monotony.text">Immer dieselbe Last jeden Tag erhöht das Risiko. Wechsle harte und lockere Tage.</p></li>
+        <li data-at="293" class="on"><h3 data-i18n="insights.fitness.title">Fitness-Verlauf</h3><p data-i18n="insights.fitness.text">Dein VDOT Woche für Woche, mit Schätzungen für 10 km, Halbmarathon und Marathon und einer Spanne für den Wettkampftag.</p></li>
+        <li data-at="849"><h3 data-i18n="insights.recovery.title">Erholung</h3><p data-i18n="insights.recovery.text">Nächtliche HRV, Ruhepuls und Schlaf im Vergleich zu deinem üblichen Bereich, mit den Gründen im Klartext.</p></li>
+        <li data-at="1769"><h3 data-i18n="insights.load.title">Trainingslast</h3><p data-i18n="insights.load.text">Fitness, Ermüdung und Form, dazu das Verhältnis von akuter zu chronischer Last.</p></li>
+        <li data-at="2266"><h3 data-i18n="insights.volume.title">Wochenumfang</h3><p data-i18n="insights.volume.text">Kilometer jede Woche, der lange Lauf und der Rest der Woche, und wie oft du läufst.</p></li>
+        <li data-at="2732"><h3 data-i18n="insights.easy.title">Locker vs. hart</h3><p data-i18n="insights.easy.text">Wie nah du an 80 % lockerem Laufen bleibst.</p></li>
+        <li data-at="2963"><h3 data-i18n="insights.form.title">Lauftechnik</h3><p data-i18n="insights.form.text">Kadenz, Bodenkontakt, Schrittlänge, vertikale Schwingung und Leistung, Woche für Woche.</p></li>
+        <li data-at="3471"><h3 data-i18n="insights.aerobic.title">Aerobe Effizienz</h3><p data-i18n="insights.aerobic.text">Tempo bei gleichem Puls über Monate, damit du siehst, wie der Motor wächst.</p></li>
+        <li data-at="4021"><h3 data-i18n="insights.consistency.title">Regelmässigkeit</h3><p data-i18n="insights.consistency.text">Jeder Tag der letzten 26 Wochen in einem Raster.</p></li>
+        <li data-at="4411"><h3 data-i18n="insights.monotony.title">Monotonie & Belastung</h3><p data-i18n="insights.monotony.text">Immer dieselbe Last jeden Tag erhöht das Risiko. Wechsle harte und lockere Tage.</p></li>
       </ol>
     </div>
     <div class="ins-phone">
       <div class="ins-screen">
-        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4988" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Einblicke: Fitness-Verlauf, Erholung, Trainingslast, Wochenumfang, locker vs. hart, Lauftechnik, aerobe Effizienz, Regelmässigkeit, Monotonie und Belastung" loading="lazy">
+        <img class="ins-long" src="../assets/img/insights-long.webp" width="640" height="4980" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Einblicke: Fitness-Verlauf, Erholung, Trainingslast, Wochenumfang, locker vs. hart, Lauftechnik, aerobe Effizienz, Regelmässigkeit, Monotonie und Belastung" loading="lazy">
         <img class="ins-status" src="../assets/img/insights-status.webp" width="640" height="80" alt="" loading="lazy">
       </div>
       <img class="ins-bezel" src="../assets/img/bezel-iphone.webp" width="720" height="1472" alt="" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="light health" id="health">
+  <div class="health-grid">
+    <div class="health-copy reveal">
+      <p data-i18n="health.eyebrow" class="eyebrow pink">Apple Health</p>
+      <h2 data-i18n="health.title">Aufgebaut auf Apple Health.<br><span class="soft">Einmal einrichten.</span></h2>
+      <p data-i18n="health.lead" class="lead">Taperwise liest und schreibt in Apple Health, damit deine Zonen, dein Aufwand und deine Trainings mit dem übereinstimmen, was Fitness und die App Training zeigen. Nichts doppelt einrichten, nirgends sonst gespeichert.</p>
+      <ul class="facts">
+        <li data-i18n="health.fact1"><strong>Deine Pulszonen.</strong> Ab iOS 27 nutzt Taperwise die Zonen, die du in Apple Health einstellst, oder Apples automatische.<sup><a href="#fn4">4</a></sup> Lieber die eigenen von Taperwise? Sie werden in jedes Training geschrieben, damit Fitness dasselbe zeigt.</li>
+        <li data-i18n="health.fact2"><strong>Nächtliche HRV.</strong> Die Bereitschaft nutzt RMSSD aus den Schlag-zu-Schlag-Messungen deiner Apple Watch im Schlaf, verglichen mit deinem eigenen üblichen Bereich.<sup><a href="#fn3">3</a></sup></li>
+        <li data-i18n="health.fact3"><strong>Höhenmeter aus dem Barometer.</strong> iPhone und Apple Watch messen Anstiege mit dem Barometer, einmal an GPS angeglichen, für ein gleichmässigeres steigungsbereinigtes Tempo.</li>
+        <li data-i18n="health.fact4"><strong>Nur neuere Daten geteilt?</strong> Erholung und Trainingslast sagen es dir und zeigen, wie lange eine volle Basis braucht.</li>
+      </ul>
+    </div>
+    <div class="health-phones fade">
+      <img src="../assets/img/phone-settings-zones.webp" width="720" height="1472" data-i18n-attr="alt:health.zones.alt" alt="Pulszonen aus Apple Health nach deinen Einstellungen: Zone 1 unter 131 bpm bis Zone 5 ab 173 bpm" loading="lazy">
+      <img src="../assets/img/phone-recovery.webp" width="720" height="1472" data-i18n-attr="alt:health.recovery.alt" alt="Erholung: HRV 44 ms gegenüber üblichen 45 bis 48, Ruhepuls 55 bpm, 5 h 30 min Schlaf, die Gründe und 30-Tage-Trends" loading="lazy">
     </div>
   </div>
 </section>
@@ -284,7 +347,7 @@
   <div class="bento">
     <article class="tile reveal t-pred">
       <h3 data-i18n="tile.pred.title">Ehrliche Wettkampfprognose</h3>
-      <p class="big">~3:34</p>
+      <p class="big">~3:35</p>
       <p data-i18n="tile.pred.text">Deine Marathon-Schätzung verbindet Wettkampfform mit dem Training, das du tatsächlich geleistet hast. Sie zeigt eine Zeitspanne für den Wettkampftag mit einem ehrlichen „auf Kurs“, „ambitioniert“ oder „unrealistisch“.</p>
     </article>
     <article class="tile reveal t-dec">
@@ -360,6 +423,18 @@
   <a data-i18n="privacy.more" class="more reveal" href="../privacy/">Datenschutzerklärung lesen</a>
 </section>
 
+<section class="light compat" id="requirements">
+  <div class="compat-inner reveal">
+    <h2 data-i18n="compat.title">Kompatibilität</h2>
+    <dl class="compat-list">
+      <div><dt data-i18n="compat.iphone.title">iPhone</dt><dd data-i18n="compat.iphone.text">iOS 26 oder neuer. Zeichnet Läufe eigenständig auf, mit oder ohne Apple Watch. Pulszonen aus Apple Health brauchen iOS 27.</dd></div>
+      <div><dt data-i18n="compat.watch.title">Apple Watch</dt><dd data-i18n="compat.watch.text">watchOS 26 oder neuer, gekoppelt mit deinem iPhone. Start und Pause per Aktionstaste auf der Apple Watch Ultra.</dd></div>
+      <div><dt data-i18n="compat.ai.title">Apple Intelligence</dt><dd data-i18n="compat.ai.text">Coach-Notizen brauchen ein iPhone, das Apple Intelligence unterstützt, mit eingeschalteter Funktion. Alles andere funktioniert ohne sie.</dd></div>
+      <div><dt data-i18n="compat.lang.title">Sprachen</dt><dd data-i18n="compat.lang.text">Englisch, Deutsch, Französisch, Italienisch, Spanisch, brasilianisches Portugiesisch, Niederländisch und Japanisch.</dd></div>
+    </dl>
+  </div>
+</section>
+
 <footer class="footer" id="support">
   <div class="footer-top">
     <a class="brand" href="#top"><img src="../assets/img/icon.png" alt="" width="22" height="22">Taperwise</a>
@@ -369,6 +444,13 @@
       <a data-i18n="footer.support" href="mailto:apps@bitspire.ch">Support: apps@bitspire.ch</a>
     </div>
   </div>
+  <ol class="footnotes">
+    <li id="fn1" data-i18n="fn.1">Lauersen, Bertelsen und Andersen, „The effectiveness of exercise interventions to prevent sports injuries“, British Journal of Sports Medicine, 2014: Krafttraining senkte Sportverletzungen auf weniger als ein Drittel.</li>
+    <li id="fn2" data-i18n="fn.2">Wettkampf-Schätzungen nutzen VDOT nach Jack Daniels; die Marathon-Schätzung berücksichtigt zusätzlich dein Trainingsvolumen und Tempo nach Tanda (2011). Schätzungen, keine Versprechen.</li>
+    <li id="fn3" data-i18n="fn.3">RMSSD stammt aus den Schlag-zu-Schlag-Herzdaten der Apple Watch, die im Schlaf aufgezeichnet wurden. Ohne genug Nächte davon nutzt Taperwise die HRV, die Apple Health speichert (SDNN), und vermischt beide nie.</li>
+    <li id="fn4" data-i18n="fn.4">Pulszonen aus Apple Health setzen iOS 27 voraus. Unter iOS 26 nutzt Taperwise seine eigenen Zonen aus deinem maximalen Puls und Ruhepuls.</li>
+    <li id="fn5" data-i18n="fn.5">Strecke auf OpenStreetMap-Strassen nachgezeichnet, nach veröffentlichten Beschreibungen des Zürich Marathon 2026 und auf 42,195 km skaliert; Höhenangaben aus EU-DEM. Ein Demo-Rennen, nicht die offizielle Streckendatei. Taperwise ist nicht mit dem Zürich Marathon verbunden.</li>
+  </ol>
   <p data-i18n="footer.fine" class="fine">Bereitschaft, Prognosen und Kalorienwerte sind Schätzungen, keine medizinische Beratung. Kartendaten © OpenStreetMap-Mitwirkende. Apple, das Apple-Logo, iPhone, Apple Watch, Apple Health und Apple Intelligence sind Marken von Apple Inc., eingetragen in den USA und anderen Ländern. © 2026 BitSpire GmbH.</p>
   <div class="footer-lang" hidden>
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.8 5.9 3.8 9.5s-1.2 6.9-3.8 9.5c-2.6-2.6-3.8-5.9-3.8-9.5s1.2-6.9 3.8-9.5Z"/></svg>

@@ -39,10 +39,9 @@
     <a data-i18n="nav.plan" href="#plan">Plan</a>
     <a data-i18n="nav.run" href="#run">Run</a>
     <a data-i18n="nav.race" href="#race">Race</a>
-    <a data-i18n="nav.maps" href="#maps">Maps</a>
     <a data-i18n="nav.watch" href="#watch">Watch</a>
     <a data-i18n="nav.insights" href="#insights">Insights</a>
-    <a data-i18n="nav.coach" href="#coach">Coach</a>
+    <a data-i18n="nav.health" href="#health">Health</a>
     <a data-i18n="nav.privacy" href="privacy/">Privacy</a>
   </div>
   <span data-i18n="nav.soon" class="nav-cta">Coming soon</span>
@@ -60,7 +59,7 @@
   </div>
   <div class="hero-devices fade">
     <video class="dev-phone" src="assets/video/run.mp4" poster="assets/video/run-poster.webp" autoplay muted loop playsinline width="720" height="1472" data-i18n-attr="aria-label:hero.video" aria-label="Taperwise live run on iPhone: the route on the map and a pace of 4:11 per km inside the target band"></video>
-    <img class="dev-watch" src="assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise on Apple Watch Ultra: pace 4:10 per km on target, heart rate 162">
+    <img class="dev-watch" src="assets/img/watch-metrics.webp" width="440" height="704" data-i18n-attr="alt:hero.watch" alt="Taperwise on Apple Watch: pace 4:10 per km on target, heart rate 162">
   </div>
 </header>
 
@@ -74,6 +73,47 @@
   </dl>
 </section>
 
+<section class="dark highlights" aria-labelledby="hl-title">
+  <div class="hl-head reveal">
+    <h2 id="hl-title" data-i18n="hl.title">Get the highlights.</h2>
+  </div>
+  <div class="hl-track" data-hl>
+    <a class="hl-card hl-plan" href="#plan">
+      <p data-i18n="hl.plan"><strong>A plan that listens.</strong> Heart rate variability, sleep and load shape today’s run.</p>
+      <img src="assets/img/phone-today.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-run" href="#run">
+      <p data-i18n="hl.run"><strong>Big numbers. Clear targets.</strong> Pace, intervals and zones at a glance, no watch needed.</p>
+      <img src="assets/img/phone-run-metrics.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-race" href="#race">
+      <p data-i18n="hl.race"><strong>Race Pilot.</strong> A pace band for every 5 km, gels by kilometre and live ahead or behind.</p>
+      <img src="assets/img/phone-race-pilot.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-watch" href="#watch">
+      <p data-i18n="hl.watch"><strong>Leave the phone at home.</strong> The whole run on Apple Watch, with offline maps.</p>
+      <img class="hl-watch-img" src="assets/img/watch-metrics.webp" width="440" height="704" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-insights" href="#insights">
+      <p data-i18n="hl.insights"><strong>Watch your fitness grow.</strong> VDOT, overnight HRV, training load and seven more insights.</p>
+      <img src="assets/img/phone-recovery.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-health" href="#health">
+      <p data-i18n="hl.health"><strong>Your Apple Health zones.</strong> The same heart rate zones as Fitness and the Workout app.</p>
+      <img src="assets/img/phone-settings-zones.webp" width="720" height="1472" alt="" loading="lazy">
+    </a>
+    <a class="hl-card hl-private" href="#private">
+      <p data-i18n="hl.private"><strong>No account. No servers.</strong> Your runs stay on your iPhone, your Apple Watch and in Apple Health.</p>
+      <span class="hl-lock" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5Zm-3 8V7a3 3 0 1 1 6 0v3H9Z"/></svg></span>
+    </a>
+  </div>
+  <div class="hl-nav">
+    <button class="hl-arrow" type="button" data-step="-1" data-i18n-attr="aria-label:hl.prev" aria-label="Previous"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg></button>
+    <div class="hl-dots" role="tablist"></div>
+    <button class="hl-arrow" type="button" data-step="1" data-i18n-attr="aria-label:hl.next" aria-label="Next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7"/></svg></button>
+  </div>
+</section>
+
 <section class="light story-wrap" id="plan">
   <div class="section-head reveal">
     <p data-i18n="plan.eyebrow" class="eyebrow">Plan</p>
@@ -82,7 +122,7 @@
   <div class="story">
     <div class="story-text">
       <article class="step" data-shot="0">
-        <img class="step-phone" src="assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise plan: marathon in 76 days, finish goal, race-day estimate 3:24 to 3:40, on track with 200.9 of 203 km" loading="lazy">
+        <img class="step-phone" src="assets/img/phone-plan.webp" width="720" height="1472" data-i18n-attr="alt:plan.adapt.alt" alt="Taperwise plan: marathon in 76 days, finish goal, race-day estimate 3:22 to 3:38, on track with 209.9 of 229 km" loading="lazy">
         <h3 data-i18n="plan.adapt.title">A plan that starts where you are.</h3>
         <p data-i18n="plan.adapt.text">Taperwise reads your running history from Apple Health, or imports GPX, TCX, FIT and Strava exports. Then it builds a 12 to 30 week plan for 5K, 10K, half marathon or marathon: Base, Build, Peak and Taper. Your goal, today’s fitness and an honest race-day range sit side by side.</p>
         <ul class="ticks">
@@ -97,14 +137,14 @@
         <p data-i18n="plan.calendar.text">See the plan week by week or month by month. Filled days are runs you did, coloured dots are what comes next. Tap a session for its steps, target paces, heart rate zone and, on long runs, a drink and gel plan.</p>
       </article>
       <article class="step" data-shot="2">
-        <img class="step-phone" src="assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Today: easy run, 10.9 km, take it easy, cut today’s volume by 30 to 50%, and a coach note" loading="lazy">
+        <img class="step-phone" src="assets/img/phone-today.webp" width="720" height="1472" data-i18n-attr="alt:plan.today.alt" alt="Taperwise Today: easy run, 7.8 km at 5:41 to 6:15 per km, take it easy, cut today’s volume by 30 to 50%, and a coach note" loading="lazy">
         <h3 data-i18n="plan.today.title">Listens to your body.</h3>
         <p data-i18n="plan.today.text">Heart rate variability, resting heart rate, sleep and training load decide whether today is green, yellow or red. A yellow morning trims the session, three red days bring a deload, and missed runs are never made up. Sore legs or a cold? Tell Taperwise and the plan pauses, then eases you back in.</p>
       </article>
       <article class="step" data-shot="3">
         <img class="step-phone" src="assets/img/phone-strength.webp" width="720" height="1472" data-i18n-attr="alt:plan.strength.alt" alt="Strength: split squat, calf raises, single-leg Romanian deadlift and step-up, about 27 minutes" loading="lazy">
         <h3 data-i18n="plan.strength.title">Strength that keeps you running.</h3>
-        <p data-i18n="plan.strength.text">Two short sessions a week of split squats, calf raises and step-ups, the moves linked to fewer running injuries. A guided circuit counts sets and rest on iPhone or Apple Watch and saves to Apple Health.</p>
+        <p data-i18n="plan.strength.text">Two short sessions a week of split squats, calf raises and step-ups, the moves linked to fewer running injuries.<sup><a href="#fn1">1</a></sup> A guided circuit counts sets and rest on iPhone or Apple Watch and saves to Apple Health.</p>
       </article>
     </div>
     <div class="story-device">
@@ -116,36 +156,7 @@
   </div>
 </section>
 
-<section class="dark replay" id="run" data-replay>
-  <div class="replay-sticky">
-    <div class="replay-head">
-      <p data-i18n="run.eyebrow" class="eyebrow">Run</p>
-      <h2 data-i18n="run.title">9 km along Lake Zürich.<br><span class="soft">Scroll to run it.</span></h2>
-    </div>
-    <div class="replay-stage">
-      <div class="replay-map">
-        <img src="assets/img/lake-map.jpg" alt="" width="900" height="1320" loading="lazy">
-        <svg viewBox="0 0 900 1320" aria-hidden="true">
-          <path class="trail-ghost"></path>
-          <path class="trail"></path>
-          <circle class="runner-halo" r="24"></circle>
-          <circle class="runner" r="10"></circle>
-        </svg>
-        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap contributors</span>
-      </div>
-      <dl class="hud">
-        <div><dt data-i18n="hud.time">Time</dt><dd data-hud="time">0:00</dd></div>
-        <div><dt data-i18n="hud.distance">Distance</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
-        <div><dt data-i18n="hud.pace">Pace</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
-        <div class="hr"><dt data-i18n="hud.heartrate">Heart rate</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
-        <div><dt data-i18n="hud.elevation">Elevation</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
-      </dl>
-    </div>
-    <p data-i18n="run.note" class="replay-note">Demo tempo run on the lakeside path: Bürkliplatz, Arboretum, Mythenquai and Wollishofen, out and back.</p>
-  </div>
-</section>
-
-<section class="dark live">
+<section class="dark live" id="run">
   <div class="section-head reveal">
     <p data-i18n="live.eyebrow" class="eyebrow green">Live on iPhone</p>
     <h2 data-i18n="live.title">Big numbers.<br><span class="soft">Clear targets.</span></h2>
@@ -169,7 +180,7 @@
     <div class="race-copy reveal">
       <p data-i18n="race.eyebrow" class="eyebrow amber">Race Pilot</p>
       <h2 data-i18n="race.title">Race day,<br><span class="soft">planned to the second.</span></h2>
-      <p data-i18n="race.lead" class="lead">Set a goal time, or let your training predict one, and Taperwise turns it into a pace band for every 5 km. Import the course GPX and each kilometre adapts to the climbs.</p>
+      <p data-i18n="race.lead" class="lead">Set a goal time, or let your training predict one,<sup><a href="#fn2">2</a></sup> and Taperwise turns it into a pace band for every 5 km. Import the course GPX and each kilometre adapts to the climbs.</p>
       <ul class="facts">
         <li data-i18n="race.fact1"><strong>Carb load and race morning.</strong> How many grams a day for the two days before, and what to eat before the start.</li>
         <li data-i18n="race.fact2"><strong>Gels by kilometre.</strong> Spread through the race, with a reminder on your wrist.</li>
@@ -178,8 +189,39 @@
     </div>
     <div class="race-phones fade">
       <img src="assets/img/phone-race-pilot.webp" width="720" height="1472" data-i18n-attr="alt:race.pilot.alt" alt="Race plan: marathon, target 3:30:00, pace band 4:59 to 5:05 per km with splits every 5 km" loading="lazy">
-      <img src="assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Race plan continued: splits to the 3:30:00 finish, 60 g of carbs an hour, gels by kilometre and the race-week checklist" loading="lazy">
+      <img src="assets/img/phone-race-band.webp" width="720" height="1472" data-i18n-attr="alt:race.band.alt" alt="Race plan continued: 60 g of carbs an hour, gels by kilometre, the race-week checklist and course GPX import" loading="lazy">
     </div>
+  </div>
+</section>
+
+<section class="dark replay" id="marathon" data-replay>
+  <div class="replay-sticky">
+    <div class="replay-head">
+      <p data-i18n="marathon.eyebrow" class="eyebrow amber">Race day</p>
+      <h2 data-i18n="marathon.title">42.195 km along Lake Zürich.<br><span class="soft">Scroll to race it.</span></h2>
+    </div>
+    <div class="replay-stage">
+      <div class="replay-map">
+        <img src="assets/img/zurich-marathon.jpg" alt="" width="1350" height="1980" loading="lazy">
+        <svg viewBox="0 0 1350 1980" aria-hidden="true">
+          <path class="trail-ghost"></path>
+          <g class="gels"></g>
+          <path class="trail"></path>
+          <circle class="runner-halo" r="34"></circle>
+          <circle class="runner" r="14"></circle>
+        </svg>
+        <span data-i18n="map.attribution" class="attribution">© OpenStreetMap contributors</span>
+      </div>
+      <dl class="hud">
+        <div><dt data-i18n="hud.time">Time</dt><dd data-hud="time">0:00</dd></div>
+        <div><dt data-i18n="hud.distance">Distance</dt><dd><span data-hud="dist">0.00</span><small>km</small></dd></div>
+        <div><dt data-i18n="hud.pace">Pace</dt><dd><span data-hud="pace">–</span><small>/km</small></dd></div>
+        <div class="hr"><dt data-i18n="hud.heartrate">Heart rate</dt><dd><span data-hud="hr">–</span><small>bpm</small></dd></div>
+        <div class="pilot"><dt data-i18n="hud.pilot">Race Pilot</dt><dd><span data-hud="pilot">0:00</span><small data-hud="pilotWord" data-i18n-attr="data-ahead:hud.ahead;data-behind:hud.behind" data-ahead="ahead" data-behind="behind">ahead</small></dd></div>
+        <div><dt data-i18n="hud.elevation">Elevation</dt><dd><span data-hud="ele">–</span><small>m</small></dd></div>
+      </dl>
+    </div>
+    <p data-i18n="marathon.note" class="replay-note">Course traced from the 2026 Zürich Marathon: Quaibrücke, the city centre, the right shore to the Meilen turnaround and back to Sechseläutenplatz. Demo race with a 3:30 goal, Race Pilot pacing and a gel every 5 km.<sup><a href="#fn5">5</a></sup></p>
   </div>
 </section>
 
@@ -208,7 +250,7 @@
   <div class="section-head reveal">
     <p data-i18n="watch.eyebrow" class="eyebrow">Apple Watch</p>
     <h2 data-i18n="watch.title">Leave the phone at home.</h2>
-    <p data-i18n="watch.lead" class="lead">The watch runs the workout itself, with no phone and no network. Pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Pause with the Action button, and do your strength circuit right on your wrist.</p>
+    <p data-i18n="watch.lead" class="lead">The watch runs the workout itself, with no phone and no network. Pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Set targets with the Digital Crown, start and pause with the Action button on Apple Watch Ultra, and do your strength circuit right on your wrist.</p>
   </div>
   <div class="watch-row fade">
     <figure><img src="assets/img/watch-start.webp" width="440" height="704" data-i18n-attr="alt:watch.start.alt" alt="Start screen: today’s intervals of 8 km, take it easy, and Start" loading="lazy"><figcaption data-i18n="watch.start.cap">Today’s session</figcaption></figure>
@@ -217,6 +259,7 @@
     <figure><img src="assets/img/watch-zones.webp" width="440" height="704" data-i18n-attr="alt:watch.zones.alt" alt="Heart rate 162 in zone 4" loading="lazy"><figcaption data-i18n="watch.zones.cap">Zones</figcaption></figure>
     <figure><img src="assets/img/watch-chart.webp" width="440" height="704" data-i18n-attr="alt:watch.chart.alt" alt="Pace and heart rate over the whole run" loading="lazy"><figcaption data-i18n="watch.chart.cap">Chart</figcaption></figure>
     <figure><img src="assets/img/watch-fuel.webp" width="440" height="704" data-i18n-attr="alt:watch.fuel.alt" alt="Fuel page: fluid estimate with I drank and Gel buttons" loading="lazy"><figcaption data-i18n="watch.fuel.cap">Fuel</figcaption></figure>
+    <figure><img src="assets/img/watch-crown.webp" width="440" height="704" data-i18n-attr="alt:watch.crown.alt" alt="Max heart rate set to 165 bpm with the Digital Crown and minus and plus buttons" loading="lazy"><figcaption data-i18n="watch.crown.cap">Digital Crown targets</figcaption></figure>
   </div>
 </section>
 
@@ -229,7 +272,7 @@
   <div class="phone-row fade">
     <figure><img src="assets/img/phone-detail.webp" width="720" height="1472" data-i18n-attr="alt:after.detail.alt" alt="Run detail: 7.75 km with map, heart strain 7.9, cadence 170 spm, grade-adjusted pace 5:35 and decoupling 3.2%" loading="lazy"><figcaption data-i18n="after.detail.cap">Stats that matter</figcaption></figure>
     <figure><img src="assets/img/phone-breakdown.webp" width="720" height="1472" data-i18n-attr="alt:after.breakdown.alt" alt="Running form and a breakdown scrubbed to 18 minutes with pace and heart rate" loading="lazy"><figcaption data-i18n="after.breakdown.cap">Running form and breakdown</figcaption></figure>
-    <figure><img src="assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Map of every run around Lake Zürich" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Everywhere you have run</figcaption></figure>
+    <figure><img src="assets/img/phone-heatmap.webp" width="720" height="1472" data-i18n-attr="alt:after.heatmap.alt" alt="Runs map around Lake Zürich, streets coloured from blue to red by how often you ran them" loading="lazy"><figcaption data-i18n="after.heatmap.cap">Your most-run streets, in colour</figcaption></figure>
   </div>
 </section>
 
@@ -239,23 +282,43 @@
       <p data-i18n="insights.eyebrow" class="eyebrow purple">Insights</p>
       <h2 data-i18n="insights.title">Watch your fitness grow.</h2>
       <ol class="ins-list">
-        <li data-at="295" class="on"><h3 data-i18n="insights.fitness.title">Fitness trend</h3><p data-i18n="insights.fitness.text">Your VDOT over 26 weeks, with estimates for 10K, half and marathon and a race-day range.</p></li>
-        <li data-at="851"><h3 data-i18n="insights.recovery.title">Recovery</h3><p data-i18n="insights.recovery.text">HRV, resting heart rate and sleep against your own baseline, with the reasons spelled out.</p></li>
-        <li data-at="1771"><h3 data-i18n="insights.load.title">Training load</h3><p data-i18n="insights.load.text">Fitness, fatigue and form, plus the acute to chronic load ratio.</p></li>
-        <li data-at="2268"><h3 data-i18n="insights.volume.title">Weekly volume</h3><p data-i18n="insights.volume.text">26 weeks of kilometres, long run and the rest of the week.</p></li>
-        <li data-at="2734"><h3 data-i18n="insights.easy.title">Easy vs. hard</h3><p data-i18n="insights.easy.text">How close you stay to 80% easy running.</p></li>
-        <li data-at="2965"><h3 data-i18n="insights.form.title">Running form</h3><p data-i18n="insights.form.text">Cadence, ground contact, stride length, vertical oscillation and power, week by week.</p></li>
-        <li data-at="3474"><h3 data-i18n="insights.aerobic.title">Aerobic efficiency</h3><p data-i18n="insights.aerobic.text">Pace at the same heart rate over months, so you see the engine grow.</p></li>
-        <li data-at="4022"><h3 data-i18n="insights.consistency.title">Consistency</h3><p data-i18n="insights.consistency.text">Every day of the last 26 weeks on one grid.</p></li>
-        <li data-at="4413"><h3 data-i18n="insights.monotony.title">Monotony & strain</h3><p data-i18n="insights.monotony.text">Same load every day raises the risk. Vary hard and easy days.</p></li>
+        <li data-at="293" class="on"><h3 data-i18n="insights.fitness.title">Fitness trend</h3><p data-i18n="insights.fitness.text">Your VDOT week by week, with estimates for 10K, half and marathon and a race-day range.</p></li>
+        <li data-at="849"><h3 data-i18n="insights.recovery.title">Recovery</h3><p data-i18n="insights.recovery.text">Overnight HRV, resting heart rate and sleep against your usual range, with the reasons spelled out.</p></li>
+        <li data-at="1769"><h3 data-i18n="insights.load.title">Training load</h3><p data-i18n="insights.load.text">Fitness, fatigue and form, plus the acute to chronic load ratio.</p></li>
+        <li data-at="2266"><h3 data-i18n="insights.volume.title">Weekly volume</h3><p data-i18n="insights.volume.text">Kilometres every week, the long run and the rest of the week, and how often you run.</p></li>
+        <li data-at="2732"><h3 data-i18n="insights.easy.title">Easy vs. hard</h3><p data-i18n="insights.easy.text">How close you stay to 80% easy running.</p></li>
+        <li data-at="2963"><h3 data-i18n="insights.form.title">Running form</h3><p data-i18n="insights.form.text">Cadence, ground contact, stride length, vertical oscillation and power, week by week.</p></li>
+        <li data-at="3471"><h3 data-i18n="insights.aerobic.title">Aerobic efficiency</h3><p data-i18n="insights.aerobic.text">Pace at the same heart rate over months, so you see the engine grow.</p></li>
+        <li data-at="4021"><h3 data-i18n="insights.consistency.title">Consistency</h3><p data-i18n="insights.consistency.text">Every day of the last 26 weeks on one grid.</p></li>
+        <li data-at="4411"><h3 data-i18n="insights.monotony.title">Monotony & strain</h3><p data-i18n="insights.monotony.text">Same load every day raises the risk. Vary hard and easy days.</p></li>
       </ol>
     </div>
     <div class="ins-phone">
       <div class="ins-screen">
-        <img class="ins-long" src="assets/img/insights-long.webp" width="640" height="4988" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Insights: fitness trend, recovery, training load, weekly volume, easy vs. hard, running form, aerobic efficiency, consistency, monotony and strain" loading="lazy">
+        <img class="ins-long" src="assets/img/insights-long.webp" width="640" height="4980" data-i18n-attr="alt:insights.long.alt" alt="Taperwise Insights: fitness trend, recovery, training load, weekly volume, easy vs. hard, running form, aerobic efficiency, consistency, monotony and strain" loading="lazy">
         <img class="ins-status" src="assets/img/insights-status.webp" width="640" height="80" alt="" loading="lazy">
       </div>
       <img class="ins-bezel" src="assets/img/bezel-iphone.webp" width="720" height="1472" alt="" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="light health" id="health">
+  <div class="health-grid">
+    <div class="health-copy reveal">
+      <p data-i18n="health.eyebrow" class="eyebrow pink">Apple Health</p>
+      <h2 data-i18n="health.title">Built on Apple Health.<br><span class="soft">Set up once.</span></h2>
+      <p data-i18n="health.lead" class="lead">Taperwise reads and writes Apple Health, so your zones, effort and workouts match what Fitness and the Workout app show. Nothing to configure twice, nothing stored anywhere else.</p>
+      <ul class="facts">
+        <li data-i18n="health.fact1"><strong>Your heart rate zones.</strong> On iOS 27, Taperwise uses the zones you set in Apple Health, or Apple’s automatic ones.<sup><a href="#fn4">4</a></sup> Prefer Taperwise’s own? They are written into every workout, so Fitness shows the same.</li>
+        <li data-i18n="health.fact2"><strong>Overnight HRV.</strong> Readiness uses RMSSD from your Apple Watch’s beat-to-beat readings while you sleep, against your own usual range.<sup><a href="#fn3">3</a></sup></li>
+        <li data-i18n="health.fact3"><strong>Elevation from the barometer.</strong> iPhone and Apple Watch measure climbs with the barometer, levelled once to GPS, for a steadier grade-adjusted pace.</li>
+        <li data-i18n="health.fact4"><strong>Shared only recent data?</strong> Recovery and Training load say so and tell you how long a full baseline takes.</li>
+      </ul>
+    </div>
+    <div class="health-phones fade">
+      <img src="assets/img/phone-settings-zones.webp" width="720" height="1472" data-i18n-attr="alt:health.zones.alt" alt="Heart rate zones from Apple Health, using your settings: zone 1 under 131 bpm up to zone 5 at 173 bpm and above" loading="lazy">
+      <img src="assets/img/phone-recovery.webp" width="720" height="1472" data-i18n-attr="alt:health.recovery.alt" alt="Recovery: HRV 44 ms against a usual 45 to 48, resting heart rate 55 bpm, 5 h 30 min of sleep, the reasons and 30-day trends" loading="lazy">
     </div>
   </div>
 </section>
@@ -284,7 +347,7 @@
   <div class="bento">
     <article class="tile reveal t-pred">
       <h3 data-i18n="tile.pred.title">Honest race prediction</h3>
-      <p class="big">~3:34</p>
+      <p class="big">~3:35</p>
       <p data-i18n="tile.pred.text">Your marathon estimate blends race fitness with the training you actually put in, shown as a race-day range with an honest “on track”, “ambitious” or “unrealistic”.</p>
     </article>
     <article class="tile reveal t-dec">
@@ -360,6 +423,18 @@
   <a data-i18n="privacy.more" class="more reveal" href="privacy/">Read the privacy policy</a>
 </section>
 
+<section class="light compat" id="requirements">
+  <div class="compat-inner reveal">
+    <h2 data-i18n="compat.title">Compatibility</h2>
+    <dl class="compat-list">
+      <div><dt data-i18n="compat.iphone.title">iPhone</dt><dd data-i18n="compat.iphone.text">iOS 26 or later. Records runs on its own, with or without Apple Watch. Apple Health heart rate zones need iOS 27.</dd></div>
+      <div><dt data-i18n="compat.watch.title">Apple Watch</dt><dd data-i18n="compat.watch.text">watchOS 26 or later, paired with your iPhone. Action button start and pause on Apple Watch Ultra.</dd></div>
+      <div><dt data-i18n="compat.ai.title">Apple Intelligence</dt><dd data-i18n="compat.ai.text">Coach notes need an iPhone that supports Apple Intelligence, with it turned on. Everything else works without it.</dd></div>
+      <div><dt data-i18n="compat.lang.title">Languages</dt><dd data-i18n="compat.lang.text">English, German, French, Italian, Spanish, Brazilian Portuguese, Dutch and Japanese.</dd></div>
+    </dl>
+  </div>
+</section>
+
 <footer class="footer" id="support">
   <div class="footer-top">
     <a class="brand" href="#top"><img src="assets/img/icon.png" alt="" width="22" height="22">Taperwise</a>
@@ -369,6 +444,13 @@
       <a data-i18n="footer.support" href="mailto:apps@bitspire.ch">Support: apps@bitspire.ch</a>
     </div>
   </div>
+  <ol class="footnotes">
+    <li id="fn1" data-i18n="fn.1">Lauersen, Bertelsen and Andersen, “The effectiveness of exercise interventions to prevent sports injuries”, British Journal of Sports Medicine, 2014: strength training cut sports injuries to less than a third.</li>
+    <li id="fn2" data-i18n="fn.2">Race estimates use VDOT after Jack Daniels; the marathon estimate also weighs your training volume and pace after Tanda (2011). Estimates, not promises.</li>
+    <li id="fn3" data-i18n="fn.3">RMSSD comes from Apple Watch beat-to-beat heart data recorded during sleep. Without enough nights of it, Taperwise uses the HRV that Apple Health stores (SDNN) and never mixes the two.</li>
+    <li id="fn4" data-i18n="fn.4">Apple Health heart rate zones require iOS 27. On iOS 26, Taperwise uses its own zones from your maximum and resting heart rate.</li>
+    <li id="fn5" data-i18n="fn.5">Course traced onto OpenStreetMap streets from published descriptions of the 2026 Zürich Marathon and scaled to 42.195 km; elevation from EU-DEM. A demo race, not the official course file. Taperwise is not affiliated with the Zürich Marathon.</li>
+  </ol>
   <p data-i18n="footer.fine" class="fine">Readiness, predictions and calorie values are estimates, not medical advice. Map data © OpenStreetMap contributors. Apple, the Apple logo, iPhone, Apple Watch, Apple Health and Apple Intelligence are trademarks of Apple Inc., registered in the U.S. and other countries. © 2026 BitSpire GmbH.</p>
   <div class="footer-lang" hidden>
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c2.6 2.6 3.8 5.9 3.8 9.5s-1.2 6.9-3.8 9.5c-2.6-2.6-3.8-5.9-3.8-9.5s1.2-6.9 3.8-9.5Z"/></svg>

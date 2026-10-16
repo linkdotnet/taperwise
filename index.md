@@ -24,6 +24,8 @@ Your runs, your heart rate and your plan live on your iPhone and Apple Watch. No
 
 8 languages
 
+### Get the highlights.
+
 Plan
 
 ### Built around you. Adjusted every morning.
@@ -50,14 +52,6 @@ Heart rate variability, resting heart rate, sleep and training load decide wheth
 
 Two short sessions a week of split squats, calf raises and step-ups, the moves linked to fewer running injuries. A guided circuit counts sets and rest on iPhone or Apple Watch and saves to Apple Health.
 
-Run
-
-### 9 km along Lake Zürich. Scroll to run it.
-
-© OpenStreetMap contributors
-
-Demo tempo run on the lakeside path: Bürkliplatz, Arboretum, Mythenquai and Wollishofen, out and back.
-
 Live on iPhone
 
 ### Big numbers. Clear targets.
@@ -82,6 +76,14 @@ Set a goal time, or let your training predict one, and Taperwise turns it into a
 
 - **Ahead or behind.** Live against your plan, so the first kilometre stays slow.
 
+Race day
+
+### 42.195 km along Lake Zürich. Scroll to race it.
+
+© OpenStreetMap contributors
+
+Course traced from the 2026 Zürich Marathon: Quaibrücke, the city centre, the right shore to the Meilen turnaround and back to Sechseläutenplatz. Demo race with a 3:30 goal, Race Pilot pacing and a gel every 5 km.
+
 Maps
 
 ### Water. Toilets. The next tram home.
@@ -104,7 +106,7 @@ Apple Watch
 
 ### Leave the phone at home.
 
-The watch runs the workout itself, with no phone and no network. Pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Pause with the Action button, and do your strength circuit right on your wrist.
+The watch runs the workout itself, with no phone and no network. Pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Set targets with the Digital Crown, start and pause with the Action button on Apple Watch Ultra, and do your strength circuit right on your wrist.
 
 After the run
 
@@ -118,11 +120,11 @@ Insights
 
 #### Fitness trend
 
-Your VDOT over 26 weeks, with estimates for 10K, half and marathon and a race-day range.
+Your VDOT week by week, with estimates for 10K, half and marathon and a race-day range.
 
 #### Recovery
 
-HRV, resting heart rate and sleep against your own baseline, with the reasons spelled out.
+Overnight HRV, resting heart rate and sleep against your usual range, with the reasons spelled out.
 
 #### Training load
 
@@ -130,7 +132,7 @@ Fitness, fatigue and form, plus the acute to chronic load ratio.
 
 #### Weekly volume
 
-26 weeks of kilometres, long run and the rest of the week.
+Kilometres every week, the long run and the rest of the week, and how often you run.
 
 #### Easy vs. hard
 
@@ -152,6 +154,20 @@ Every day of the last 26 weeks on one grid.
 
 Same load every day raises the risk. Vary hard and easy days.
 
+Apple Health
+
+### Built on Apple Health. Set up once.
+
+Taperwise reads and writes Apple Health, so your zones, effort and workouts match what Fitness and the Workout app show. Nothing to configure twice, nothing stored anywhere else.
+
+- **Your heart rate zones.** On iOS 27, Taperwise uses the zones you set in Apple Health, or Apple’s automatic ones. Prefer Taperwise’s own? They are written into every workout, so Fitness shows the same.
+
+- **Overnight HRV.** Readiness uses RMSSD from your Apple Watch’s beat-to-beat readings while you sleep, against your own usual range.
+
+- **Elevation from the barometer.** iPhone and Apple Watch measure climbs with the barometer, levelled once to GPS, for a steadier grade-adjusted pace.
+
+- **Shared only recent data?** Recovery and Training load say so and tell you how long a full baseline takes.
+
 Apple Intelligence
 
 ### A coach that never leaves your iPhone.
@@ -170,7 +186,7 @@ And more
 
 #### Honest race prediction
 
-~3:34
+~3:35
 
 Your marathon estimate blends race fitness with the training you actually put in, shown as a race-day range with an honest “on track”, “ambitious” or “unrealistic”.
 
@@ -236,6 +252,26 @@ No feed, no followers, no leaderboards. Taperwise was built without a server on 
 
 [Read the privacy policy](https://taperwise.run/privacy/)
 
+### Compatibility
+
+iPhone iOS 26 or later. Records runs on its own, with or without Apple Watch. Apple Health heart rate zones need iOS 27.
+
+Apple Watch watchOS 26 or later, paired with your iPhone. Action button start and pause on Apple Watch Ultra.
+
+Apple Intelligence Coach notes need an iPhone that supports Apple Intelligence, with it turned on. Everything else works without it.
+
+Languages English, German, French, Italian, Spanish, Brazilian Portuguese, Dutch and Japanese.
+
 [Privacy policy](https://taperwise.run/privacy/) [Legal notice](https://taperwise.run/legal/) [Support: apps@bitspire.ch](mailto:apps@bitspire.ch)
+
+- Lauersen, Bertelsen and Andersen, “The effectiveness of exercise interventions to prevent sports injuries”, British Journal of Sports Medicine, 2014: strength training cut sports injuries to less than a third.
+
+- Race estimates use VDOT after Jack Daniels; the marathon estimate also weighs your training volume and pace after Tanda (2011). Estimates, not promises.
+
+- RMSSD comes from Apple Watch beat-to-beat heart data recorded during sleep. Without enough nights of it, Taperwise uses the HRV that Apple Health stores (SDNN) and never mixes the two.
+
+- Apple Health heart rate zones require iOS 27. On iOS 26, Taperwise uses its own zones from your maximum and resting heart rate.
+
+- Course traced onto OpenStreetMap streets from published descriptions of the 2026 Zürich Marathon and scaled to 42.195 km; elevation from EU-DEM. A demo race, not the official course file. Taperwise is not affiliated with the Zürich Marathon.
 
 Readiness, predictions and calorie values are estimates, not medical advice. Map data © OpenStreetMap contributors. Apple, the Apple logo, iPhone, Apple Watch, Apple Health and Apple Intelligence are trademarks of Apple Inc., registered in the U.S. and other countries. © 2026 BitSpire GmbH.

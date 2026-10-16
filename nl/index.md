@@ -24,6 +24,8 @@ Je runs, je hartslag en je schema staan op je iPhone en Apple Watch. Niet op een
 
 8 talen
 
+### Bekijk de highlights.
+
 Plan
 
 ### Op jou gebouwd. Elke ochtend bijgesteld.
@@ -50,14 +52,6 @@ Hartslagvariabiliteit, rusthartslag, slaap en trainingsbelasting bepalen of vand
 
 Twee korte sessies per week met split squats, kuitheffen en step-ups, de oefeningen die samenhangen met minder loopblessures. Een begeleid circuit telt sets en rust op iPhone of Apple Watch en slaat alles op in de app Gezondheid.
 
-Run
-
-### 9 km langs het Zürichmeer. Scrol om te lopen.
-
-© OpenStreetMap contributors
-
-Demo-tempoloop langs het meer: Bürkliplatz, Arboretum, Mythenquai en Wollishofen, heen en terug.
-
 Live op iPhone
 
 ### Grote cijfers. Duidelijke doelen.
@@ -82,6 +76,14 @@ Stel een doeltijd in, of laat je training er een voorspellen, en Taperwise maakt
 
 - **Voor of achter.** Live vergeleken met je schema, zodat de eerste kilometer rustig blijft.
 
+Wedstrijddag
+
+### 42,195 km langs het Zürichmeer. Scroll om hem te lopen.
+
+© OpenStreetMap contributors
+
+Route gevolgd van de Zürich Marathon 2026: Quaibrücke, het stadscentrum, de rechteroever tot het keerpunt in Meilen en terug naar Sechseläutenplatz. Demorace met een doel van 3:30, Race Pilot-tempo en een gel per 5 km.
+
 Kaarten
 
 ### Water. Toiletten. De volgende tram naar huis.
@@ -104,7 +106,7 @@ Apple Watch
 
 ### Laat de telefoon thuis.
 
-Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Pauzeer met de actieknop en doe je krachtcircuit gewoon op je pols.
+Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Stel doelen in met de Digital Crown, start en pauzeer met de actieknop op Apple Watch Ultra, en doe je krachtcircuit gewoon op je pols.
 
 Na de run
 
@@ -118,11 +120,11 @@ Inzichten
 
 #### Conditietrend
 
-Je VDOT over 26 weken, met schattingen voor 10K, halve marathon en marathon en een wedstrijdtijdbereik.
+Je VDOT week na week, met schattingen voor 10K, halve marathon en marathon en een bandbreedte voor wedstrijddag.
 
 #### Herstel
 
-HRV, rusthartslag en slaap naast je eigen basislijn, met de redenen erbij.
+Nachtelijke HRV, rusthartslag en slaap naast je gebruikelijke bereik, met de redenen erbij.
 
 #### Trainingsbelasting
 
@@ -130,7 +132,7 @@ Conditie, vermoeidheid en vorm, plus de verhouding tussen acute en chronische be
 
 #### Wekelijks volume
 
-26 weken aan kilometers, de lange duurloop en de rest van de week.
+Kilometers per week, de lange duurloop, de rest van de week en hoe vaak je loopt.
 
 #### Makkelijk vs. zwaar
 
@@ -152,6 +154,20 @@ Elke dag van de afgelopen 26 weken op één raster.
 
 Dezelfde belasting elke dag verhoogt het risico. Wissel zware en makkelijke dagen af.
 
+Gezondheid
+
+### Gebouwd op Gezondheid. Eén keer instellen.
+
+Taperwise leest en schrijft naar Gezondheid, zodat je zones, inspanning en trainingen overeenkomen met wat Fitness en de app Workout tonen. Niets twee keer instellen, niets ergens anders opgeslagen.
+
+- **Je hartslagzones.** Op iOS 27 gebruikt Taperwise de zones die je in Gezondheid instelt, of de automatische zones van Apple. Liever die van Taperwise? Die worden bij elke training opgeslagen, dus Fitness toont hetzelfde.
+
+- **Nachtelijke HRV.** Paraatheid gebruikt de RMSSD uit de slag-tot-slag-metingen van je Apple Watch tijdens het slapen, vergeleken met je eigen gebruikelijke bereik.
+
+- **Hoogte via de barometer.** iPhone en Apple Watch meten klimmetjes met de barometer, eenmaal gelijkgetrokken met GPS, voor een stabieler tempo dat is aangepast aan de helling.
+
+- **Alleen recente gegevens gedeeld?** Herstel en Trainingsbelasting melden dat en vertellen hoe lang een volledige basislijn duurt.
+
 Apple Intelligence
 
 ### Een coach die je iPhone nooit verlaat.
@@ -170,7 +186,7 @@ En meer
 
 #### Eerlijke wedstrijdvoorspelling
 
-~3:34
+~3:35
 
 Je schatting voor de marathon combineert wedstrijdconditie met de training die je echt hebt gedaan. Die staat als wedstrijdtijdbereik, met een eerlijk “op koers”, “ambitieus” of “onrealistisch”.
 
@@ -236,6 +252,26 @@ Geen feed, geen volgers, geen ranglijsten. Taperwise is bewust zonder server geb
 
 [Lees het privacybeleid](https://taperwise.run/privacy/)
 
+### Compatibiliteit
+
+iPhone iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27.
+
+Apple Watch watchOS 26 of nieuwer, gekoppeld aan je iPhone. Starten en pauzeren met de actieknop op Apple Watch Ultra.
+
+Apple Intelligence Coachnotities hebben een iPhone nodig die Apple Intelligence ondersteunt, met Apple Intelligence ingeschakeld. Al het andere werkt zonder.
+
+Talen Engels, Duits, Frans, Italiaans, Spaans, Braziliaans Portugees, Nederlands en Japans.
+
 [Privacybeleid](https://taperwise.run/privacy/) [Juridische kennisgeving](https://taperwise.run/legal/) [Support: apps@bitspire.ch](mailto:apps@bitspire.ch)
+
+- Lauersen, Bertelsen en Andersen, “The effectiveness of exercise interventions to prevent sports injuries”, British Journal of Sports Medicine, 2014: krachttraining verminderde sportblessures tot minder dan een derde.
+
+- Wedstrijdschattingen gebruiken VDOT van Jack Daniels; de marathonschatting weegt ook je trainingsvolume en tempo mee, naar Tanda (2011). Schattingen, geen beloftes.
+
+- RMSSD komt uit de slag-tot-slag-hartdata van de Apple Watch die tijdens het slapen wordt vastgelegd. Zonder genoeg nachten gebruikt Taperwise de HRV die Gezondheid opslaat (SDNN) en mengt de twee nooit.
+
+- Hartslagzones uit Gezondheid vereisen iOS 27. Op iOS 26 gebruikt Taperwise zijn eigen zones, op basis van je maximale en rusthartslag.
+
+- Route getekend op de straten van OpenStreetMap, op basis van gepubliceerde beschrijvingen van de Zürich Marathon 2026 en geschaald naar 42,195 km; hoogte uit EU-DEM. Een demorace, niet het officiële routebestand. Taperwise is niet verbonden aan de Zürich Marathon.
 
 Paraatheid, voorspellingen en calorieën zijn schattingen, geen medisch advies. Kaartgegevens © OpenStreetMap contributors. Apple, het Apple-logo, iPhone, Apple Watch, Gezondheid en Apple Intelligence zijn handelsmerken van Apple Inc., gedeponeerd in de VS en andere landen. © 2026 BitSpire GmbH.
