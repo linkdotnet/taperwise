@@ -12,7 +12,7 @@ Taperwise for iPhone and Apple Watch
 
 A training plan for 5K, 10K, half or marathon, a coach for every run and maps that work without signal. No account. No cloud.
 
-Coming soon on the App Store
+[Download on the App Store](https://apps.apple.com/app/id6823595769)
 
 Your runs, your heart rate and your plan live on your iPhone and Apple Watch. Not on a server. Not in a cloud. Nowhere else.
 

@@ -12,7 +12,7 @@ Taperwise para iPhone e Apple Watch
 
 Um plano de treino para 5K, 10K, meia ou maratona, um coach para cada corrida e mapas que funcionam sem sinal. Sem conta. Sem nuvem.
 
-Em breve na App Store
+[Baixar na App Store](https://apps.apple.com/app/id6823595769)
 
 Suas corridas, sua frequência cardíaca e seu plano ficam no seu iPhone e no Apple Watch. Não em um servidor. Não na nuvem. Em nenhum outro lugar.
 

@@ -87,7 +87,7 @@ sup a:hover { text-decoration: underline; }
 .nav-links { display: flex; gap: 26px; margin-left: auto; }
 .nav-links a { text-decoration: none; color: rgba(245,245,247,.8); transition: color .2s; }
 .nav-links a:hover { color: #fff; }
-.nav-cta { background: var(--orange); color: #000; font-weight: 600; border-radius: 99px; padding: 4px 12px; white-space: nowrap; }
+.nav-cta { text-decoration: none; background: var(--orange); color: #000; font-weight: 600; border-radius: 99px; padding: 4px 12px; white-space: nowrap; }
 
 /* hero */
 .hero { position: relative; overflow: hidden; text-align: center; padding: clamp(64px, 10vh, 120px) 22px 0; }
@@ -100,7 +100,7 @@ sup a:hover { text-decoration: underline; }
 .hero-copy { max-width: 980px; margin: 0 auto; }
 .hero .lead { max-width: 720px; margin-inline: auto; }
 .cta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 18px 30px; margin-top: 36px; }
-.store { background: var(--ink); color: #000; font-weight: 600; font-size: 17px; padding: 13px 24px; border-radius: 99px; }
+.store { text-decoration: none; background: var(--ink); color: #000; font-weight: 600; font-size: 17px; padding: 13px 24px; border-radius: 99px; }
 .hero-devices {
   display: flex; justify-content: center; align-items: center; gap: clamp(24px, 5vw, 72px);
   margin: clamp(48px, 8vh, 88px) -22px 0; padding: 0 22px clamp(56px, 10vh, 110px);

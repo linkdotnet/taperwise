@@ -12,7 +12,7 @@ iPhone・Apple Watch用のTaperwise
 
 5K、10K、ハーフ、マラソンのトレーニングプラン。どのランにも寄り添うコーチ。電波がなくても使えるマップ。アカウント不要、クラウドなし。
 
-App Storeで近日公開
+[App Storeからダウンロード](https://apps.apple.com/app/id6823595769)
 
 ラン、心拍、プランは、iPhoneとApple Watchの中にあります。サーバーにもクラウドにも置きません。
 

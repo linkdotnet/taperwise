@@ -12,7 +12,7 @@ Taperwise voor iPhone en Apple Watch
 
 Een trainingsschema voor 5K, 10K, halve of marathon, een coach bij elke run en kaarten die zonder bereik werken. Geen account. Geen cloud.
 
-Binnenkort in de App Store
+[Download in de App Store](https://apps.apple.com/app/id6823595769)
 
 Je runs, je hartslag en je schema staan op je iPhone en Apple Watch. Niet op een server. Niet in een cloud. Nergens anders.
 

@@ -12,7 +12,7 @@ Taperwise pour iPhone et Apple Watch
 
 Un plan d'entraînement pour 5 km, 10 km, semi ou marathon, un coach pour chaque sortie et des cartes qui fonctionnent sans réseau. Pas de compte. Pas de cloud.
 
-Bientôt sur l'App Store
+[Télécharger dans l'App Store](https://apps.apple.com/app/id6823595769)
 
 Tes sorties, ta FC et ton plan restent sur ton iPhone et ton Apple Watch. Pas sur un serveur. Pas dans un cloud. Nulle part ailleurs.
 
