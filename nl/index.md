@@ -1,6 +1,6 @@
 # Taperwise · Trainingsschema marathon en halve marathon
 
-> Trainingsschema voor 5K, 10K, halve marathon en marathon, afgestemd op hartslag en slaap. Hardloop-app voor Apple Watch en iPhone. Geen account, geen cloud.
+> Trainingsschema voor 10K, halve marathon en marathon, afgestemd op hartslag en slaap. Hardloop-app voor Apple Watch en iPhone. Geen account, geen cloud.
 
 Source: https://taperwise.run/nl/
 
@@ -10,7 +10,7 @@ Taperwise voor iPhone en Apple Watch
 
 ## Loop je wedstrijd. Houd je data.
 
-Een trainingsschema voor 5K, 10K, halve of marathon, een coach bij elke run en kaarten die zonder bereik werken. Geen account. Geen cloud.
+Een trainingsschema voor 10K, halve of marathon, een coach bij elke run en kaarten die zonder bereik werken. Geen account. Geen cloud.
 
 [Download in de App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plan
 
 #### Een schema dat start waar jij bent.
 
-Taperwise leest je loophistorie uit Apple Health of importeert GPX-, TCX-, FIT- en Strava-exports. Daarna bouwt het een schema van 12 tot 30 weken voor 5K, 10K, halve marathon of marathon: Basis, Opbouw, Piek en Taper. Je doel, je huidige conditie en een eerlijke wedstrijdtijd staan naast elkaar.
+Taperwise leest je loophistorie uit Apple Health of importeert GPX-, TCX-, FIT- en Strava-exports. Daarna bouwt het een schema van 12 tot 30 weken voor 10K, halve marathon of marathon: Basis, Opbouw, Piek en Taper. Je doel, je huidige conditie en een eerlijke wedstrijdtijd staan naast elkaar.
 
 - Volume groeit met hooguit ongeveer 10% per week
 

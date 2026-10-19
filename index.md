@@ -1,6 +1,6 @@
 # Taperwise · Marathon training app for iPhone and Apple Watch
 
-> Marathon, half marathon, 10K and 5K plans that adapt to heart rate, HRV and sleep. Live coaching and offline maps on iPhone and Apple Watch. No account, no cloud.
+> Marathon, half marathon and 10K plans that adapt to heart rate, HRV and sleep. Live coaching and offline maps on iPhone and Apple Watch. No account, no cloud.
 
 Source: https://taperwise.run/
 
@@ -10,7 +10,7 @@ Taperwise for iPhone and Apple Watch
 
 ## Run your race. Keep your data.
 
-A training plan for 5K, 10K, half or marathon, a coach for every run and maps that work without signal. No account. No cloud.
+A training plan for 10K, half or marathon, a coach for every run and maps that work without signal. No account. No cloud.
 
 [Download on the App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plan
 
 #### A plan that starts where you are.
 
-Taperwise reads your running history from Apple Health, or imports GPX, TCX, FIT and Strava exports. Then it builds a 12 to 30 week plan for 5K, 10K, half marathon or marathon: Base, Build, Peak and Taper. Your goal, today’s fitness and an honest race-day range sit side by side.
+Taperwise reads your running history from Apple Health, or imports GPX, TCX, FIT and Strava exports. Then it builds a 12 to 30 week plan for 10K, half marathon or marathon: Base, Build, Peak and Taper. Your goal, today’s fitness and an honest race-day range sit side by side.
 
 - Volume grows at most about 10% a week
 

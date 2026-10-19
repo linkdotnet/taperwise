@@ -1,6 +1,6 @@
 # Taperwise · Planilha de treino maratona e meia maratona
 
-> Planilha de treino para 5K, 10K, meia maratona e maratona que se adapta ao seu HRV, frequência cardíaca e sono. App de corrida Apple Watch com mapas offline.
+> Planilha de treino para 10K, meia maratona e maratona que se adapta ao seu HRV, frequência cardíaca e sono. App de corrida Apple Watch com mapas offline.
 
 Source: https://taperwise.run/pt-br/
 
@@ -10,7 +10,7 @@ Taperwise para iPhone e Apple Watch
 
 ## Corra sua prova. Guarde seus dados.
 
-Um plano de treino para 5K, 10K, meia ou maratona, um coach para cada corrida e mapas que funcionam sem sinal. Sem conta. Sem nuvem.
+Um plano de treino para 10K, meia ou maratona, um coach para cada corrida e mapas que funcionam sem sinal. Sem conta. Sem nuvem.
 
 [Baixar na App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plano
 
 #### Um plano que começa de onde você está.
 
-O Taperwise lê seu histórico de corridas do app Saúde ou importa exportações de GPX, TCX, FIT e Strava. Depois monta um plano de 12 a 30 semanas para 5K, 10K, meia maratona ou maratona: Base, Construção, Pico e Polimento. Sua meta, sua forma atual e uma faixa honesta para o dia da prova, lado a lado.
+O Taperwise lê seu histórico de corridas do app Saúde ou importa exportações de GPX, TCX, FIT e Strava. Depois monta um plano de 12 a 30 semanas para 10K, meia maratona ou maratona: Base, Construção, Pico e Polimento. Sua meta, sua forma atual e uma faixa honesta para o dia da prova, lado a lado.
 
 - O volume cresce no máximo cerca de 10% por semana
 

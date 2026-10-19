@@ -1,6 +1,6 @@
 # Taperwise
 
-> Marathon, half marathon, 10K and 5K plans that adapt to heart rate, HRV and sleep. Live coaching and offline maps on iPhone and Apple Watch. No account, no cloud.
+> Marathon, half marathon and 10K plans that adapt to heart rate, HRV and sleep. Live coaching and offline maps on iPhone and Apple Watch. No account, no cloud.
 
 Taperwise is a running app for iPhone and Apple Watch by BitSpire GmbH (Cham, Switzerland). It is not yet released on the App Store. Contact: apps@bitspire.ch
 

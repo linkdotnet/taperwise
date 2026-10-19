@@ -1,6 +1,6 @@
 # Taperwise: Trainingsplan Marathon & Halbmarathon für Apple Watch
 
-> Trainingspläne für 5 km, 10 km, Halbmarathon und Marathon, passend zu Puls, HRV und Schlaf. Lauf-App für Apple Watch mit Offline-Karten. Ohne Konto, ohne Cloud.
+> Trainingspläne für 10 km, Halbmarathon und Marathon, passend zu Puls, HRV und Schlaf. Lauf-App für Apple Watch mit Offline-Karten. Ohne Konto, ohne Cloud.
 
 Source: https://taperwise.run/de/
 
@@ -10,7 +10,7 @@ Taperwise für iPhone und Apple Watch
 
 ## Lauf deinen Wettkampf. Behalte deine Daten.
 
-Ein Trainingsplan für 5 km, 10 km, Halb- oder Marathon, ein Coach für jeden Lauf und Karten, die ohne Empfang funktionieren. Kein Konto. Keine Cloud.
+Ein Trainingsplan für 10 km, Halb- oder Marathon, ein Coach für jeden Lauf und Karten, die ohne Empfang funktionieren. Kein Konto. Keine Cloud.
 
 [Laden im App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plan
 
 #### Ein Plan, der bei dir startet.
 
-Taperwise liest deine Laufhistorie aus Apple Health oder importiert GPX-, TCX-, FIT- und Strava-Exporte. Dann baut es einen Plan über 12 bis 30 Wochen für 5 km, 10 km, Halbmarathon oder Marathon: Grundlage, Aufbau, Spitze und Tapering. Dein Ziel, deine heutige Form und eine ehrliche Zeitspanne für den Wettkampf stehen nebeneinander.
+Taperwise liest deine Laufhistorie aus Apple Health oder importiert GPX-, TCX-, FIT- und Strava-Exporte. Dann baut es einen Plan über 12 bis 30 Wochen für 10 km, Halbmarathon oder Marathon: Grundlage, Aufbau, Spitze und Tapering. Dein Ziel, deine heutige Form und eine ehrliche Zeitspanne für den Wettkampf stehen nebeneinander.
 
 - Das Volumen wächst um höchstens etwa 10 % pro Woche
 

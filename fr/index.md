@@ -1,6 +1,6 @@
 # Taperwise : plan d'entraînement marathon et semi-marathon
 
-> Plans 5 km, 10 km, semi-marathon et marathon adaptés à ta FC, ta VFC et ton sommeil. Application de course Apple Watch, cartes hors ligne. Sans cloud.
+> Plans 10 km, semi-marathon et marathon adaptés à ta FC, ta VFC et ton sommeil. Application de course Apple Watch, cartes hors ligne. Sans cloud.
 
 Source: https://taperwise.run/fr/
 
@@ -10,7 +10,7 @@ Taperwise pour iPhone et Apple Watch
 
 ## Cours ta course. Garde tes données.
 
-Un plan d'entraînement pour 5 km, 10 km, semi ou marathon, un coach pour chaque sortie et des cartes qui fonctionnent sans réseau. Pas de compte. Pas de cloud.
+Un plan d'entraînement pour 10 km, semi ou marathon, un coach pour chaque sortie et des cartes qui fonctionnent sans réseau. Pas de compte. Pas de cloud.
 
 [Télécharger dans l'App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plan
 
 #### Un plan qui part de toi.
 
-Taperwise lit ton historique de course dans Apple Santé, ou importe tes exports GPX, TCX, FIT et Strava. Il construit ensuite un plan de 12 à 30 semaines pour 5 km, 10 km, semi-marathon ou marathon : Base, Développement, Pic et Affûtage. Ton objectif, ta forme actuelle et une fourchette honnête pour le jour J tiennent côte à côte.
+Taperwise lit ton historique de course dans Apple Santé, ou importe tes exports GPX, TCX, FIT et Strava. Il construit ensuite un plan de 12 à 30 semaines pour 10 km, semi-marathon ou marathon : Base, Développement, Pic et Affûtage. Ton objectif, ta forme actuelle et une fourchette honnête pour le jour J tiennent côte à côte.
 
 - Le volume augmente de 10 % par semaine au maximum
 

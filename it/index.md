@@ -1,6 +1,6 @@
 # Taperwise: tabella allenamento maratona e mezza maratona
 
-> Tabelle per 5K, 10K, mezza maratona e maratona che si adattano a frequenza cardiaca, HRV e sonno. App corsa Apple Watch con mappe offline. Senza cloud.
+> Tabelle per 10K, mezza maratona e maratona che si adattano a frequenza cardiaca, HRV e sonno. App corsa Apple Watch con mappe offline. Senza cloud.
 
 Source: https://taperwise.run/it/
 
@@ -10,7 +10,7 @@ Taperwise per iPhone e Apple Watch
 
 ## Corri la tua gara. Tieni i tuoi dati.
 
-Un piano di allenamento per 5K, 10K, mezza o maratona, un coach per ogni corsa e mappe che funzionano senza segnale. Nessun account. Nessun cloud.
+Un piano di allenamento per 10K, mezza o maratona, un coach per ogni corsa e mappe che funzionano senza segnale. Nessun account. Nessun cloud.
 
 [Scarica su App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Piano
 
 #### Un piano che parte da dove sei.
 
-Taperwise legge la tua storia di corsa da Apple Salute, oppure importa esportazioni GPX, TCX, FIT e Strava. Poi costruisce un piano di 12-30 settimane per 5K, 10K, mezza maratona o maratona: Base, Costruzione, Picco e Tapering. Il tuo obiettivo, la forma di oggi e un intervallo realistico per il giorno gara stanno fianco a fianco.
+Taperwise legge la tua storia di corsa da Apple Salute, oppure importa esportazioni GPX, TCX, FIT e Strava. Poi costruisce un piano di 12-30 settimane per 10K, mezza maratona o maratona: Base, Costruzione, Picco e Tapering. Il tuo obiettivo, la forma di oggi e un intervallo realistico per il giorno gara stanno fianco a fianco.
 
 - Il volume cresce al massimo di circa il 10% a settimana
 

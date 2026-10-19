@@ -1,6 +1,6 @@
 # Taperwise · Plan de entrenamiento maratón y media maratón
 
-> Plan de entrenamiento para 5K, 10K, media maratón y maratón que se adapta a tu pulso, VFC y sueño. App de running para Apple Watch con mapas offline.
+> Plan de entrenamiento para 10K, media maratón y maratón que se adapta a tu pulso, VFC y sueño. App de running para Apple Watch con mapas offline.
 
 Source: https://taperwise.run/es/
 
@@ -10,7 +10,7 @@ Taperwise para iPhone y Apple Watch
 
 ## Corre tu carrera. Guarda tus datos.
 
-Un plan de entrenamiento para 5K, 10K, media o maratón, un entrenador para cada carrera y mapas que funcionan sin señal. Sin cuenta. Sin nube.
+Un plan de entrenamiento para 10K, media o maratón, un entrenador para cada carrera y mapas que funcionan sin señal. Sin cuenta. Sin nube.
 
 [Descargar en la App Store](https://apps.apple.com/app/id6823595769)
 
@@ -32,7 +32,7 @@ Plan
 
 #### Un plan que empieza donde estás.
 
-Taperwise lee tu historial de carreras de la app Salud o importa exportaciones de GPX, TCX, FIT y Strava. Después crea un plan de 12 a 30 semanas para 5K, 10K, media maratón o maratón: Base, Construcción, Pico y Puesta a punto. Tu objetivo, tu forma actual y un rango honesto para el día de carrera, uno al lado del otro.
+Taperwise lee tu historial de carreras de la app Salud o importa exportaciones de GPX, TCX, FIT y Strava. Después crea un plan de 12 a 30 semanas para 10K, media maratón o maratón: Base, Construcción, Pico y Puesta a punto. Tu objetivo, tu forma actual y un rango honesto para el día de carrera, uno al lado del otro.
 
 - El volumen sube como mucho un 10 % a la semana
 
