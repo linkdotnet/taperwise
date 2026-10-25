@@ -199,7 +199,7 @@
   "privacy.more": "Lees het privacybeleid",
   "compat.title": "Compatibiliteit",
   "compat.iphone.title": "iPhone",
-  "compat.iphone.text": "iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27.",
+  "compat.iphone.text": "iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27. Geoptimaliseerd voor iPhone Duo.",
   "compat.watch.title": "Apple Watch",
   "compat.watch.text": "watchOS 26 of nieuwer, gekoppeld aan je iPhone. Starten en pauzeren met de actieknop op Apple Watch Ultra.",
   "compat.ai.title": "Apple Intelligence",
@@ -215,5 +215,14 @@
   "fn.4": "Hartslagzones uit Gezondheid vereisen iOS 27. Op iOS 26 gebruikt Taperwise zijn eigen zones, op basis van je maximale en rusthartslag.",
   "fn.5": "Route getekend op de straten van OpenStreetMap, op basis van gepubliceerde beschrijvingen van de Zürich Marathon 2026 en geschaald naar 42,195 km; hoogte uit EU-DEM. Een demorace, niet het officiële routebestand. Taperwise is niet verbonden aan de Zürich Marathon.",
   "footer.fine": "Paraatheid, voorspellingen en calorieën zijn schattingen, geen medisch advies. Kaartgegevens © OpenStreetMap contributors. Apple, het Apple-logo, iPhone, Apple Watch, Gezondheid en Apple Intelligence zijn handelsmerken van Apple Inc., gedeponeerd in de VS en andere landen. © 2026 BitSpire GmbH.",
-  "footer.language": "Taal"
+  "footer.language": "Taal",
+  "duo.eyebrow": "iPhone Duo",
+  "duo.title": "Dicht of open.<br><span class=\"soft\">Altijd je run.</span>",
+  "duo.lead": "Op iPhone Duo schuiven de tabbladen naar de zijkant. Dichtgeklapt zet het runscherm de kaart boven je cijfers. Opengeklapt tonen Geschiedenis en Plan de lijst naast de gekozen run of sessie.",
+  "duo.closed.alt": "iPhone Duo dichtgeklapt: live run met de kaart boven tempo 4:10 per km en de knoppen Pauze, Naar huis en Einde",
+  "duo.closed.cap": "Dicht, onderweg",
+  "duo.history.alt": "iPhone Duo opengeklapt: de lijst met runs naast een run van 7,75 km met kaart en cijfers",
+  "duo.history.cap": "Open, lijst en run naast elkaar",
+  "duo.run.alt": "iPhone Duo opengeklapt: live run met een grote kaart naast tempo 4:10 per km en de knoppen Pauze, Naar huis en Einde",
+  "duo.run.cap": "Open, een grotere kaart"
 }

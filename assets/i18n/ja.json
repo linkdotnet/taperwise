@@ -199,7 +199,7 @@
   "privacy.more": "プライバシーポリシーを読む",
   "compat.title": "互換性",
   "compat.iphone.title": "iPhone",
-  "compat.iphone.text": "iOS 26以降。Apple Watchの有無にかかわらず、ランを単独で記録します。ヘルスケアの心拍ゾーンにはiOS 27が必要です。",
+  "compat.iphone.text": "iOS 26以降。Apple Watchの有無にかかわらず、ランを単独で記録します。ヘルスケアの心拍ゾーンにはiOS 27が必要です。 iPhone Duoに最適化。",
   "compat.watch.title": "Apple Watch",
   "compat.watch.text": "watchOS 26以降、iPhoneとペアリング。Apple Watch Ultraでは、アクションボタンで開始と一時停止。",
   "compat.ai.title": "Apple Intelligence",
@@ -215,5 +215,14 @@
   "fn.4": "ヘルスケアの心拍ゾーンにはiOS 27が必要です。iOS 26では、最大心拍数と安静時心拍数に基づくTaperwise独自のゾーンを使用します。",
   "fn.5": "2026 Zürich Marathonの公開されている説明をもとに、OpenStreetMapの道路上にコースを描き、42.195 kmに調整。標高はEU-DEMから。デモレースであり、公式のコースファイルではありません。Taperwiseは Zürich Marathon とは提携していません。",
   "footer.fine": "コンディション、予測、カロリーの値は推定であり、医療アドバイスではありません。地図データ © OpenStreetMap contributors。Apple、Appleのロゴ、iPhone、Apple Watch、ヘルスケア、Apple Intelligenceは、米国およびその他の国で登録されたApple Inc.の商標です。© 2026 BitSpire GmbH.",
-  "footer.language": "言語"
+  "footer.language": "言語",
+  "duo.eyebrow": "iPhone Duo",
+  "duo.title": "閉じても、開いても。<br><span class=\"soft\">いつものランを。</span>",
+  "duo.lead": "iPhone Duoではタブが横に移動します。閉じた状態では、ラン画面の地図が数値の上に表示されます。開いた状態では、履歴とプランで一覧と選んだランやセッションが並んで表示されます。",
+  "duo.closed.alt": "閉じたiPhone Duo：地図の下にペース4:10/kmと一時停止、とにかく帰る、終了ボタンが並ぶラン画面",
+  "duo.closed.cap": "閉じて、走りながら",
+  "duo.history.alt": "開いたiPhone Duo：ラン一覧の横に地図と数値付きの7.75 kmのラン",
+  "duo.history.cap": "開いて、一覧とランを並べて",
+  "duo.run.alt": "開いたiPhone Duo：大きな地図の横にペース4:10/kmと一時停止、とにかく帰る、終了ボタンが並ぶラン画面",
+  "duo.run.cap": "開いて、大きな地図で"
 }

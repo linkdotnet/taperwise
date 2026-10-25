@@ -249,6 +249,12 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
 .watch-row { display: flex; justify-content: center; gap: clamp(12px, 2vw, 28px); margin-top: clamp(56px, 8vh, 96px); padding: 0 22px; }
 .watch-row figure { margin: 0; width: min(calc(var(--phone) * .604), 14vw); text-align: center; }
 
+/* iphone duo: closed bezel 720 × 1004, open landscape 1080 × 785; widths keep both the same height */
+.duo { padding: clamp(88px, 14vh, 160px) 0; background: radial-gradient(1000px 520px at 50% 100%, rgba(10,132,255,.16), transparent 70%), var(--black); }
+.duo-row { display: flex; justify-content: center; align-items: flex-end; gap: clamp(20px, 4vw, 56px); margin-top: clamp(56px, 8vh, 96px); padding: 0 22px; }
+.duo-row figure { margin: 0; width: min(calc(var(--phone) * .8), 16vw); text-align: center; }
+.duo-row figure.open { width: min(calc(var(--phone) * 1.54), 30.7vw); }
+
 /* after the run */
 .after { padding: clamp(88px, 14vh, 160px) 0; }
 .after figcaption { color: var(--paper-soft); }
@@ -396,8 +402,10 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
   .hud dt { font-size: 10px; letter-spacing: .03em; }
   .hud dd { font-size: 21px; }
   .hud small { font-size: 11px; margin-left: 2px; }
-  .phone-row, .watch-row { justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; scrollbar-width: none; }
-  .phone-row figure, .watch-row figure { flex: none; scroll-snap-align: center; }
+  .phone-row, .watch-row, .duo-row { justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 12px; scrollbar-width: none; }
+  .phone-row figure, .watch-row figure, .duo-row figure { flex: none; scroll-snap-align: center; }
+  .duo-row figure { width: 62vw; }
+  .duo-row figure.open { width: 86vw; }
   .phone-row figure { width: var(--phone); }
   .watch-row figure { width: 46vw; }
   .ins { height: 600vh; }

@@ -114,6 +114,12 @@ Apple Watch
 
 ランの詳細は、プランにどう合っていたかと主要な4つの数値から始まります。心臓への負担、ケイデンス、推定VO₂max、勾配補正ペース、デカップリングは「詳細」に。ペース、心拍、標高をなぞると、地図上の該当箇所が光ります。
 
+iPhone Duo
+
+### 閉じても、開いても。 いつものランを。
+
+iPhone Duoではタブが横に移動します。閉じた状態では、ラン画面の地図が数値の上に表示されます。開いた状態では、履歴とプランで一覧と選んだランやセッションが並んで表示されます。
+
 インサイト
 
 ### 体力の伸びを見守る。
@@ -268,7 +274,7 @@ English Deutsch Français Italiano Español Português Nederlands 日本語
 
 ### 互換性
 
-iPhone iOS 26以降。Apple Watchの有無にかかわらず、ランを単独で記録します。ヘルスケアの心拍ゾーンにはiOS 27が必要です。
+iPhone iOS 26以降。Apple Watchの有無にかかわらず、ランを単独で記録します。ヘルスケアの心拍ゾーンにはiOS 27が必要です。 iPhone Duoに最適化。
 
 Apple Watch watchOS 26以降、iPhoneとペアリング。Apple Watch Ultraでは、アクションボタンで開始と一時停止。
 

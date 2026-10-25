@@ -114,6 +114,12 @@ Después de correr
 
 Cada carrera empieza con cómo encajó en el plan y cuatro cifras principales. Esfuerzo cardíaco, cadencia, VO₂max estimado, ritmo ajustado por pendiente y desacoplamiento esperan en Detalles. Desliza por el ritmo, la frecuencia cardíaca y el desnivel, y mira cómo se ilumina el punto en el mapa.
 
+iPhone Duo
+
+### Cerrado o abierto. Siempre tu carrera.
+
+En el iPhone Duo, las pestañas pasan al lateral. Cerrado, la pantalla de carrera pone el mapa encima de tus datos. Abierto, Historial y Plan muestran la lista junto a la carrera o la sesión que elijas.
+
 Información
 
 ### Mira crecer tu forma.
@@ -268,7 +274,7 @@ Sin feed, sin seguidores, sin clasificaciones. Taperwise se creó sin servidor a
 
 ### Compatibilidad
 
-iPhone iOS 26 o posterior. Registra las carreras por sí solo, con o sin Apple Watch. Las zonas de FC de Salud necesitan iOS 27.
+iPhone iOS 26 o posterior. Registra las carreras por sí solo, con o sin Apple Watch. Las zonas de FC de Salud necesitan iOS 27. Optimizada para iPhone Duo.
 
 Apple Watch watchOS 26 o posterior, emparejado con tu iPhone. Inicio y pausa con el botón de acción del Apple Watch Ultra.
 

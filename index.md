@@ -114,6 +114,12 @@ After the run
 
 Every run opens with how it fit the plan and four headline numbers. Heart strain, cadence, estimated VO₂max, grade-adjusted pace and decoupling wait under Details. Scrub through pace, heart rate and elevation and watch the spot light up on the map.
 
+iPhone Duo
+
+### Closed or open. Always your run.
+
+On iPhone Duo, the tabs move to the side. Closed, the run screen puts the map above your numbers. Open, History and Plan show the list next to the run or session you picked.
+
 Insights
 
 ### Watch your fitness grow.
@@ -268,7 +274,7 @@ No feed, no followers, no leaderboards. Taperwise was built without a server on 
 
 ### Compatibility
 
-iPhone iOS 26 or later. Records runs on its own, with or without Apple Watch. Apple Health heart rate zones need iOS 27.
+iPhone iOS 26 or later. Records runs on its own, with or without Apple Watch. Apple Health heart rate zones need iOS 27. Optimized for iPhone Duo.
 
 Apple Watch watchOS 26 or later, paired with your iPhone. Action button start and pause on Apple Watch Ultra.
 
