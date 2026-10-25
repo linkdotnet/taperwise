@@ -199,7 +199,7 @@
   "privacy.more": "Datenschutzerklärung lesen",
   "compat.title": "Kompatibilität",
   "compat.iphone.title": "iPhone",
-  "compat.iphone.text": "iOS 26 oder neuer. Zeichnet Läufe eigenständig auf, mit oder ohne Apple Watch. Pulszonen aus Apple Health brauchen iOS 27.",
+  "compat.iphone.text": "iOS 26 oder neuer. Zeichnet Läufe eigenständig auf, mit oder ohne Apple Watch. Pulszonen aus Apple Health brauchen iOS 27. Optimiert für iPhone Duo.",
   "compat.watch.title": "Apple Watch",
   "compat.watch.text": "watchOS 26 oder neuer, gekoppelt mit deinem iPhone. Start und Pause per Aktionstaste auf der Apple Watch Ultra.",
   "compat.ai.title": "Apple Intelligence",
@@ -215,5 +215,14 @@
   "fn.4": "Pulszonen aus Apple Health setzen iOS 27 voraus. Unter iOS 26 nutzt Taperwise seine eigenen Zonen aus deinem maximalen Puls und Ruhepuls.",
   "fn.5": "Strecke auf OpenStreetMap-Strassen nachgezeichnet, nach veröffentlichten Beschreibungen des Zürich Marathon 2026 und auf 42,195 km skaliert; Höhenangaben aus EU-DEM. Ein Demo-Rennen, nicht die offizielle Streckendatei. Taperwise ist nicht mit dem Zürich Marathon verbunden.",
   "footer.fine": "Bereitschaft, Prognosen und Kalorienwerte sind Schätzungen, keine medizinische Beratung. Kartendaten © OpenStreetMap-Mitwirkende. Apple, das Apple-Logo, iPhone, Apple Watch, Apple Health und Apple Intelligence sind Marken von Apple Inc., eingetragen in den USA und anderen Ländern. © 2026 BitSpire GmbH.",
-  "footer.language": "Sprache"
+  "footer.language": "Sprache",
+  "duo.eyebrow": "iPhone Duo",
+  "duo.title": "Zu oder offen.<br><span class=\"soft\">Immer dein Lauf.</span>",
+  "duo.lead": "Auf dem iPhone Duo wandern die Tabs an den Rand. Zugeklappt zeigt der Laufbildschirm die Karte über deinen Werten. Aufgeklappt zeigen Verlauf und Plan die Liste neben dem gewählten Lauf oder der Einheit.",
+  "duo.closed.alt": "iPhone Duo zugeklappt: laufendes Training mit der Karte über Tempo 4:10 pro km und den Tasten Pause, Heimweg und Beenden",
+  "duo.closed.cap": "Zugeklappt, unterwegs",
+  "duo.history.alt": "iPhone Duo aufgeklappt: die Laufliste neben einem Lauf über 7,75 km mit Karte und Werten",
+  "duo.history.cap": "Aufgeklappt, Liste und Lauf nebeneinander",
+  "duo.run.alt": "iPhone Duo aufgeklappt: laufendes Training mit grosser Karte neben Tempo 4:10 pro km und den Tasten Pause, Heimweg und Beenden",
+  "duo.run.cap": "Aufgeklappt, eine grössere Karte"
 }

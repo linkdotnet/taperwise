@@ -114,6 +114,12 @@ Après la course
 
 Chaque sortie commence par la façon dont elle s'inscrivait dans le plan et quatre chiffres clés. Charge cardiaque, cadence, VO₂max estimée, allure ajustée à la pente et découplage t'attendent sous Détails. Parcours l'allure, la FC et le dénivelé, et regarde le point s'allumer sur la carte.
 
+iPhone Duo
+
+### Fermé ou ouvert. Toujours ta sortie.
+
+Sur l’iPhone Duo, les onglets passent sur le côté. Fermé, l’écran de course place la carte au-dessus de tes valeurs. Ouvert, Historique et Plan montrent la liste à côté de la sortie ou de la séance choisie.
+
 Analyses
 
 ### Regarde ta forme grandir.
@@ -268,7 +274,7 @@ Pas de fil d'actu, pas d'abonnés, pas de classements. Taperwise a été conçu 
 
 ### Compatibilité
 
-iPhone iOS 26 ou version ultérieure. Enregistre les sorties seul, avec ou sans Apple Watch. Les zones de fréquence cardiaque d'Apple Santé nécessitent iOS 27.
+iPhone iOS 26 ou version ultérieure. Enregistre les sorties seul, avec ou sans Apple Watch. Les zones de fréquence cardiaque d'Apple Santé nécessitent iOS 27. Optimisé pour iPhone Duo.
 
 Apple Watch watchOS 26 ou version ultérieure, jumelée à ton iPhone. Démarrage et pause avec le bouton Action sur Apple Watch Ultra.
 

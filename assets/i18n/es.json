@@ -199,7 +199,7 @@
   "privacy.more": "Lee la política de privacidad",
   "compat.title": "Compatibilidad",
   "compat.iphone.title": "iPhone",
-  "compat.iphone.text": "iOS 26 o posterior. Registra las carreras por sí solo, con o sin Apple Watch. Las zonas de FC de Salud necesitan iOS 27.",
+  "compat.iphone.text": "iOS 26 o posterior. Registra las carreras por sí solo, con o sin Apple Watch. Las zonas de FC de Salud necesitan iOS 27. Optimizada para iPhone Duo.",
   "compat.watch.title": "Apple Watch",
   "compat.watch.text": "watchOS 26 o posterior, emparejado con tu iPhone. Inicio y pausa con el botón de acción del Apple Watch Ultra.",
   "compat.ai.title": "Apple Intelligence",
@@ -215,5 +215,14 @@
   "fn.4": "Las zonas de FC de Salud requieren iOS 27. En iOS 26, Taperwise usa sus propias zonas, a partir de tu FC máxima y en reposo.",
   "fn.5": "Recorrido trazado sobre las calles de OpenStreetMap a partir de descripciones publicadas de la Zürich Marathon 2026 y ajustado a 42,195 km; altitud de EU-DEM. Carrera de demostración, no el archivo oficial del recorrido. Taperwise no está afiliada a la Zürich Marathon.",
   "footer.fine": "La preparación, las predicciones y los valores calóricos son estimaciones, no consejo médico. Datos del mapa © OpenStreetMap contributors. Apple, el logotipo de Apple, iPhone, Apple Watch, Salud y Apple Intelligence son marcas de Apple Inc., registradas en EE. UU. y otros países. © 2026 BitSpire GmbH.",
-  "footer.language": "Idioma"
+  "footer.language": "Idioma",
+  "duo.eyebrow": "iPhone Duo",
+  "duo.title": "Cerrado o abierto.<br><span class=\"soft\">Siempre tu carrera.</span>",
+  "duo.lead": "En el iPhone Duo, las pestañas pasan al lateral. Cerrado, la pantalla de carrera pone el mapa encima de tus datos. Abierto, Historial y Plan muestran la lista junto a la carrera o la sesión que elijas.",
+  "duo.closed.alt": "iPhone Duo cerrado: carrera en directo con el mapa encima del ritmo de 4:10 por km y los botones Pausa, Volver y Fin",
+  "duo.closed.cap": "Cerrado, corriendo",
+  "duo.history.alt": "iPhone Duo abierto: la lista de carreras junto a una carrera de 7,75 km con su mapa y datos",
+  "duo.history.cap": "Abierto, lista y carrera lado a lado",
+  "duo.run.alt": "iPhone Duo abierto: carrera en directo con un mapa grande junto al ritmo de 4:10 por km y los botones Pausa, Volver y Fin",
+  "duo.run.cap": "Abierto, un mapa más grande"
 }

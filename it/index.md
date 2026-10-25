@@ -114,6 +114,12 @@ Dopo la corsa
 
 Ogni corsa inizia con come si è inserita nel piano e quattro numeri principali. Sforzo cardiaco, cadenza, VO₂max stimato, passo corretto per la pendenza e disaccoppiamento sono sotto Dettagli. Scorri tra passo, frequenza cardiaca e dislivello e guarda il punto illuminarsi sulla mappa.
 
+iPhone Duo
+
+### Chiuso o aperto. Sempre la tua corsa.
+
+Su iPhone Duo le schede si spostano di lato. Da chiuso, la schermata di corsa mette la mappa sopra i tuoi valori. Da aperto, Cronologia e Piano mostrano l’elenco accanto alla corsa o alla seduta scelta.
+
 Analisi
 
 ### Guarda crescere la tua forma.
@@ -268,7 +274,7 @@ Nessun feed, nessun follower, nessuna classifica. Taperwise è stato costruito s
 
 ### Compatibilità
 
-iPhone iOS 26 o successivo. Registra le corse da solo, con o senza Apple Watch. Le zone di frequenza cardiaca di Apple Salute richiedono iOS 27.
+iPhone iOS 26 o successivo. Registra le corse da solo, con o senza Apple Watch. Le zone di frequenza cardiaca di Apple Salute richiedono iOS 27. Ottimizzata per iPhone Duo.
 
 Apple Watch watchOS 26 o successivo, abbinato al tuo iPhone. Avvio e pausa con il tasto Azione sull'Apple Watch Ultra.
 

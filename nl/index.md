@@ -114,6 +114,12 @@ Na de run
 
 Elke run begint met hoe hij in het plan paste en vier kerncijfers. Hartbelasting, cadans, geschatte VO₂max, tempo gecorrigeerd voor hoogte en ontkoppeling staan onder Details. Schuif door tempo, hartslag en hoogte en zie de plek oplichten op de kaart.
 
+iPhone Duo
+
+### Dicht of open. Altijd je run.
+
+Op iPhone Duo schuiven de tabbladen naar de zijkant. Dichtgeklapt zet het runscherm de kaart boven je cijfers. Opengeklapt tonen Geschiedenis en Plan de lijst naast de gekozen run of sessie.
+
 Inzichten
 
 ### Zie je conditie groeien.
@@ -268,7 +274,7 @@ Geen feed, geen volgers, geen ranglijsten. Taperwise is bewust zonder server geb
 
 ### Compatibiliteit
 
-iPhone iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27.
+iPhone iOS 26 of nieuwer. Registreert runs op zichzelf, met of zonder Apple Watch. Hartslagzones uit Gezondheid vereisen iOS 27. Geoptimaliseerd voor iPhone Duo.
 
 Apple Watch watchOS 26 of nieuwer, gekoppeld aan je iPhone. Starten en pauzeren met de actieknop op Apple Watch Ultra.
 

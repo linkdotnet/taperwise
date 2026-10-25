@@ -199,7 +199,7 @@
   "privacy.more": "Leggi l'informativa sulla privacy",
   "compat.title": "Compatibilità",
   "compat.iphone.title": "iPhone",
-  "compat.iphone.text": "iOS 26 o successivo. Registra le corse da solo, con o senza Apple Watch. Le zone di frequenza cardiaca di Apple Salute richiedono iOS 27.",
+  "compat.iphone.text": "iOS 26 o successivo. Registra le corse da solo, con o senza Apple Watch. Le zone di frequenza cardiaca di Apple Salute richiedono iOS 27. Ottimizzata per iPhone Duo.",
   "compat.watch.title": "Apple Watch",
   "compat.watch.text": "watchOS 26 o successivo, abbinato al tuo iPhone. Avvio e pausa con il tasto Azione sull'Apple Watch Ultra.",
   "compat.ai.title": "Apple Intelligence",
@@ -215,5 +215,14 @@
   "fn.4": "Le zone di frequenza cardiaca di Apple Salute richiedono iOS 27. Con iOS 26, Taperwise usa le proprie zone, calcolate dalla frequenza cardiaca massima e a riposo.",
   "fn.5": "Percorso tracciato sulle strade di OpenStreetMap a partire dalle descrizioni pubblicate della Zürich Marathon 2026 e scalato a 42,195 km; altitudini da EU-DEM. Gara dimostrativa, non il file ufficiale del percorso. Taperwise non è affiliata alla Zürich Marathon.",
   "footer.fine": "Prontezza, previsioni e valori calorici sono stime, non consigli medici. Dati cartografici © collaboratori di OpenStreetMap. Apple, il logo Apple, iPhone, Apple Watch, Apple Salute e Apple Intelligence sono marchi di Apple Inc., registrati negli Stati Uniti e in altri paesi. © 2026 BitSpire GmbH.",
-  "footer.language": "Lingua"
+  "footer.language": "Lingua",
+  "duo.eyebrow": "iPhone Duo",
+  "duo.title": "Chiuso o aperto.<br><span class=\"soft\">Sempre la tua corsa.</span>",
+  "duo.lead": "Su iPhone Duo le schede si spostano di lato. Da chiuso, la schermata di corsa mette la mappa sopra i tuoi valori. Da aperto, Cronologia e Piano mostrano l’elenco accanto alla corsa o alla seduta scelta.",
+  "duo.closed.alt": "iPhone Duo chiuso: corsa in diretta con la mappa sopra il ritmo di 4:10 al km e i pulsanti Pausa, Torna a casa e Termina",
+  "duo.closed.cap": "Chiuso, in corsa",
+  "duo.history.alt": "iPhone Duo aperto: l’elenco delle corse accanto a una corsa di 7,75 km con mappa e valori",
+  "duo.history.cap": "Aperto, elenco e corsa affiancati",
+  "duo.run.alt": "iPhone Duo aperto: corsa in diretta con una mappa grande accanto al ritmo di 4:10 al km e ai pulsanti Pausa, Torna a casa e Termina",
+  "duo.run.cap": "Aperto, una mappa più grande"
 }

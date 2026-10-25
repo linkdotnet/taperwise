@@ -114,6 +114,12 @@ Nach dem Lauf
 
 Jeder Lauf beginnt damit, wie er zum Plan passte, und mit vier Kennzahlen. Herzbelastung, Kadenz, geschätzte VO₂max, steigungsbereinigtes Tempo und Entkopplung warten unter Details. Wische durch Tempo, Puls und Höhenprofil und sieh zu, wie der Punkt auf der Karte aufleuchtet.
 
+iPhone Duo
+
+### Zu oder offen. Immer dein Lauf.
+
+Auf dem iPhone Duo wandern die Tabs an den Rand. Zugeklappt zeigt der Laufbildschirm die Karte über deinen Werten. Aufgeklappt zeigen Verlauf und Plan die Liste neben dem gewählten Lauf oder der Einheit.
+
 Einblicke
 
 ### Sieh deine Form wachsen.
@@ -268,7 +274,7 @@ Kein Feed, keine Follower, keine Ranglisten. Taperwise wurde bewusst ohne Server
 
 ### Kompatibilität
 
-iPhone iOS 26 oder neuer. Zeichnet Läufe eigenständig auf, mit oder ohne Apple Watch. Pulszonen aus Apple Health brauchen iOS 27.
+iPhone iOS 26 oder neuer. Zeichnet Läufe eigenständig auf, mit oder ohne Apple Watch. Pulszonen aus Apple Health brauchen iOS 27. Optimiert für iPhone Duo.
 
 Apple Watch watchOS 26 oder neuer, gekoppelt mit deinem iPhone. Start und Pause per Aktionstaste auf der Apple Watch Ultra.
 
