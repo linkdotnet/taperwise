@@ -88,7 +88,7 @@ Maps
 
 ### Water. Toilets. The next tram home.
 
-Drinking fountains, restrooms, shelters and public transport stops sit right on your run map, on iPhone and on Apple Watch. Choose which ones you want to see.
+Drinking fountains, restrooms, shelters and public transport stops sit right on your run map, on iPhone and on Apple Watch. Choose which ones you want to see, and pick Apple Maps or OpenStreetMap on iPhone.
 
 - Drinking water
 
@@ -100,19 +100,19 @@ Drinking fountains, restrooms, shelters and public transport stops sit right on 
 
 #### Works without signal.
 
-Download the areas you run in, from overview to street detail. On Wi-Fi, Taperwise keeps the places you run available offline automatically, and the maps you have looked at stay in a 200 MB cache. Send a detailed area to your watch and leave the phone at home.
+Download the areas you run in, from overview to street detail. One list shows which areas are on your iPhone and which are on Apple Watch too. On Wi-Fi, Taperwise keeps the places you run available offline and sends the area of your latest run to your watch on its own, so you can leave the phone at home.
 
 Apple Watch
 
 ### Leave the phone at home.
 
-The watch runs the workout itself, with no phone and no network. Pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Set targets with the Digital Crown, start and pause with the Action button on Apple Watch Ultra, and do your strength circuit right on your wrist.
+The watch runs the workout itself, with no phone and no network. Before you start, see where you are on a map and turn the Digital Crown through recovery, your week, training and race day. On the run, pages laid out like the Workout app: metrics, intervals, zones, chart, elevation, fuel and Now Playing. Set targets with the Digital Crown, start and pause with the Action button on Apple Watch Ultra, and do your strength circuit right on your wrist.
 
 After the run
 
 ### Every run, explained.
 
-Heart strain, cadence, estimated VO₂max, grade-adjusted pace and decoupling for every run. Scrub through pace, heart rate and elevation and watch the spot light up on the map.
+Every run opens with how it fit the plan and four headline numbers. Heart strain, cadence, estimated VO₂max, grade-adjusted pace and decoupling wait under Details. Scrub through pace, heart rate and elevation and watch the spot light up on the map.
 
 Insights
 
@@ -120,15 +120,15 @@ Insights
 
 #### Fitness trend
 
-Your VDOT week by week, with estimates for 10K, half and marathon and a race-day range.
+Your VDOT week by week, with estimates for 10K, half and marathon, a race-day range and your critical speed.
 
 #### Recovery
 
-Overnight HRV, resting heart rate and sleep against your usual range, with the reasons spelled out.
+Overnight HRV, resting heart rate, sleep, wrist temperature and breathing rate against your usual range, with the reasons spelled out.
 
 #### Training load
 
-Fitness, fatigue and form, plus the acute to chronic load ratio.
+Fitness, fatigue and form, with rides, swims and hikes counted too, plus the acute to chronic load ratio.
 
 #### Weekly volume
 
@@ -164,19 +164,21 @@ Taperwise reads and writes Apple Health, so your zones, effort and workouts matc
 
 - **Overnight HRV.** Readiness uses RMSSD from your Apple Watch’s beat-to-beat readings while you sleep, against your own usual range.
 
-- **Elevation from the barometer.** iPhone and Apple Watch measure climbs with the barometer, levelled once to GPS, for a steadier grade-adjusted pace.
+- **Elevation from the barometer.** iPhone and Apple Watch measure climbs with the barometer, levelled once to GPS, for a steadier grade-adjusted pace. Every run saves its climbs to Apple Health, with the water and gels you logged.
 
 - **Shared only recent data?** Recovery and Training load say so and tell you how long a full baseline takes.
+
+- **Your profile, from Health.** Birth year, sex and weight come from Apple Health. Taperwise asks only for what Health doesn’t have.
 
 Apple Intelligence
 
 ### A coach that never leaves your iPhone.
 
-With Apple Intelligence turned on, Taperwise writes short notes on today’s session, your week and every run. Describe your goal in a sentence and it fills in the plan for you to check.
+Turn on coach notes and Taperwise writes one sentence on today’s session, your week and every run, with a tip for each planned session. The notes know your check-in, rest days and a paused plan. Describe your goal in a sentence and it fills in the plan for you to check.
 
 - **On-device only.** Notes come from Apple’s on-device model. No server, no cloud model, no data sent.
 
-- **Only when you opt in.** If Apple Intelligence is off, or you switch notes off in Settings, the feature stays hidden.
+- **Off until you turn it on.** Coach notes start switched off. Without Apple Intelligence, the feature stays hidden.
 
 - **Rules decide, AI explains.** The training rules make every decision. The notes never change your plan.
 
@@ -232,7 +234,19 @@ One tap shows an arrow and the distance back to your start, on iPhone and Apple 
 
 #### Live Activity
 
-Pace, distance, heart rate and what’s left on the Lock Screen and in the Dynamic Island.
+Pace, distance, heart rate and what’s left on the Lock Screen and in the Dynamic Island. Pause and resume right from it.
+
+#### Other training counts
+
+Rides, swims and hikes from Apple Health count toward fitness, fatigue and form. Distance, VDOT and race predictions stay running only.
+
+#### Widgets
+
+Recovery, today’s run and your week on the Home Screen, the Lock Screen and in the Apple Watch Smart Stack.
+
+#### Every number explained
+
+Whether higher or lower is better, the typical range and a plain word for values like load ratio and form.
 
 #### Speaks your language
 

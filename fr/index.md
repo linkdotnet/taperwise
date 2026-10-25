@@ -88,7 +88,7 @@ Cartes
 
 ### Eau. Toilettes. Le prochain tram pour rentrer.
 
-Fontaines, toilettes, abris et arrêts de transports en commun figurent directement sur ta carte de course, sur iPhone et sur Apple Watch. Choisis ce que tu veux voir.
+Fontaines, toilettes, abris et arrêts de transports en commun figurent directement sur ta carte de course, sur iPhone et sur Apple Watch. Choisis ce que tu veux voir, et sur iPhone, Plans d'Apple ou OpenStreetMap.
 
 - Eau potable
 
@@ -100,19 +100,19 @@ Fontaines, toilettes, abris et arrêts de transports en commun figurent directem
 
 #### Fonctionne sans réseau.
 
-Télécharge les zones où tu cours, de la vue d'ensemble au détail des rues. En Wi-Fi, Taperwise garde automatiquement disponibles hors ligne les lieux où tu cours, et les cartes que tu as consultées restent dans un cache de 200 Mo. Envoie une zone détaillée sur ta montre et laisse ton téléphone à la maison.
+Télécharge les zones où tu cours, de la vue d'ensemble au détail des rues. Une seule liste montre quelles zones sont sur ton iPhone et lesquelles sont aussi sur l'Apple Watch. En Wi-Fi, Taperwise garde hors ligne les lieux où tu cours et envoie tout seul la zone de ta dernière sortie sur ta montre, pour que tu laisses ton téléphone à la maison.
 
 Apple Watch
 
 ### Laisse ton téléphone à la maison.
 
-La montre gère l'entraînement elle-même, sans téléphone ni réseau. Pages construites comme l'app Exercice : mesures, intervalles, zones, graphique, dénivelé, ravitaillement et En cours de lecture. Règle les objectifs avec la Digital Crown, démarre et mets en pause avec le bouton Action sur Apple Watch Ultra, et fais ton circuit de renforcement directement au poignet.
+La montre gère l'entraînement elle-même, sans téléphone ni réseau. Avant de partir, vois où tu es sur une carte et fais défiler avec la Digital Crown ta récupération, ta semaine, ton entraînement et ta course. Pendant la sortie, des pages construites comme l'app Exercice : mesures, intervalles, zones, graphique, dénivelé, ravitaillement et En cours de lecture. Règle les objectifs avec la Digital Crown, démarre et mets en pause avec le bouton Action sur Apple Watch Ultra, et fais ton circuit de renforcement directement au poignet.
 
 Après la course
 
 ### Chaque sortie, expliquée.
 
-Charge cardiaque, cadence, VO₂max estimée, allure ajustée à la pente et découplage pour chaque sortie. Parcours l'allure, la FC et le dénivelé, et regarde le point s'allumer sur la carte.
+Chaque sortie commence par la façon dont elle s'inscrivait dans le plan et quatre chiffres clés. Charge cardiaque, cadence, VO₂max estimée, allure ajustée à la pente et découplage t'attendent sous Détails. Parcours l'allure, la FC et le dénivelé, et regarde le point s'allumer sur la carte.
 
 Analyses
 
@@ -120,15 +120,15 @@ Analyses
 
 #### Tendance de forme
 
-Ton VDOT semaine après semaine, avec des estimations pour 10 km, semi et marathon et une fourchette pour le jour J.
+Ton VDOT semaine après semaine, avec des estimations pour 10 km, semi et marathon, une fourchette pour le jour J et ta vitesse critique.
 
 #### Récupération
 
-VFC nocturne, FC de repos et sommeil par rapport à ta plage habituelle, avec les raisons détaillées.
+VFC nocturne, FC de repos, sommeil, température du poignet et fréquence respiratoire par rapport à ta plage habituelle, avec les raisons détaillées.
 
 #### Charge d'entraînement
 
-Forme, fatigue et fraîcheur, plus le ratio de charge aiguë sur chronique.
+Forme, fatigue et fraîcheur, vélo, natation et randonnée compris, plus le ratio de charge aiguë sur chronique.
 
 #### Volume hebdomadaire
 
@@ -164,19 +164,21 @@ Taperwise lit et écrit dans Apple Santé : tes zones, ton effort et tes entraî
 
 - **VFC nocturne.** La forme utilise la RMSSD issue des mesures battement par battement de ton Apple Watch pendant ton sommeil, par rapport à ta plage habituelle.
 
-- **Dénivelé grâce au baromètre.** L'iPhone et l'Apple Watch mesurent les montées avec le baromètre, recalé une fois sur le GPS, pour une allure ajustée à la pente plus stable.
+- **Dénivelé grâce au baromètre.** L'iPhone et l'Apple Watch mesurent les montées avec le baromètre, recalé une fois sur le GPS, pour une allure ajustée à la pente plus stable. Chaque sortie enregistre son dénivelé dans Santé, avec l'eau et les gels notés.
 
 - **Seulement des données récentes partagées ?** Récupération et Charge d'entraînement le disent et t'indiquent combien de temps il faut pour une base complète.
+
+- **Ton profil, depuis Santé.** L'année de naissance, le sexe et le poids viennent d'Apple Santé. Taperwise ne demande que ce que Santé n'a pas.
 
 Apple Intelligence
 
 ### Un coach qui ne quitte jamais ton iPhone.
 
-Avec Apple Intelligence activé, Taperwise rédige de courtes notes sur la séance du jour, ta semaine et chaque sortie. Décris ton objectif en une phrase, et il remplit le plan pour que tu le vérifies.
+Active les notes du coach et Taperwise écrit une phrase sur la séance du jour, ta semaine et chaque sortie, avec un conseil pour chaque séance prévue. Les notes connaissent ton bilan du jour, tes jours de repos et un plan en pause. Décris ton objectif en une phrase, et il remplit le plan pour que tu le vérifies.
 
 - **Uniquement sur l'appareil.** Les notes viennent du modèle d'Apple sur l'appareil. Pas de serveur, pas de modèle dans le cloud, aucune donnée envoyée.
 
-- **Seulement si tu actives.** Si Apple Intelligence est désactivé, ou si tu coupes les notes dans les Réglages, la fonction reste masquée.
+- **Désactivé tant que tu ne l'actives pas.** Les notes du coach sont coupées au départ. Sans Apple Intelligence, la fonction reste masquée.
 
 - **Les règles décident, l'IA explique.** Les règles d'entraînement prennent chaque décision. Les notes ne modifient jamais ton plan.
 
@@ -232,7 +234,19 @@ Un tap affiche une flèche et la distance du retour vers ton départ, sur iPhone
 
 #### Activité en direct
 
-Allure, distance, FC et ce qui reste, sur l'écran verrouillé et dans la Dynamic Island.
+Allure, distance, FC et ce qui reste, sur l'écran verrouillé et dans la Dynamic Island. Mets en pause et reprends directement depuis là.
+
+#### Les autres entraînements comptent
+
+Le vélo, la natation et la randonnée d'Apple Santé comptent pour la forme, la fatigue et la fraîcheur. Distance, VDOT et prédictions restent propres à la course.
+
+#### Widgets
+
+Récupération, la sortie du jour et ta semaine sur l'écran d'accueil, l'écran verrouillé et dans le Smart Stack de l'Apple Watch.
+
+#### Chaque chiffre expliqué
+
+Si plus haut ou plus bas est mieux, la plage habituelle et un mot simple pour des valeurs comme le ratio de charge et la fraîcheur.
 
 #### Parle ta langue
 

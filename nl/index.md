@@ -88,7 +88,7 @@ Kaarten
 
 ### Water. Toiletten. De volgende tram naar huis.
 
-Drinkfonteinen, toiletten, schuilplaatsen en haltes van het openbaar vervoer staan direct op je loopkaart, op iPhone en op Apple Watch. Kies zelf welke je wilt zien.
+Drinkfonteinen, toiletten, schuilplaatsen en haltes van het openbaar vervoer staan direct op je loopkaart, op iPhone en op Apple Watch. Kies zelf welke je wilt zien, en op de iPhone Apple Kaarten of OpenStreetMap.
 
 - Drinkwater
 
@@ -100,19 +100,19 @@ Drinkfonteinen, toiletten, schuilplaatsen en haltes van het openbaar vervoer sta
 
 #### Werkt zonder bereik.
 
-Download de gebieden waar je loopt, van overzicht tot straatdetail. Op wifi houdt Taperwise de plekken waar je loopt automatisch beschikbaar offline, en de kaarten die je hebt bekeken blijven in een cache van 200 MB. Stuur een gedetailleerd gebied naar je horloge en laat de telefoon thuis.
+Download de gebieden waar je loopt, van overzicht tot straatdetail. Eén lijst toont welke gebieden op je iPhone staan en welke ook op je Apple Watch. Op wifi houdt Taperwise de plekken waar je loopt offline beschikbaar en stuurt het gebied van je laatste run vanzelf naar je horloge, zodat je de telefoon thuis kunt laten.
 
 Apple Watch
 
 ### Laat de telefoon thuis.
 
-Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Stel doelen in met de Digital Crown, start en pauzeer met de actieknop op Apple Watch Ultra, en doe je krachtcircuit gewoon op je pols.
+Het horloge doet de training zelf, zonder telefoon en zonder netwerk. Zie voor de start op een kaart waar je bent en blader met de Digital Crown door herstel, je week, training en wedstrijd. Tijdens de run pagina's ingericht zoals de app Workout: statistieken, intervallen, zones, grafiek, hoogte, brandstof en Nu speelt. Stel doelen in met de Digital Crown, start en pauzeer met de actieknop op Apple Watch Ultra, en doe je krachtcircuit gewoon op je pols.
 
 Na de run
 
 ### Elke run, uitgelegd.
 
-Hartbelasting, cadans, geschatte VO₂max, tempo gecorrigeerd voor hoogte en ontkoppeling, voor elke run. Schuif door tempo, hartslag en hoogte en zie de plek oplichten op de kaart.
+Elke run begint met hoe hij in het plan paste en vier kerncijfers. Hartbelasting, cadans, geschatte VO₂max, tempo gecorrigeerd voor hoogte en ontkoppeling staan onder Details. Schuif door tempo, hartslag en hoogte en zie de plek oplichten op de kaart.
 
 Inzichten
 
@@ -120,15 +120,15 @@ Inzichten
 
 #### Conditietrend
 
-Je VDOT week na week, met schattingen voor 10K, halve marathon en marathon en een bandbreedte voor wedstrijddag.
+Je VDOT week na week, met schattingen voor 10K, halve marathon en marathon, een bandbreedte voor wedstrijddag en je kritieke snelheid.
 
 #### Herstel
 
-Nachtelijke HRV, rusthartslag en slaap naast je gebruikelijke bereik, met de redenen erbij.
+Nachtelijke HRV, rusthartslag, slaap, polstemperatuur en ademhalingsfrequentie naast je gebruikelijke bereik, met de redenen erbij.
 
 #### Trainingsbelasting
 
-Conditie, vermoeidheid en vorm, plus de verhouding tussen acute en chronische belasting.
+Conditie, vermoeidheid en vorm, inclusief fietsen, zwemmen en wandeltochten, plus de verhouding tussen acute en chronische belasting.
 
 #### Wekelijks volume
 
@@ -164,19 +164,21 @@ Taperwise leest en schrijft naar Gezondheid, zodat je zones, inspanning en train
 
 - **Nachtelijke HRV.** Paraatheid gebruikt de RMSSD uit de slag-tot-slag-metingen van je Apple Watch tijdens het slapen, vergeleken met je eigen gebruikelijke bereik.
 
-- **Hoogte via de barometer.** iPhone en Apple Watch meten klimmetjes met de barometer, eenmaal gelijkgetrokken met GPS, voor een stabieler tempo dat is aangepast aan de helling.
+- **Hoogte via de barometer.** iPhone en Apple Watch meten klimmetjes met de barometer, eenmaal gelijkgetrokken met GPS, voor een stabieler tempo dat is aangepast aan de helling. Elke run bewaart zijn hoogtemeters in Gezondheid, met het water en de gels die je hebt gelogd.
 
 - **Alleen recente gegevens gedeeld?** Herstel en Trainingsbelasting melden dat en vertellen hoe lang een volledige basislijn duurt.
+
+- **Je profiel uit Gezondheid.** Geboortejaar, geslacht en gewicht komen uit Gezondheid. Taperwise vraagt alleen wat Gezondheid niet heeft.
 
 Apple Intelligence
 
 ### Een coach die je iPhone nooit verlaat.
 
-Met Apple Intelligence aan schrijft Taperwise korte notities over de training van vandaag, je week en elke run. Beschrijf je doel in één zin en het vult het schema voor je in, zodat jij het kunt controleren.
+Zet coachnotities aan en Taperwise schrijft één zin over de training van vandaag, je week en elke run, met een tip voor elke geplande sessie. De notities kennen je check-in, rustdagen en een gepauzeerd plan. Beschrijf je doel in één zin en het vult het schema voor je in, zodat jij het kunt controleren.
 
 - **Alleen op het toestel.** De notities komen van het on-device model van Apple. Geen server, geen cloudmodel, geen data verstuurd.
 
-- **Alleen als je kiest.** Staat Apple Intelligence uit, of zet je de notities uit in Instellingen, dan blijft de functie verborgen.
+- **Uit tot je het aanzet.** Coachnotities staan standaard uit. Zonder Apple Intelligence blijft de functie verborgen.
 
 - **Regels beslissen, AI legt uit.** De trainingsregels nemen elke beslissing. De notities veranderen nooit je schema.
 
@@ -232,7 +234,19 @@ Eén tik toont een pijl en de afstand terug naar je start, op iPhone en Apple Wa
 
 #### Live Activity
 
-Tempo, afstand, hartslag en wat er nog over is, op het vergrendelscherm en in het Dynamic Island.
+Tempo, afstand, hartslag en wat er nog over is, op het vergrendelscherm en in het Dynamic Island. Pauzeer en ga verder, direct vanaf daar.
+
+#### Andere training telt mee
+
+Fietsen, zwemmen en wandeltochten uit Gezondheid tellen mee voor conditie, vermoeidheid en vorm. Afstand, VDOT en wedstrijdvoorspellingen blijven alleen voor hardlopen.
+
+#### Widgets
+
+Herstel, de run van vandaag en je week op het beginscherm, het vergrendelscherm en in de Smart Stack van de Apple Watch.
+
+#### Elk cijfer uitgelegd
+
+Of hoger of lager beter is, het gebruikelijke bereik en een helder woord voor waarden als belastingsratio en vorm.
 
 #### Spreekt jouw taal
 

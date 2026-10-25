@@ -88,7 +88,7 @@ Mappe
 
 ### Acqua. Bagni. Il prossimo tram per casa.
 
-Fontanelle, bagni, ripari e fermate del trasporto pubblico sono sulla mappa della tua corsa, su iPhone e su Apple Watch. Scegli quali vuoi vedere.
+Fontanelle, bagni, ripari e fermate del trasporto pubblico sono sulla mappa della tua corsa, su iPhone e su Apple Watch. Scegli quali vuoi vedere e, su iPhone, Mappe di Apple o OpenStreetMap.
 
 - Acqua potabile
 
@@ -100,19 +100,19 @@ Fontanelle, bagni, ripari e fermate del trasporto pubblico sono sulla mappa dell
 
 #### Funziona senza segnale.
 
-Scarica le zone in cui corri, dalla panoramica al dettaglio delle strade. Col Wi-Fi, Taperwise tiene automaticamente disponibili offline i luoghi in cui corri, e le mappe che hai guardato restano in una cache di 200 MB. Manda un'area dettagliata al tuo orologio e lascia a casa il telefono.
+Scarica le zone in cui corri, dalla panoramica al dettaglio delle strade. Un'unica lista mostra quali aree sono sul tuo iPhone e quali anche su Apple Watch. Col Wi-Fi, Taperwise tiene offline i luoghi in cui corri e manda da solo all'orologio l'area della tua ultima corsa, così lasci a casa il telefono.
 
 Apple Watch
 
 ### Lascia il telefono a casa.
 
-L'orologio esegue l'allenamento da solo, senza telefono e senza rete. Pagine impostate come l'app Allenamento: metriche, intervalli, zone, grafico, dislivello, alimentazione e In riproduzione. Imposta gli obiettivi con la Digital Crown, avvia e metti in pausa col tasto Azione sull'Apple Watch Ultra, e fai il tuo circuito di forza direttamente al polso.
+L'orologio esegue l'allenamento da solo, senza telefono e senza rete. Prima di partire, guarda dove sei su una mappa e sfoglia con la Digital Crown recupero, settimana, allenamento e gara. In corsa, pagine impostate come l'app Allenamento: metriche, intervalli, zone, grafico, dislivello, alimentazione e In riproduzione. Imposta gli obiettivi con la Digital Crown, avvia e metti in pausa col tasto Azione sull'Apple Watch Ultra, e fai il tuo circuito di forza direttamente al polso.
 
 Dopo la corsa
 
 ### Ogni corsa, spiegata.
 
-Sforzo cardiaco, cadenza, VO₂max stimato, passo corretto per la pendenza e disaccoppiamento per ogni corsa. Scorri tra passo, frequenza cardiaca e dislivello e guarda il punto illuminarsi sulla mappa.
+Ogni corsa inizia con come si è inserita nel piano e quattro numeri principali. Sforzo cardiaco, cadenza, VO₂max stimato, passo corretto per la pendenza e disaccoppiamento sono sotto Dettagli. Scorri tra passo, frequenza cardiaca e dislivello e guarda il punto illuminarsi sulla mappa.
 
 Analisi
 
@@ -120,15 +120,15 @@ Analisi
 
 #### Andamento della forma
 
-Il tuo VDOT settimana dopo settimana, con stime per 10K, mezza e maratona e un intervallo per il giorno gara.
+Il tuo VDOT settimana dopo settimana, con stime per 10K, mezza e maratona, un intervallo per il giorno gara e la tua velocità critica.
 
 #### Recupero
 
-HRV notturna, frequenza cardiaca a riposo e sonno rispetto al tuo intervallo abituale, con i motivi spiegati nel dettaglio.
+HRV notturna, frequenza cardiaca a riposo, sonno, temperatura del polso e frequenza respiratoria rispetto al tuo intervallo abituale, con i motivi spiegati nel dettaglio.
 
 #### Carico di allenamento
 
-Forma, affaticamento e freschezza, più il rapporto tra carico acuto e cronico.
+Forma, affaticamento e freschezza, contando anche bici, nuoto ed escursioni, più il rapporto tra carico acuto e cronico.
 
 #### Volume settimanale
 
@@ -164,19 +164,21 @@ Taperwise legge e scrive in Apple Salute, così zone, sforzo e allenamenti corri
 
 - **HRV notturna.** La prontezza usa l'RMSSD dalle misurazioni battito per battito del tuo Apple Watch durante il sonno, rispetto al tuo intervallo abituale.
 
-- **Dislivello dal barometro.** iPhone e Apple Watch misurano le salite con il barometro, allineato una volta al GPS, per un passo corretto per la pendenza più stabile.
+- **Dislivello dal barometro.** iPhone e Apple Watch misurano le salite con il barometro, allineato una volta al GPS, per un passo corretto per la pendenza più stabile. Ogni corsa salva il dislivello in Salute, con l'acqua e i gel registrati.
 
 - **Hai condiviso solo dati recenti?** Recupero e Carico di allenamento lo indicano e ti dicono quanto serve per una base completa.
+
+- **Il tuo profilo, da Salute.** Anno di nascita, sesso e peso arrivano da Apple Salute. Taperwise chiede solo ciò che Salute non ha.
 
 Apple Intelligence
 
 ### Un coach che non lascia mai il tuo iPhone.
 
-Con Apple Intelligence attivo, Taperwise scrive brevi note sulla sessione di oggi, sulla tua settimana e su ogni corsa. Descrivi il tuo obiettivo in una frase e riempie il piano perché tu lo controlli.
+Attiva le note del coach e Taperwise scrive una frase sulla sessione di oggi, sulla tua settimana e su ogni corsa, con un consiglio per ogni sessione pianificata. Le note conoscono il tuo check-in, i giorni di riposo e il piano in pausa. Descrivi il tuo obiettivo in una frase e riempie il piano perché tu lo controlli.
 
 - **Solo sul dispositivo.** Le note arrivano dal modello di Apple sul dispositivo. Nessun server, nessun modello nel cloud, nessun dato inviato.
 
-- **Solo se scegli di attivarlo.** Se Apple Intelligence è spento, o disattivi le note nelle Impostazioni, la funzione resta nascosta.
+- **Spento finché non lo attivi.** Le note del coach partono disattivate. Senza Apple Intelligence, la funzione resta nascosta.
 
 - **Decidono le regole, l'IA spiega.** Le regole di allenamento prendono ogni decisione. Le note non cambiano mai il tuo piano.
 
@@ -232,7 +234,19 @@ Un tocco mostra una freccia e la distanza dal punto di partenza, su iPhone e App
 
 #### Attività dal vivo
 
-Passo, distanza, frequenza cardiaca e ciò che resta, sulla schermata di blocco e nella Dynamic Island.
+Passo, distanza, frequenza cardiaca e ciò che resta, sulla schermata di blocco e nella Dynamic Island. Metti in pausa e riprendi direttamente da lì.
+
+#### Contano anche gli altri allenamenti
+
+Bici, nuoto ed escursioni di Apple Salute contano per forma, affaticamento e freschezza. Distanza, VDOT e previsioni di gara restano solo per la corsa.
+
+#### Widget
+
+Recupero, la corsa di oggi e la tua settimana nella schermata Home, nella schermata di blocco e nello Smart Stack di Apple Watch.
+
+#### Ogni numero spiegato
+
+Se è meglio un valore più alto o più basso, l'intervallo tipico e una parola semplice per valori come rapporto di carico e freschezza.
 
 #### Parla la tua lingua
 

@@ -319,6 +319,9 @@ figcaption { color: var(--ink-soft); font-size: 15px; font-weight: 500; margin-t
 .tile-ico.body { background: var(--red); }
 .tile-ico.home { background: #1c1c1e; }
 .tile-ico.activity { background: linear-gradient(135deg, #3a3a3c, #000); }
+.tile-ico.other { background: var(--orange); }
+.tile-ico.widgets { background: #30b0c7; }
+.tile-ico.hints { background: #5e5ce6; }
 .t-pred .big { background: linear-gradient(95deg, var(--orange), var(--amber)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .t-dec .big { color: #248a3d; }
 .t-strain .big { color: #e3204a; }

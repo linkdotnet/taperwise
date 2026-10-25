@@ -88,7 +88,7 @@ Karten
 
 ### Wasser. Toiletten. Das nächste Tram heim.
 
-Trinkbrunnen, Toiletten, Unterstände und Haltestellen des öffentlichen Verkehrs liegen direkt auf deiner Laufkarte, auf dem iPhone und auf der Apple Watch. Wähle aus, was du sehen willst.
+Trinkbrunnen, Toiletten, Unterstände und Haltestellen des öffentlichen Verkehrs liegen direkt auf deiner Laufkarte, auf dem iPhone und auf der Apple Watch. Wähle aus, was du sehen willst, und auf dem iPhone zwischen Apple Karten und OpenStreetMap.
 
 - Trinkwasser
 
@@ -100,19 +100,19 @@ Trinkbrunnen, Toiletten, Unterstände und Haltestellen des öffentlichen Verkehr
 
 #### Funktioniert ohne Empfang.
 
-Lade die Gebiete herunter, in denen du läufst, von der Übersicht bis ins Strassendetail. Im WLAN hält Taperwise die Orte, an denen du läufst, automatisch offline verfügbar, und die Karten, die du angeschaut hast, bleiben in einem 200-MB-Cache. Schick ein detailliertes Gebiet auf deine Uhr und lass das Telefon zu Hause.
+Lade die Gebiete herunter, in denen du läufst, von der Übersicht bis ins Strassendetail. Eine Liste zeigt, welche Gebiete auf deinem iPhone und welche auch auf der Apple Watch sind. Im WLAN hält Taperwise die Orte, an denen du läufst, offline verfügbar und schickt das Gebiet deines letzten Laufs von selbst auf die Uhr, damit du das Telefon zu Hause lassen kannst.
 
 Apple Watch
 
 ### Lass das Telefon zu Hause.
 
-Die Uhr absolviert das Training selbst, ohne Telefon und ohne Netz. Seiten im Stil der App Training: Werte, Intervalle, Zonen, Diagramm, Höhenprofil, Verpflegung und Jetzt läuft. Stelle Ziele mit der Digital Crown ein, starte und pausiere mit der Aktionstaste auf der Apple Watch Ultra und absolviere deinen Kraftzirkel direkt am Handgelenk.
+Die Uhr absolviert das Training selbst, ohne Telefon und ohne Netz. Vor dem Start siehst du auf einer Karte, wo du bist, und blätterst mit der Digital Crown durch Erholung, deine Woche, Training und Wettkampf. Beim Laufen Seiten im Stil der App Training: Werte, Intervalle, Zonen, Diagramm, Höhenprofil, Verpflegung und Jetzt läuft. Stelle Ziele mit der Digital Crown ein, starte und pausiere mit der Aktionstaste auf der Apple Watch Ultra und absolviere deinen Kraftzirkel direkt am Handgelenk.
 
 Nach dem Lauf
 
 ### Jeder Lauf, erklärt.
 
-Herzbelastung, Kadenz, geschätzte VO₂max, steigungsbereinigtes Tempo und Entkopplung für jeden Lauf. Wische durch Tempo, Puls und Höhenprofil und sieh zu, wie der Punkt auf der Karte aufleuchtet.
+Jeder Lauf beginnt damit, wie er zum Plan passte, und mit vier Kennzahlen. Herzbelastung, Kadenz, geschätzte VO₂max, steigungsbereinigtes Tempo und Entkopplung warten unter Details. Wische durch Tempo, Puls und Höhenprofil und sieh zu, wie der Punkt auf der Karte aufleuchtet.
 
 Einblicke
 
@@ -120,15 +120,15 @@ Einblicke
 
 #### Fitness-Verlauf
 
-Dein VDOT Woche für Woche, mit Schätzungen für 10 km, Halbmarathon und Marathon und einer Spanne für den Wettkampftag.
+Dein VDOT Woche für Woche, mit Schätzungen für 10 km, Halbmarathon und Marathon, einer Spanne für den Wettkampftag und deiner kritischen Geschwindigkeit.
 
 #### Erholung
 
-Nächtliche HRV, Ruhepuls und Schlaf im Vergleich zu deinem üblichen Bereich, mit den Gründen im Klartext.
+Nächtliche HRV, Ruhepuls, Schlaf, Handgelenktemperatur und Atemfrequenz im Vergleich zu deinem üblichen Bereich, mit den Gründen im Klartext.
 
 #### Trainingslast
 
-Fitness, Ermüdung und Form, dazu das Verhältnis von akuter zu chronischer Last.
+Fitness, Ermüdung und Form, auch mit Radfahren, Schwimmen und Wandern, dazu das Verhältnis von akuter zu chronischer Last.
 
 #### Wochenumfang
 
@@ -164,19 +164,21 @@ Taperwise liest und schreibt in Apple Health, damit deine Zonen, dein Aufwand un
 
 - **Nächtliche HRV.** Die Bereitschaft nutzt RMSSD aus den Schlag-zu-Schlag-Messungen deiner Apple Watch im Schlaf, verglichen mit deinem eigenen üblichen Bereich.
 
-- **Höhenmeter aus dem Barometer.** iPhone und Apple Watch messen Anstiege mit dem Barometer, einmal an GPS angeglichen, für ein gleichmässigeres steigungsbereinigtes Tempo.
+- **Höhenmeter aus dem Barometer.** iPhone und Apple Watch messen Anstiege mit dem Barometer, einmal an GPS angeglichen, für ein gleichmässigeres steigungsbereinigtes Tempo. Jeder Lauf speichert seine Höhenmeter in Apple Health, zusammen mit dem Wasser und den Gels, die du erfasst hast.
 
 - **Nur neuere Daten geteilt?** Erholung und Trainingslast sagen es dir und zeigen, wie lange eine volle Basis braucht.
+
+- **Dein Profil aus Health.** Geburtsjahr, Geschlecht und Gewicht kommen aus Apple Health. Taperwise fragt nur, was Health nicht hat.
 
 Apple Intelligence
 
 ### Ein Coach, der dein iPhone nie verlässt.
 
-Mit eingeschalteter Apple Intelligence schreibt Taperwise kurze Notizen zur heutigen Einheit, zu deiner Woche und zu jedem Lauf. Beschreibe dein Ziel in einem Satz, und es füllt den Plan für dich aus, den du prüfen kannst.
+Schalte Coach-Notizen ein, und Taperwise schreibt einen Satz zur heutigen Einheit, zu deiner Woche und zu jedem Lauf, mit einem Tipp für jede geplante Einheit. Die Notizen kennen deinen Check-in, Ruhetage und einen pausierten Plan. Beschreibe dein Ziel in einem Satz, und es füllt den Plan für dich aus, den du prüfen kannst.
 
 - **Nur auf dem Gerät.** Die Notizen stammen vom Modell von Apple auf dem Gerät. Kein Server, kein Cloud-Modell, keine Daten werden gesendet.
 
-- **Nur wenn du zustimmst.** Ist Apple Intelligence aus oder schaltest du Notizen in den Einstellungen ab, bleibt die Funktion verborgen.
+- **Aus, bis du sie einschaltest.** Coach-Notizen sind zu Beginn ausgeschaltet. Ohne Apple Intelligence bleibt die Funktion verborgen.
 
 - **Regeln entscheiden, KI erklärt.** Die Trainingsregeln treffen jede Entscheidung. Die Notizen ändern nie deinen Plan.
 
@@ -232,7 +234,19 @@ Ein Tipp zeigt einen Pfeil und die Distanz zurück zum Start, auf iPhone und App
 
 #### Live-Aktivität
 
-Tempo, Distanz, Puls und was noch übrig ist, auf dem Sperrbildschirm und in der Dynamic Island.
+Tempo, Distanz, Puls und was noch übrig ist, auf dem Sperrbildschirm und in der Dynamic Island. Pausieren und fortsetzen direkt von dort.
+
+#### Anderes Training zählt
+
+Radfahren, Schwimmen und Wandern aus Apple Health zählen zu Fitness, Ermüdung und Form. Distanz, VDOT und Wettkampfprognosen bleiben reine Laufwerte.
+
+#### Widgets
+
+Erholung, der heutige Lauf und deine Woche auf dem Home-Bildschirm, dem Sperrbildschirm und im Smart Stack der Apple Watch.
+
+#### Jede Zahl erklärt
+
+Ob höher oder tiefer besser ist, der typische Bereich und ein klares Wort für Werte wie Belastungsverhältnis und Form.
 
 #### Spricht deine Sprache
 

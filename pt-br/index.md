@@ -88,7 +88,7 @@ Mapas
 
 ### Água. Banheiros. O próximo ônibus para casa.
 
-Bebedouros, banheiros, abrigos e pontos de transporte público aparecem direto no mapa da sua corrida, no iPhone e no Apple Watch. Escolha quais quer ver.
+Bebedouros, banheiros, abrigos e pontos de transporte público aparecem direto no mapa da sua corrida, no iPhone e no Apple Watch. Escolha quais quer ver e, no iPhone, Mapas da Apple ou OpenStreetMap.
 
 - Água potável
 
@@ -100,19 +100,19 @@ Bebedouros, banheiros, abrigos e pontos de transporte público aparecem direto n
 
 #### Funciona sem sinal.
 
-Baixe as áreas onde você corre, da visão geral ao detalhe das ruas. No Wi-Fi, o Taperwise mantém os lugares onde você corre disponíveis offline automaticamente, e os mapas que você já viu ficam em um cache de 200 MB. Envie uma área detalhada para o seu relógio e deixe o celular em casa.
+Baixe as áreas onde você corre, da visão geral ao detalhe das ruas. Uma só lista mostra quais áreas estão no seu iPhone e quais também estão no Apple Watch. No Wi-Fi, o Taperwise mantém offline os lugares onde você corre e envia sozinho a área da sua última corrida para o relógio, para você deixar o celular em casa.
 
 Apple Watch
 
 ### Deixe o celular em casa.
 
-O relógio faz o treino sozinho, sem celular e sem rede. Páginas organizadas como o app Treino: métricas, tiros, zonas, gráfico, elevação, nutrição e Tocando Agora. Defina metas com o Digital Crown, inicie e pause com o botão de Ação no Apple Watch Ultra, e faça seu circuito de força direto no pulso.
+O relógio faz o treino sozinho, sem celular e sem rede. Antes de sair, veja onde você está em um mapa e passe com a Digital Crown por recuperação, semana, treino e prova. Na corrida, páginas organizadas como o app Treino: métricas, tiros, zonas, gráfico, elevação, nutrição e Tocando Agora. Defina metas com o Digital Crown, inicie e pause com o botão de Ação no Apple Watch Ultra, e faça seu circuito de força direto no pulso.
 
 Depois da corrida
 
 ### Cada corrida, explicada.
 
-Esforço cardíaco, cadência, VO₂max estimado, ritmo ajustado à inclinação e desacoplamento em cada corrida. Deslize pelo ritmo, pela frequência cardíaca e pela elevação e veja o ponto acender no mapa.
+Cada corrida começa com como ela se encaixou no plano e quatro números principais. Esforço cardíaco, cadência, VO₂max estimado, ritmo ajustado à inclinação e desacoplamento ficam em Detalhes. Deslize pelo ritmo, pela frequência cardíaca e pela elevação e veja o ponto acender no mapa.
 
 Insights
 
@@ -120,15 +120,15 @@ Insights
 
 #### Tendência de condicionamento
 
-Seu VDOT semana a semana, com estimativas para 10K, meia e maratona e uma faixa para o dia da prova.
+Seu VDOT semana a semana, com estimativas para 10K, meia e maratona, uma faixa para o dia da prova e sua velocidade crítica.
 
 #### Recuperação
 
-HRV noturno, frequência cardíaca em repouso e sono comparados com sua faixa habitual, com os motivos explicados.
+HRV noturno, frequência cardíaca em repouso, sono, temperatura do pulso e frequência respiratória comparados com sua faixa habitual, com os motivos explicados.
 
 #### Carga de treino
 
-Forma, fadiga e frescor, além da razão entre carga aguda e crônica.
+Forma, fadiga e frescor, contando também pedaladas, natação e trilhas, além da razão entre carga aguda e crônica.
 
 #### Volume semanal
 
@@ -164,19 +164,21 @@ O Taperwise lê e grava no Apple Saúde, então suas zonas, esforço e treinos b
 
 - **HRV noturno.** A prontidão usa o RMSSD das medições batimento a batimento do seu Apple Watch durante o sono, comparado com a sua faixa habitual.
 
-- **Altitude pelo barômetro.** iPhone e Apple Watch medem as subidas com o barômetro, ajustado uma vez pelo GPS, para um ritmo ajustado à inclinação mais estável.
+- **Altitude pelo barômetro.** iPhone e Apple Watch medem as subidas com o barômetro, ajustado uma vez pelo GPS, para um ritmo ajustado à inclinação mais estável. Cada corrida salva a elevação no Saúde, com a água e os géis registrados.
 
 - **Compartilhou só dados recentes?** Recuperação e Carga de treino avisam e mostram quanto tempo leva para uma base completa.
+
+- **Seu perfil, do Saúde.** Ano de nascimento, sexo e peso vêm do Apple Saúde. O Taperwise só pede o que o Saúde não tem.
 
 Apple Intelligence
 
 ### Um coach que nunca sai do seu iPhone.
 
-Com o Apple Intelligence ativado, o Taperwise escreve notas curtas sobre o treino de hoje, sua semana e cada corrida. Descreva sua meta em uma frase e ele preenche o plano para você conferir.
+Ligue as notas do coach e o Taperwise escreve uma frase sobre o treino de hoje, sua semana e cada corrida, com uma dica para cada sessão planejada. As notas conhecem seu check-in, dias de descanso e plano pausado. Descreva sua meta em uma frase e ele preenche o plano para você conferir.
 
 - **Só no aparelho.** As notas vêm do modelo no aparelho da Apple. Sem servidor, sem modelo na nuvem, nenhum dado enviado.
 
-- **Só se você ativar.** Se o Apple Intelligence estiver desligado, ou se você desativar as notas nos Ajustes, o recurso continua oculto.
+- **Desligado até você ligar.** As notas do coach começam desligadas. Sem o Apple Intelligence, o recurso continua oculto.
 
 - **As regras decidem, a IA explica.** As regras de treino tomam cada decisão. As notas nunca mudam seu plano.
 
@@ -232,7 +234,19 @@ Um toque mostra uma seta e a distância de volta ao início, no iPhone e no Appl
 
 #### Atividade ao Vivo
 
-Ritmo, distância, frequência cardíaca e o que falta na Tela de Bloqueio e na Dynamic Island.
+Ritmo, distância, frequência cardíaca e o que falta na Tela de Bloqueio e na Dynamic Island. Pause e retome direto por ali.
+
+#### Outros treinos contam
+
+Pedaladas, natação e trilhas do Apple Saúde contam para forma, fadiga e frescor. Distância, VDOT e previsões de prova continuam só de corrida.
+
+#### Widgets
+
+Recuperação, a corrida de hoje e sua semana na Tela de Início, na Tela de Bloqueio e no Smart Stack do Apple Watch.
+
+#### Cada número explicado
+
+Se maior ou menor é melhor, a faixa típica e uma palavra simples para valores como razão de carga e frescor.
 
 #### Fala o seu idioma
 

@@ -153,7 +153,7 @@ def llms_txt(en_html):
     return '\n'.join([
         '# Taperwise', '', f'> {unescape(desc)}', '',
         'Taperwise is a running app for iPhone and Apple Watch by BitSpire GmbH (Cham, Switzerland). '
-        'It is not yet released on the App Store. Contact: apps@bitspire.ch', '',
+        'It is available on the App Store: https://apps.apple.com/app/id6823595769. Contact: apps@bitspire.ch', '',
         '## Overview', *pages, '',
         '## Policies',
         f'- [Privacy policy]({SITE}/privacy/index.md): what the app reads, where it is stored and what leaves the device',
